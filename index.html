@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kentucky Transfer Portal Tracker</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #080c14; color: #e2e8f0; min-height: 100vh; }
+
+/* ── HEADER ── */
+header {
+  background: linear-gradient(135deg, #0033A0 0%, #001f6b 100%);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 2px 16px rgba(0,51,160,0.5);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.header-logo {
+  width: 46px; height: 46px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; color: #0033A0; font-size: 15px; letter-spacing: -1px;
+  flex-shrink: 0; user-select: none;
+}
+.header-title h1 { font-size: 18px; font-weight: 700; color: #fff; }
+.header-title p { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 1px; }
+.header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.last-updated { font-size: 11px; color: rgba(255,255,255,0.55); white-space: nowrap; }
+.btn-refresh {
+  background: rgba(255,255,255,0.12); color: #fff;
+  border: 1px solid rgba(255,255,255,0.25); padding: 6px 12px;
+  border-radius: 6px; cursor: pointer; font-size: 13px; transition: background 0.2s;
+}
+.btn-refresh:hover { background: rgba(255,255,255,0.22); }
+.btn-icon {
+  background: transparent; color: rgba(255,255,255,0.65);
+  border: none; cursor: pointer; font-size: 19px; padding: 4px; line-height: 1; transition: color 0.2s;
+}
+.btn-icon:hover { color: #fff; }
+
+/* ── TABS ── */
+.tabs {
+  background: #0d1320; border-bottom: 1px solid #1a2235;
+  display: flex; padding: 0 24px;
+}
+.tab {
+  background: none; border: none; color: #5a6a8a;
+  padding: 13px 20px; cursor: pointer; font-size: 13px; font-weight: 500;
+  border-bottom: 2px solid transparent; transition: all 0.2s;
+  position: relative; bottom: -1px;
+}
+.tab:hover { color: #94a3b8; }
+.tab.active { color: #fff; border-bottom-color: #0033A0; }
+
+/* ── LAYOUT ── */
+.content { max-width: 1100px; margin: 0 auto; padding: 22px 24px; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* ── STATS BAR ── */
+.stats-bar { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+.stat-card {
+  background: #0d1320; border: 1px solid #1a2235;
+  border-radius: 8px; padding: 12px 18px; text-align: center; flex: 1; min-width: 80px;
+}
+.stat-num { font-size: 26px; font-weight: 700; color: #fff; line-height: 1; }
+.stat-label { font-size: 10px; color: #4a5568; text-transform: uppercase; letter-spacing: 0.6px; margin-top: 4px; }
+.stat-card.s-linked .stat-num { color: #7a8ba8; }
+.stat-card.s-offered .stat-num { color: #60a5fa; }
+.stat-card.s-visit .stat-num { color: #fbbf24; }
+.stat-card.s-committed .stat-num { color: #34d399; }
+.stat-card.s-signed .stat-num { color: #10b981; }
+.stat-card.s-total .stat-num { color: #c7d2fe; }
+
+/* ── FILTERS ── */
+.filters { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
+.filter-group { display: flex; gap: 3px; flex-wrap: wrap; }
+.filter-btn {
+  background: #0d1320; border: 1px solid #1a2235; color: #5a6a8a;
+  padding: 5px 11px; border-radius: 5px; cursor: pointer;
+  font-size: 12px; font-weight: 500; transition: all 0.15s;
+}
+.filter-btn:hover { background: #1a2235; color: #94a3b8; }
+.filter-btn.active { background: #0033A0; border-color: #0040cc; color: #fff; }
+.filters-sep { width: 1px; height: 22px; background: #1a2235; align-self: center; margin: 0 2px; }
+.add-btn {
+  margin-left: auto; background: #0033A0; color: #fff; border: none;
+  padding: 7px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600;
+  display: flex; align-items: center; gap: 5px; transition: background 0.2s;
+}
+.add-btn:hover { background: #0040cc; }
+.btn-ai-import {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; border: none;
+  padding: 7px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600;
+  display: flex; align-items: center; gap: 5px; transition: opacity 0.2s;
+}
+.btn-ai-import:hover { opacity: 0.88; }
+
+/* ── PLAYER CARDS ── */
+.players-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; }
+.player-card {
+  background: #0d1320; border: 1px solid #1a2235; border-radius: 10px;
+  padding: 14px; cursor: pointer; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.player-card:hover { border-color: #2a3655; }
+.player-card.expanded { border-color: #0033A0; box-shadow: 0 0 0 1px #0033A040; }
+.card-top { display: flex; align-items: flex-start; gap: 10px; }
+.player-avatar {
+  width: 42px; height: 42px; border-radius: 8px;
+  background: #1a2235; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px; color: #3a4a65; flex-shrink: 0;
+}
+.player-info { flex: 1; min-width: 0; }
+.player-name { font-size: 15px; font-weight: 600; color: #f1f5f9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.player-school { font-size: 12px; color: #5a6a8a; margin-top: 2px; }
+.card-meta { display: flex; align-items: center; gap: 5px; margin-top: 9px; flex-wrap: wrap; }
+
+/* Status badges */
+.badge-pos {
+  background: #1a2235; color: #7eb8f7; border: 1px solid #2a3655;
+  padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700;
+}
+.badge-status { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.bs-Linked           { background: #141c2e; color: #7a8ba8; }
+.bs-Offered          { background: #0f1f3d; color: #60a5fa; }
+.bs-Official-Visit   { background: #1f1800; color: #fbbf24; }
+.bs-Committed        { background: #041e12; color: #34d399; }
+.bs-Signed           { background: #031810; color: #10b981; border: 1px solid #10b98150; }
+.bs-Passed           { background: #1a0a0a; color: #f87171; }
+.bs-Decommitted      { background: #1f1010; color: #fc8181; }
+.badge-stars { color: #fbbf24; font-size: 11px; letter-spacing: -1px; }
+
+/* Expanded section */
+.card-expanded { margin-top: 11px; padding-top: 11px; border-top: 1px solid #1a2235; display: none; }
+.player-card.expanded .card-expanded { display: block; }
+.player-notes { font-size: 12px; color: #8a9ab8; line-height: 1.55; }
+.player-updated { font-size: 10px; color: #3a4a65; margin-top: 6px; }
+.card-actions { display: flex; gap: 6px; margin-top: 10px; }
+.card-btn {
+  flex: 1; padding: 6px; border-radius: 6px; border: 1px solid #1a2235;
+  background: #141c2e; color: #7a8ba8; font-size: 12px; cursor: pointer; transition: all 0.15s;
+}
+.card-btn:hover { background: #1a2235; color: #e2e8f0; }
+.card-btn.danger:hover { background: #1a0a0a; border-color: #5a1010; color: #f87171; }
+
+/* ── EMPTY STATE ── */
+.empty-state { text-align: center; padding: 56px 20px; color: #3a4a65; grid-column: 1 / -1; }
+.empty-state .empty-icon { font-size: 44px; margin-bottom: 10px; }
+.empty-state p { font-size: 14px; }
+
+/* ── DEPTH CHART ── */
+.depth-chart { display: flex; flex-direction: column; gap: 14px; }
+.pos-group { background: #0d1320; border: 1px solid #1a2235; border-radius: 10px; overflow: hidden; }
+.pos-header {
+  background: linear-gradient(90deg, #0033A0, #0028830);
+  padding: 9px 14px; display: flex; align-items: center; gap: 10px;
+}
+.pos-abbr { font-size: 13px; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+.pos-full { font-size: 12px; color: rgba(255,255,255,0.65); }
+.pos-count { margin-left: auto; background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.9); padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600; }
+.pos-body { padding: 6px 8px; }
+.roster-row {
+  display: flex; align-items: center; gap: 9px;
+  padding: 7px 8px; border-radius: 6px; transition: background 0.15s;
+}
+.roster-row:hover { background: #141c2e; }
+.depth-num { width: 18px; text-align: center; font-size: 11px; color: #3a4a65; font-weight: 700; flex-shrink: 0; }
+.roster-avatar {
+  width: 34px; height: 34px; border-radius: 6px; background: #1a2235;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; color: #3a4a65; flex-shrink: 0;
+}
+.roster-name { font-size: 14px; font-weight: 600; color: #e2e8f0; }
+.roster-sub { font-size: 11px; color: #4a5a78; margin-top: 1px; }
+.badge-type { margin-left: auto; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; flex-shrink: 0; }
+.bt-Transfer  { background: #0f1f3d; color: #60a5fa; }
+.bt-Returning { background: #071a10; color: #6ee7b7; }
+.bt-Freshman  { background: #1a0f2e; color: #c4b5fd; }
+.roster-row-actions { display: flex; gap: 4px; opacity: 0; transition: opacity 0.15s; margin-left: 6px; }
+.roster-row:hover .roster-row-actions { opacity: 1; }
+.icon-btn {
+  background: #1a2235; border: none; color: #5a6a8a;
+  width: 24px; height: 24px; border-radius: 4px; cursor: pointer; font-size: 11px;
+  display: flex; align-items: center; justify-content: center; transition: all 0.15s;
+}
+.icon-btn:hover { background: #2a3655; color: #e2e8f0; }
+.icon-btn.del:hover { background: #1a0808; color: #f87171; }
+.pos-add-btn {
+  width: 100%; margin-top: 4px; padding: 7px; background: transparent;
+  border: 1px dashed #1a2235; border-radius: 6px; color: #3a4a65;
+  cursor: pointer; font-size: 12px; transition: all 0.15s;
+}
+.pos-add-btn:hover { border-color: #0033A0; color: #60a5fa; }
+
+/* ── NEWS ── */
+.news-meta-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.news-meta-row h3 { font-size: 15px; font-weight: 600; color: #f1f5f9; }
+.news-count { background: #0033A0; color: #fff; padding: 2px 9px; border-radius: 10px; font-size: 11px; }
+.news-feed { display: flex; flex-direction: column; gap: 6px; }
+.news-item {
+  background: #0d1320; border: 1px solid #1a2235; border-radius: 8px;
+  transition: border-color 0.15s;
+}
+.news-item:hover { border-color: #2a3655; }
+.news-item a { text-decoration: none; color: inherit; display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; }
+.news-dot { width: 7px; height: 7px; border-radius: 50%; background: #0033A0; margin-top: 5px; flex-shrink: 0; }
+.news-body { flex: 1; min-width: 0; }
+.news-title { font-size: 13px; color: #d1d9eb; line-height: 1.45; }
+.news-item:hover .news-title { color: #93c5fd; }
+.news-byline { font-size: 11px; color: #3a4a65; margin-top: 4px; display: flex; gap: 8px; }
+.news-source { color: #4a5a78; }
+
+/* ── MODALS ── */
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.72);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100; padding: 16px; backdrop-filter: blur(3px);
+}
+.overlay.hidden { display: none; }
+.modal {
+  background: #0d1320; border: 1px solid #1a2235;
+  border-radius: 12px; width: 100%; max-width: 500px; max-height: 92vh; overflow-y: auto;
+}
+.modal.wide { max-width: 580px; }
+.modal-head {
+  padding: 18px 22px 14px; border-bottom: 1px solid #1a2235;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.modal-head h2 { font-size: 17px; font-weight: 600; color: #f1f5f9; }
+.modal-close { background: none; border: none; color: #4a5a78; font-size: 18px; cursor: pointer; padding: 4px; transition: color 0.15s; }
+.modal-close:hover { color: #e2e8f0; }
+.modal-body { padding: 18px 22px; }
+.modal-foot { padding: 14px 22px; border-top: 1px solid #1a2235; display: flex; justify-content: flex-end; gap: 8px; }
+
+/* ── FORMS ── */
+.fg { margin-bottom: 14px; }
+.fg label { display: block; font-size: 11px; font-weight: 600; color: #5a6a8a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+.fi, .fs, .fta {
+  width: 100%; background: #141c2e; border: 1px solid #1a2235; color: #e2e8f0;
+  padding: 8px 11px; border-radius: 6px; font-size: 13px; transition: border-color 0.15s; font-family: inherit;
+}
+.fi:focus, .fs:focus, .fta:focus { outline: none; border-color: #0033A0; }
+.fs option { background: #141c2e; }
+.fta { resize: vertical; min-height: 90px; }
+.frow { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+
+/* ── BUTTONS ── */
+.btn { padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.15s; border: 1px solid transparent; font-family: inherit; }
+.btn-primary { background: #0033A0; color: #fff; border-color: #0033A0; }
+.btn-primary:hover { background: #0040cc; }
+.btn-secondary { background: #141c2e; color: #7a8ba8; border-color: #1a2235; }
+.btn-secondary:hover { background: #1a2235; color: #e2e8f0; }
+.btn-danger { background: #1a0808; color: #f87171; border-color: #3a1010; }
+.btn-danger:hover { background: #220a0a; }
+.btn-ai { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; border: none; }
+.btn-ai:hover { opacity: 0.88; }
+
+/* ── AI IMPORT ── */
+.ai-paste {
+  width: 100%; min-height: 150px; background: #141c2e;
+  border: 1px solid #1a2235; border-radius: 6px; color: #e2e8f0;
+  padding: 10px 12px; font-size: 13px; font-family: inherit; resize: vertical;
+}
+.ai-paste:focus { outline: none; border-color: #7c3aed; }
+.ai-status { font-size: 12px; color: #4a5a78; min-height: 18px; margin-top: 6px; }
+.ai-status.ok { color: #34d399; }
+.ai-status.err { color: #f87171; }
+.ai-preview-box { background: #080c14; border: 1px solid #1a2235; border-radius: 8px; padding: 10px; margin-top: 10px; }
+.ai-preview-box h4 { font-size: 11px; color: #4a5a78; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.preview-row { display: flex; align-items: center; gap: 8px; padding: 7px 8px; background: #0d1320; border-radius: 6px; margin-bottom: 5px; }
+.preview-check { width: 15px; height: 15px; border-radius: 3px; accent-color: #0033A0; cursor: pointer; }
+.preview-info { flex: 1; }
+.preview-name { font-size: 13px; font-weight: 600; color: #f1f5f9; }
+.preview-detail { font-size: 11px; color: #4a5a78; }
+
+/* ── SETTINGS ── */
+.settings-row {
+  padding: 13px 0; border-bottom: 1px solid #1a2235;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.settings-row:last-of-type { border-bottom: none; }
+.settings-lbl { font-size: 14px; color: #e2e8f0; }
+.settings-desc { font-size: 11px; color: #4a5a78; margin-top: 2px; }
+.toggle { width: 16px; height: 16px; accent-color: #0033A0; cursor: pointer; }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed; bottom: 22px; right: 22px;
+  background: #0d1320; border: 1px solid #1a2235; border-radius: 8px;
+  padding: 11px 16px; font-size: 13px; color: #e2e8f0; z-index: 200;
+  transform: translateY(80px); opacity: 0; transition: all 0.28s; max-width: 280px;
+}
+.toast.show { transform: translateY(0); opacity: 1; }
+.toast.ok { border-color: #10b981; }
+.toast.err { border-color: #ef4444; }
+
+/* ── SPINNER ── */
+.spin {
+  width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.2);
+  border-top-color: #fff; border-radius: 50%;
+  animation: s 0.55s linear infinite; display: inline-block; vertical-align: middle;
+}
+@keyframes s { to { transform: rotate(360deg); } }
+
+.hidden { display: none !important; }
+
+@media (max-width: 580px) {
+  .content { padding: 12px 14px; }
+  header { padding: 11px 14px; }
+  .header-title h1 { font-size: 15px; }
+  .players-grid { grid-template-columns: 1fr; }
+  .frow { grid-template-columns: 1fr; }
+  .tabs { padding: 0 14px; }
+  .tab { padding: 11px 14px; font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-logo">UK</div>
+  <div class="header-title">
+    <h1>Kentucky Transfer Portal</h1>
+    <p>Basketball Tracker — 2025–26</p>
+  </div>
+  <div class="header-right">
+    <span class="last-updated" id="lastUpdated">Loading...</span>
+    <button class="btn-refresh" onclick="refreshData()" id="refreshBtn">↻ Refresh</button>
+    <button class="btn-icon" onclick="openSettings()" title="Settings">⚙</button>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" onclick="switchTab('targets',this)">🎯 Targets</button>
+  <button class="tab" onclick="switchTab('roster',this)">📋 Roster</button>
+  <button class="tab" onclick="switchTab('news',this)">📰 News</button>
+</nav>
+
+<div class="content">
+
+  <!-- TARGETS -->
+  <div id="tab-targets" class="tab-content active">
+    <div class="stats-bar" id="statsBar"></div>
+    <div class="filters">
+      <div class="filter-group" id="fStatus">
+        <button class="filter-btn active" onclick="setFilter('status','all',this)">All</button>
+        <button class="filter-btn" onclick="setFilter('status','Linked',this)">Linked</button>
+        <button class="filter-btn" onclick="setFilter('status','Offered',this)">Offered</button>
+        <button class="filter-btn" onclick="setFilter('status','Official Visit',this)">Visit</button>
+        <button class="filter-btn" onclick="setFilter('status','Committed',this)">Committed</button>
+        <button class="filter-btn" onclick="setFilter('status','Signed',this)">Signed</button>
+        <button class="filter-btn" onclick="setFilter('status','Passed',this)">Passed</button>
+      </div>
+      <div class="filters-sep"></div>
+      <div class="filter-group" id="fPos">
+        <button class="filter-btn active" onclick="setFilter('pos','all',this)">All</button>
+        <button class="filter-btn" onclick="setFilter('pos','PG',this)">PG</button>
+        <button class="filter-btn" onclick="setFilter('pos','SG',this)">SG</button>
+        <button class="filter-btn" onclick="setFilter('pos','SF',this)">SF</button>
+        <button class="filter-btn" onclick="setFilter('pos','PF',this)">PF</button>
+        <button class="filter-btn" onclick="setFilter('pos','C',this)">C</button>
+      </div>
+      <button class="btn-ai-import" onclick="openAIImport()">✨ AI Import</button>
+      <button class="add-btn" onclick="openAddTarget()">+ Add</button>
+    </div>
+    <div class="players-grid" id="playersGrid"></div>
+  </div>
+
+  <!-- ROSTER -->
+  <div id="tab-roster" class="tab-content">
+    <div class="filters" style="margin-bottom:16px;">
+      <span style="color:#4a5a78;font-size:13px;">Depth chart — hover a player to edit or remove</span>
+      <button class="add-btn" onclick="openAddRoster(null)">+ Add Player</button>
+    </div>
+    <div class="depth-chart" id="depthChart"></div>
+  </div>
+
+  <!-- NEWS -->
+  <div id="tab-news" class="tab-content">
+    <div class="news-meta-row">
+      <h3>Transfer Portal News</h3>
+      <span class="news-count" id="newsCount">0 articles</span>
+    </div>
+    <div class="news-feed" id="newsFeed"></div>
+  </div>
+
+</div>
+
+<!-- ── ADD/EDIT TARGET MODAL ── -->
+<div class="overlay hidden" id="targetModal">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="targetModalTitle">Add Target</h2>
+      <button class="modal-close" onclick="closeModal('targetModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="tEditId">
+      <div class="frow">
+        <div class="fg">
+          <label>Player Name *</label>
+          <input class="fi" id="tName" placeholder="First Last">
+        </div>
+        <div class="fg">
+          <label>Current School</label>
+          <input class="fi" id="tSchool" placeholder="e.g. Tennessee">
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fg">
+          <label>Position</label>
+          <select class="fs" id="tPos">
+            <option value="">—</option>
+            <option value="PG">PG — Point Guard</option>
+            <option value="SG">SG — Shooting Guard</option>
+            <option value="SF">SF — Small Forward</option>
+            <option value="PF">PF — Power Forward</option>
+            <option value="C">C — Center</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Stars</label>
+          <select class="fs" id="tStars">
+            <option value="0">Unranked</option>
+            <option value="1">★ 1 Star</option>
+            <option value="2">★★ 2 Stars</option>
+            <option value="3">★★★ 3 Stars</option>
+            <option value="4">★★★★ 4 Stars</option>
+            <option value="5">★★★★★ 5 Stars</option>
+          </select>
+        </div>
+      </div>
+      <div class="fg">
+        <label>Status</label>
+        <select class="fs" id="tStatus">
+          <option value="Linked">Linked / Rumor</option>
+          <option value="Offered">Offered</option>
+          <option value="Official Visit">Official Visit</option>
+          <option value="Committed">Committed</option>
+          <option value="Signed">Signed</option>
+          <option value="Passed">Passed</option>
+          <option value="Decommitted">Decommitted</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label>Notes</label>
+        <textarea class="fta" id="tNotes" placeholder="Source, visit dates, details..."></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModal('targetModal')">Cancel</button>
+      <button class="btn btn-danger hidden" id="tDeleteBtn" onclick="deleteTarget(document.getElementById('tEditId').value)">Delete</button>
+      <button class="btn btn-primary" onclick="saveTarget()">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── ADD/EDIT ROSTER MODAL ── -->
+<div class="overlay hidden" id="rosterModal">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="rosterModalTitle">Add to Roster</h2>
+      <button class="modal-close" onclick="closeModal('rosterModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="rEditId">
+      <div class="frow">
+        <div class="fg">
+          <label>Player Name *</label>
+          <input class="fi" id="rName" placeholder="First Last">
+        </div>
+        <div class="fg">
+          <label>Position</label>
+          <select class="fs" id="rPos">
+            <option value="PG">PG — Point Guard</option>
+            <option value="SG">SG — Shooting Guard</option>
+            <option value="SF">SF — Small Forward</option>
+            <option value="PF">PF — Power Forward</option>
+            <option value="C">C — Center</option>
+          </select>
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fg">
+          <label>Year</label>
+          <select class="fs" id="rYear">
+            <option value="Fr">Freshman</option>
+            <option value="So">Sophomore</option>
+            <option value="Jr">Junior</option>
+            <option value="Sr">Senior</option>
+            <option value="Gr">Graduate</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Type</label>
+          <select class="fs" id="rType">
+            <option value="Returning">Returning</option>
+            <option value="Transfer">Transfer</option>
+            <option value="Freshman">Incoming Freshman</option>
+          </select>
+        </div>
+      </div>
+      <div class="fg">
+        <label>Depth Position (1 = starter)</label>
+        <input type="number" class="fi" id="rDepth" value="1" min="1" max="10">
+      </div>
+      <div class="fg">
+        <label>Notes / Stats</label>
+        <textarea class="fta" id="rNotes" placeholder="Role, stats, prior school..." style="min-height:70px;"></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModal('rosterModal')">Cancel</button>
+      <button class="btn btn-danger hidden" id="rDeleteBtn" onclick="deleteRoster(document.getElementById('rEditId').value)">Delete</button>
+      <button class="btn btn-primary" onclick="saveRoster()">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── AI IMPORT MODAL ── -->
+<div class="overlay hidden" id="aiModal">
+  <div class="modal wide">
+    <div class="modal-head">
+      <h2>✨ AI Import</h2>
+      <button class="modal-close" onclick="closeModal('aiModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:12px;color:#4a5a78;margin-bottom:10px;">
+        Paste a 247Sports article, On3 report, tweet, or any recruiting text. Claude extracts Kentucky-linked players and their status automatically.
+      </p>
+      <textarea class="ai-paste" id="aiText"
+        placeholder="Paste article text here...&#10;&#10;e.g. 'Kentucky has extended an offer to 4-star PG John Doe from Tennessee. The Wildcats are also linked to SF...'"></textarea>
+      <div class="ai-status" id="aiStatus"></div>
+      <div id="aiPreview"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModal('aiModal')">Cancel</button>
+      <button class="btn btn-ai" id="aiParseBtn" onclick="runAIParse()">✨ Parse with Claude</button>
+      <button class="btn btn-primary hidden" id="aiAddBtn" onclick="commitAIPlayers()">Add Selected</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── SETTINGS MODAL ── -->
+<div class="overlay hidden" id="settingsModal">
+  <div class="modal">
+    <div class="modal-head">
+      <h2>Settings</h2>
+      <button class="modal-close" onclick="closeModal('settingsModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="fg">
+        <label>Claude API Key</label>
+        <input type="password" class="fi" id="sApiKey" placeholder="sk-ant-...">
+        <p style="font-size:11px;color:#3a4a65;margin-top:4px;">Required for AI Import. Stored in your browser only.</p>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-lbl">Auto-Refresh</div>
+          <div class="settings-desc">Re-fetch data.json every 30 minutes</div>
+        </div>
+        <input type="checkbox" class="toggle" id="sAutoRefresh" checked>
+      </div>
+      <div style="margin-top:18px;padding-top:14px;border-top:1px solid #1a2235;">
+        <button class="btn btn-danger" style="width:100%;" onclick="clearAllData()">Clear All Local Data</button>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModal('settingsModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="saveSettings()">Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════
+const S = {
+  targets: [],
+  roster: [],
+  news: [],
+  lastUpdated: null,
+  filter: { status: 'all', pos: 'all' },
+  settings: { apiKey: '', autoRefresh: true },
+  aiPlayers: [],
+  editTargetId: null,
+  editRosterId: null,
+  refreshTimer: null
+};
+
+const POSITIONS = ['PG','SG','SF','PF','C'];
+const POS_NAMES = { PG:'Point Guard', SG:'Shooting Guard', SF:'Small Forward', PF:'Power Forward', C:'Center' };
+const STATUSES  = ['Linked','Offered','Official Visit','Committed','Signed','Passed','Decommitted'];
+const STATUS_ORDER = { Signed:0, Committed:1, 'Official Visit':2, Offered:3, Linked:4, Passed:5, Decommitted:6 };
+
+// ═══════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════
+async function init() {
+  loadLocal();
+  loadSettings();
+  await fetchRemote();
+  render();
+  scheduleRefresh();
+}
+
+function loadLocal() {
+  try {
+    const t = localStorage.getItem('uk_targets_v1');
+    const r = localStorage.getItem('uk_roster_v1');
+    if (t) S.targets = JSON.parse(t);
+    if (r) S.roster  = JSON.parse(r);
+  } catch(e) { console.error(e); }
+}
+
+function persistTargets() { localStorage.setItem('uk_targets_v1', JSON.stringify(S.targets)); }
+function persistRoster()  { localStorage.setItem('uk_roster_v1',  JSON.stringify(S.roster));  }
+
+function loadSettings() {
+  try {
+    const s = localStorage.getItem('uk_settings_v1');
+    if (s) Object.assign(S.settings, JSON.parse(s));
+  } catch(e) {}
+}
+
+async function fetchRemote() {
+  try {
+    const r = await fetch('./data.json?_=' + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    S.news = d.news || [];
+    S.lastUpdated = d.last_updated || null;
+    setLastUpdated(S.lastUpdated);
+  } catch(e) {
+    setLastUpdated(null);
+  }
+}
+
+function setLastUpdated(iso) {
+  const el = document.getElementById('lastUpdated');
+  el.textContent = iso ? 'Updated ' + relTime(iso) : 'Local data only';
+}
+
+async function refreshData() {
+  const btn = document.getElementById('refreshBtn');
+  btn.innerHTML = '<span class="spin"></span>';
+  btn.disabled = true;
+  await fetchRemote();
+  renderNews();
+  btn.innerHTML = '↻ Refresh';
+  btn.disabled = false;
+  toast('Refreshed', 'ok');
+}
+
+function scheduleRefresh() {
+  if (S.refreshTimer) clearInterval(S.refreshTimer);
+  if (S.settings.autoRefresh) {
+    S.refreshTimer = setInterval(() => {
+      fetchRemote().then(() => renderNews());
+    }, 30 * 60 * 1000);
+  }
+}
+
+// ═══════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════
+function render() { renderStats(); renderTargets(); renderRoster(); renderNews(); }
+
+function renderStats() {
+  const c = {};
+  STATUSES.forEach(s => c[s] = 0);
+  S.targets.forEach(p => { if (c[p.status] !== undefined) c[p.status]++; });
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-card s-linked"><div class="stat-num">${c.Linked}</div><div class="stat-label">Linked</div></div>
+    <div class="stat-card s-offered"><div class="stat-num">${c.Offered}</div><div class="stat-label">Offered</div></div>
+    <div class="stat-card s-visit"><div class="stat-num">${c['Official Visit']}</div><div class="stat-label">Visits</div></div>
+    <div class="stat-card s-committed"><div class="stat-num">${c.Committed}</div><div class="stat-label">Committed</div></div>
+    <div class="stat-card s-signed"><div class="stat-num">${c.Signed}</div><div class="stat-label">Signed</div></div>
+    <div class="stat-card s-total"><div class="stat-num">${S.targets.length}</div><div class="stat-label">Total</div></div>
+  `;
+}
+
+function renderTargets() {
+  const grid = document.getElementById('playersGrid');
+  let list = S.targets.filter(p =>
+    (S.filter.status === 'all' || p.status === S.filter.status) &&
+    (S.filter.pos    === 'all' || p.position === S.filter.pos)
+  );
+  list = list.slice().sort((a, b) =>
+    (STATUS_ORDER[a.status] ?? 9) - (STATUS_ORDER[b.status] ?? 9) ||
+    new Date(b.updated) - new Date(a.updated)
+  );
+
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty-state"><div class="empty-icon">🏀</div><p>No targets match. Add one manually or use AI Import.</p></div>`;
+    return;
+  }
+
+  grid.innerHTML = list.map(p => {
+    const bsc = 'bs-' + p.status.replace(/ /g, '-');
+    const stars = p.stars > 0 ? `<span class="badge-stars">${'★'.repeat(p.stars)}</span>` : '';
+    return `
+      <div class="player-card" id="card-${p.id}" onclick="toggleCard('${p.id}')">
+        <div class="card-top">
+          <div class="player-avatar">${initials(p.name)}</div>
+          <div class="player-info">
+            <div class="player-name">${esc(p.name)}</div>
+            <div class="player-school">${esc(p.school || 'School unknown')}</div>
+          </div>
+        </div>
+        <div class="card-meta">
+          ${p.position ? `<span class="badge-pos">${p.position}</span>` : ''}
+          <span class="badge-status ${bsc}">${p.status}</span>
+          ${stars}
+        </div>
+        <div class="card-expanded">
+          <div class="player-notes">${p.notes ? esc(p.notes) : '<span style="color:#3a4a65;font-style:italic;">No notes.</span>'}</div>
+          <div class="player-updated">Updated ${fmtDate(p.updated)}</div>
+          <div class="card-actions">
+            <button class="card-btn" onclick="event.stopPropagation();editTarget('${p.id}')">✏ Edit</button>
+            <button class="card-btn" onclick="event.stopPropagation();cycleStatus('${p.id}')">⬆ Status</button>
+            <button class="card-btn danger" onclick="event.stopPropagation();deleteTarget('${p.id}')">✕ Remove</button>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderRoster() {
+  document.getElementById('depthChart').innerHTML = POSITIONS.map(pos => {
+    const players = S.roster.filter(p => p.position === pos).sort((a,b) => a.depth - b.depth);
+    return `
+      <div class="pos-group">
+        <div class="pos-header">
+          <span class="pos-abbr">${pos}</span>
+          <span class="pos-full">${POS_NAMES[pos]}</span>
+          <span class="pos-count">${players.length} player${players.length !== 1 ? 's' : ''}</span>
+        </div>
+        <div class="pos-body">
+          ${players.length === 0
+            ? '<div style="padding:10px 8px;text-align:center;color:#3a4a65;font-size:12px;">No players added</div>'
+            : players.map((p, i) => `
+              <div class="roster-row">
+                <div class="depth-num">${i + 1}</div>
+                <div class="roster-avatar">${initials(p.name)}</div>
+                <div style="flex:1;">
+                  <div class="roster-name">${esc(p.name)}</div>
+                  <div class="roster-sub">${p.year}${p.notes ? ' · ' + esc(p.notes.slice(0, 36)) + (p.notes.length > 36 ? '…' : '') : ''}</div>
+                </div>
+                <span class="badge-type bt-${p.type}">${p.type}</span>
+                <div class="roster-row-actions">
+                  <button class="icon-btn" onclick="editRoster('${p.id}')" title="Edit">✏</button>
+                  <button class="icon-btn del" onclick="deleteRoster('${p.id}')" title="Remove">✕</button>
+                </div>
+              </div>`).join('')}
+          <button class="pos-add-btn" onclick="openAddRoster('${pos}')">+ Add ${POS_NAMES[pos]}</button>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderNews() {
+  const feed = document.getElementById('newsFeed');
+  document.getElementById('newsCount').textContent = S.news.length + ' article' + (S.news.length !== 1 ? 's' : '');
+  if (!S.news.length) {
+    feed.innerHTML = `<div class="empty-state"><div class="empty-icon">📰</div><p>No news yet. The GitHub Action will populate this once deployed and run.</p></div>`;
+    return;
+  }
+  feed.innerHTML = S.news.map(n => `
+    <div class="news-item">
+      <a href="${esc(n.link || '#')}" target="_blank" rel="noopener noreferrer">
+        <div class="news-dot"></div>
+        <div class="news-body">
+          <div class="news-title">${esc(n.title)}</div>
+          <div class="news-byline">
+            <span>${fmtDate(n.date)}</span>
+            ${n.source ? `<span class="news-source">${esc(n.source)}</span>` : ''}
+          </div>
+        </div>
+      </a>
+    </div>`).join('');
+}
+
+// ═══════════════════════════════════════
+// TABS + FILTERS
+// ═══════════════════════════════════════
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+}
+
+function setFilter(type, val, btn) {
+  S.filter[type] = val;
+  const group = type === 'status' ? 'fStatus' : 'fPos';
+  document.querySelectorAll('#' + group + ' .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTargets();
+}
+
+function toggleCard(id) {
+  document.getElementById('card-' + id)?.classList.toggle('expanded');
+}
+
+// ═══════════════════════════════════════
+// TARGETS CRUD
+// ═══════════════════════════════════════
+function openAddTarget(prefill) {
+  S.editTargetId = null;
+  document.getElementById('targetModalTitle').textContent = 'Add Target';
+  document.getElementById('tEditId').value = '';
+  document.getElementById('tName').value    = prefill?.name   || '';
+  document.getElementById('tSchool').value  = prefill?.school || '';
+  document.getElementById('tPos').value     = prefill?.position || '';
+  document.getElementById('tStars').value   = prefill?.stars  || '0';
+  document.getElementById('tStatus').value  = prefill?.status || 'Linked';
+  document.getElementById('tNotes').value   = prefill?.notes  || '';
+  document.getElementById('tDeleteBtn').classList.add('hidden');
+  openModal('targetModal');
+}
+
+function editTarget(id) {
+  const p = S.targets.find(t => t.id === id);
+  if (!p) return;
+  S.editTargetId = id;
+  document.getElementById('targetModalTitle').textContent = 'Edit Target';
+  document.getElementById('tEditId').value  = id;
+  document.getElementById('tName').value    = p.name;
+  document.getElementById('tSchool').value  = p.school   || '';
+  document.getElementById('tPos').value     = p.position || '';
+  document.getElementById('tStars').value   = p.stars    || '0';
+  document.getElementById('tStatus').value  = p.status;
+  document.getElementById('tNotes').value   = p.notes    || '';
+  document.getElementById('tDeleteBtn').classList.remove('hidden');
+  openModal('targetModal');
+}
+
+function saveTarget() {
+  const name = document.getElementById('tName').value.trim();
+  if (!name) { toast('Name is required', 'err'); return; }
+  const player = {
+    id:       S.editTargetId || uid(),
+    name,
+    school:   document.getElementById('tSchool').value.trim(),
+    position: document.getElementById('tPos').value,
+    stars:    parseInt(document.getElementById('tStars').value) || 0,
+    status:   document.getElementById('tStatus').value,
+    notes:    document.getElementById('tNotes').value.trim(),
+    updated:  new Date().toISOString()
+  };
+  if (S.editTargetId) {
+    const i = S.targets.findIndex(t => t.id === S.editTargetId);
+    if (i >= 0) S.targets[i] = player;
+  } else {
+    S.targets.push(player);
+  }
+  persistTargets();
+  closeModal('targetModal');
+  renderStats(); renderTargets();
+  toast(S.editTargetId ? 'Player updated' : 'Player added', 'ok');
+}
+
+function deleteTarget(id) {
+  if (!id) return;
+  S.targets = S.targets.filter(t => t.id !== id);
+  persistTargets();
+  closeModal('targetModal');
+  renderStats(); renderTargets();
+  toast('Player removed', 'ok');
+}
+
+function cycleStatus(id) {
+  const p = S.targets.find(t => t.id === id);
+  if (!p) return;
+  const i = STATUSES.indexOf(p.status);
+  p.status = STATUSES[(i + 1) % STATUSES.length];
+  p.updated = new Date().toISOString();
+  persistTargets();
+  renderStats(); renderTargets();
+  toast('Status → ' + p.status, 'ok');
+}
+
+// ═══════════════════════════════════════
+// ROSTER CRUD
+// ═══════════════════════════════════════
+function openAddRoster(pos) {
+  S.editRosterId = null;
+  document.getElementById('rosterModalTitle').textContent = 'Add to Roster';
+  document.getElementById('rEditId').value = '';
+  document.getElementById('rName').value  = '';
+  document.getElementById('rPos').value   = pos || 'PG';
+  document.getElementById('rYear').value  = 'Fr';
+  document.getElementById('rType').value  = 'Returning';
+  document.getElementById('rDepth').value = '1';
+  document.getElementById('rNotes').value = '';
+  document.getElementById('rDeleteBtn').classList.add('hidden');
+  openModal('rosterModal');
+}
+
+function editRoster(id) {
+  const p = S.roster.find(r => r.id === id);
+  if (!p) return;
+  S.editRosterId = id;
+  document.getElementById('rosterModalTitle').textContent = 'Edit Roster Player';
+  document.getElementById('rEditId').value = id;
+  document.getElementById('rName').value   = p.name;
+  document.getElementById('rPos').value    = p.position;
+  document.getElementById('rYear').value   = p.year;
+  document.getElementById('rType').value   = p.type;
+  document.getElementById('rDepth').value  = p.depth;
+  document.getElementById('rNotes').value  = p.notes || '';
+  document.getElementById('rDeleteBtn').classList.remove('hidden');
+  openModal('rosterModal');
+}
+
+function saveRoster() {
+  const name = document.getElementById('rName').value.trim();
+  if (!name) { toast('Name is required', 'err'); return; }
+  const player = {
+    id:       S.editRosterId || uid(),
+    name,
+    position: document.getElementById('rPos').value,
+    year:     document.getElementById('rYear').value,
+    type:     document.getElementById('rType').value,
+    depth:    parseInt(document.getElementById('rDepth').value) || 1,
+    notes:    document.getElementById('rNotes').value.trim(),
+    updated:  new Date().toISOString()
+  };
+  if (S.editRosterId) {
+    const i = S.roster.findIndex(r => r.id === S.editRosterId);
+    if (i >= 0) S.roster[i] = player;
+  } else {
+    S.roster.push(player);
+  }
+  persistRoster();
+  closeModal('rosterModal');
+  renderRoster();
+  toast(S.editRosterId ? 'Player updated' : 'Added to roster', 'ok');
+}
+
+function deleteRoster(id) {
+  if (!id) return;
+  S.roster = S.roster.filter(r => r.id !== id);
+  persistRoster();
+  closeModal('rosterModal');
+  renderRoster();
+  toast('Removed from roster', 'ok');
+}
+
+// ═══════════════════════════════════════
+// AI IMPORT
+// ═══════════════════════════════════════
+function openAIImport() {
+  document.getElementById('aiText').value = '';
+  document.getElementById('aiStatus').textContent = '';
+  document.getElementById('aiStatus').className = 'ai-status';
+  document.getElementById('aiPreview').innerHTML = '';
+  document.getElementById('aiParseBtn').classList.remove('hidden');
+  document.getElementById('aiAddBtn').classList.add('hidden');
+  S.aiPlayers = [];
+  openModal('aiModal');
+}
+
+async function runAIParse() {
+  const text = document.getElementById('aiText').value.trim();
+  if (!text) { toast('Paste some text first', 'err'); return; }
+  if (!S.settings.apiKey) { toast('Add your Claude API key in Settings first', 'err'); return; }
+
+  const parseBtn = document.getElementById('aiParseBtn');
+  parseBtn.innerHTML = '<span class="spin"></span> Parsing...';
+  parseBtn.disabled = true;
+  document.getElementById('aiStatus').textContent = 'Asking Claude...';
+  document.getElementById('aiStatus').className = 'ai-status';
+
+  const prompt = `You are helping track Kentucky Wildcats basketball transfer portal activity.
+
+Extract every player mentioned who is linked to Kentucky basketball. Return a JSON array only — no explanation, no markdown:
+[
+  {
+    "name": "Full Name",
+    "school": "Current or most recent school",
+    "position": "PG|SG|SF|PF|C",
+    "stars": 0-5,
+    "status": "Linked|Offered|Official Visit|Committed|Signed|Passed",
+    "notes": "one short sentence of key detail"
+  }
+]
+
+Rules:
+- Only players linked to KENTUCKY
+- status "Passed" if they chose another school or declined Kentucky
+- status "Committed" if they committed, "Signed" if they signed
+- position: best guess from context if not stated
+- stars: 0 if not mentioned
+- Return ONLY valid JSON array
+
+Text:
+${text}`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': S.settings.apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1024,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!res.ok) {
+      const e = await res.json().catch(() => ({}));
+      throw new Error(e.error?.message || 'API error ' + res.status);
+    }
+    const data = await res.json();
+    const raw = data.content[0].text.trim();
+    const match = raw.match(/\[[\s\S]*\]/);
+    if (!match) throw new Error('No players found in that text');
+    const players = JSON.parse(match[0]);
+    if (!Array.isArray(players) || !players.length) throw new Error('No Kentucky-linked players found');
+
+    S.aiPlayers = players;
+    renderAIPreview(players);
+    document.getElementById('aiStatus').textContent = `Found ${players.length} player${players.length !== 1 ? 's' : ''} — review below`;
+    document.getElementById('aiStatus').className = 'ai-status ok';
+    parseBtn.classList.add('hidden');
+    document.getElementById('aiAddBtn').classList.remove('hidden');
+  } catch(e) {
+    document.getElementById('aiStatus').textContent = 'Error: ' + e.message;
+    document.getElementById('aiStatus').className = 'ai-status err';
+  } finally {
+    parseBtn.innerHTML = '✨ Parse with Claude';
+    parseBtn.disabled = false;
+  }
+}
+
+function renderAIPreview(players) {
+  document.getElementById('aiPreview').innerHTML = `
+    <div class="ai-preview-box">
+      <h4>Extracted Players</h4>
+      ${players.map((p, i) => `
+        <div class="preview-row">
+          <input type="checkbox" class="preview-check" id="ai-chk-${i}" checked>
+          <div class="preview-info">
+            <div class="preview-name">${esc(p.name)}</div>
+            <div class="preview-detail">${p.position || '?'} · ${esc(p.school || 'Unknown')} · ${p.status}</div>
+          </div>
+          <span class="badge-status bs-${p.status.replace(/ /g,'-')}">${p.status}</span>
+        </div>`).join('')}
+    </div>`;
+}
+
+function commitAIPlayers() {
+  let added = 0, updated = 0;
+  S.aiPlayers.forEach((p, i) => {
+    const chk = document.getElementById('ai-chk-' + i);
+    if (!chk?.checked) return;
+    const existing = S.targets.find(t => t.name.toLowerCase() === p.name.toLowerCase());
+    if (existing) {
+      existing.status  = p.status;
+      existing.notes   = [existing.notes, p.notes].filter(Boolean).join(' · ');
+      existing.updated = new Date().toISOString();
+      updated++;
+    } else {
+      S.targets.push({ id: uid(), name: p.name, school: p.school || '', position: p.position || '', stars: p.stars || 0, status: p.status || 'Linked', notes: p.notes || '', updated: new Date().toISOString() });
+      added++;
+    }
+  });
+  persistTargets();
+  closeModal('aiModal');
+  renderStats(); renderTargets();
+  toast(`${added} added, ${updated} updated`, 'ok');
+}
+
+// ═══════════════════════════════════════
+// SETTINGS
+// ═══════════════════════════════════════
+function openSettings() {
+  document.getElementById('sApiKey').value = S.settings.apiKey;
+  document.getElementById('sAutoRefresh').checked = S.settings.autoRefresh;
+  openModal('settingsModal');
+}
+
+function saveSettings() {
+  S.settings.apiKey      = document.getElementById('sApiKey').value.trim();
+  S.settings.autoRefresh = document.getElementById('sAutoRefresh').checked;
+  localStorage.setItem('uk_settings_v1', JSON.stringify(S.settings));
+  scheduleRefresh();
+  closeModal('settingsModal');
+  toast('Settings saved', 'ok');
+}
+
+function clearAllData() {
+  if (!confirm('Clear ALL local targets and roster data? This cannot be undone.')) return;
+  localStorage.removeItem('uk_targets_v1');
+  localStorage.removeItem('uk_roster_v1');
+  S.targets = []; S.roster = [];
+  closeModal('settingsModal');
+  render();
+  toast('All local data cleared', 'ok');
+}
+
+// ═══════════════════════════════════════
+// MODALS
+// ═══════════════════════════════════════
+function openModal(id)  { document.getElementById(id).classList.remove('hidden'); }
+function closeModal(id) { document.getElementById(id).classList.add('hidden');    }
+
+document.querySelectorAll('.overlay').forEach(o => {
+  o.addEventListener('click', e => { if (e.target === o) o.classList.add('hidden'); });
+});
+
+// ═══════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+
+function initials(name) {
+  return (name || '?').trim().split(/\s+/).map(w => w[0]).slice(0, 2).join('').toUpperCase();
+}
+
+function esc(s) {
+  return String(s || '')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  try { return new Date(iso).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' }); }
+  catch { return iso; }
+}
+
+function relTime(iso) {
+  const d = Date.now() - new Date(iso).getTime();
+  const m = Math.floor(d / 60000);
+  if (m < 1)  return 'just now';
+  if (m < 60) return m + 'm ago';
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + 'h ago';
+  return Math.floor(h / 24) + 'd ago';
+}
+
+function toast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast show' + (type ? ' ' + type : '');
+  clearTimeout(el._t);
+  el._t = setTimeout(() => { el.className = 'toast'; }, 3000);
+}
+
+// ═══════════════════════════════════════
+// GO
+// ═══════════════════════════════════════
+init();
+</script>
+</body>
+</html>

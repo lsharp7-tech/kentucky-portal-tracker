@@ -1,0 +1,8 @@
+{
+  "name": "kentucky-portal-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.js"
+  }
+}
