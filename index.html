@@ -1060,8 +1060,11 @@ ${text}`;
     const raw = data.content[0].text.trim();
     const match = raw.match(/\[[\s\S]*\]/);
     if (!match) throw new Error('No players found in that text');
-    const players = JSON.parse(match[0]);
+    let players = JSON.parse(match[0]);
     if (!Array.isArray(players) || !players.length) throw new Error('No Kentucky-linked players found');
+
+    document.getElementById('aiStatus').textContent = 'Looking up ESPN profiles...';
+    players = await enrichPlayersFromESPN(players);
 
     S.aiPlayers = players;
     renderAIPreview(players);
@@ -1106,7 +1109,7 @@ function commitAIPlayers() {
       existing.updated = new Date().toISOString();
       updated++;
     } else {
-      S.targets.push({ id: uid(), name: p.name, school: p.school || '', position: p.position || '', stars: p.stars || 0, status: p.status || 'Linked', notes: p.notes || '', updated: new Date().toISOString() });
+      S.targets.push({ id: uid(), name: p.name, school: p.school || '', position: p.position || '', stars: p.stars || 0, status: p.status || 'Linked', photo: p.photo || '', notes: p.notes || '', updated: new Date().toISOString() });
       added++;
     }
   });
@@ -1190,11 +1193,15 @@ ${articleText}`;
     const raw = data.content[0].text.trim();
     const match = raw.match(/\[[\s\S]*\]/);
     if (!match) throw new Error('No players found in headlines');
-    const players = JSON.parse(match[0]);
+    let players = JSON.parse(match[0]);
     if (!Array.isArray(players) || !players.length) {
       toast('No Kentucky-linked players found in current headlines', 'err');
       return;
     }
+
+    // Enrich with ESPN headshots + school
+    btn.innerHTML = '<span class="spin"></span> Looking up profiles...';
+    players = await enrichPlayersFromESPN(players);
 
     // Auto-merge into targets
     let added = 0, updated = 0, rosterSuggestions = [];
@@ -1211,8 +1218,8 @@ ${articleText}`;
         S.targets.push({
           id: uid(), name: p.name, school: p.school || '',
           position: p.position || '', stars: p.stars || 0,
-          status: p.status || 'Linked', notes: p.notes || '',
-          updated: new Date().toISOString()
+          status: p.status || 'Linked', photo: p.photo || '',
+          notes: p.notes || '', updated: new Date().toISOString()
         });
         added++;
       }
@@ -1252,6 +1259,50 @@ ${articleText}`;
     btn.innerHTML = '🤖 Scan for Players';
     btn.disabled = false;
   }
+}
+
+// ═══════════════════════════════════════
+// ESPN ENRICHMENT
+// ═══════════════════════════════════════
+async function enrichFromESPN(playerName) {
+  try {
+    const q = encodeURIComponent(playerName);
+    const res = await fetch(
+      `https://site.api.espn.com/apis/common/v3/search?query=${q}&limit=5`,
+      { headers: { Accept: 'application/json' } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+
+    const lastName = playerName.trim().split(/\s+/).pop().toLowerCase();
+    for (const section of (data.results || [])) {
+      for (const item of (section.contents || [])) {
+        const d = item.data || {};
+        if (!d.id) continue;
+        const espnName = (d.displayName || d.fullName || '').toLowerCase();
+        if (!espnName.includes(lastName)) continue;
+        const photo  = d.headshot?.href ||
+          `https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/${d.id}.png`;
+        const school = d.college?.name || d.team?.displayName || null;
+        return { photo, school };
+      }
+    }
+    return null;
+  } catch(e) {
+    return null; // fail silently — CORS or network issue
+  }
+}
+
+async function enrichPlayersFromESPN(players) {
+  const results = await Promise.all(players.map(p => enrichFromESPN(p.name)));
+  return players.map((p, i) => {
+    const espn = results[i];
+    return {
+      ...p,
+      photo:  espn?.photo  || p.photo  || '',
+      school: espn?.school || p.school || ''
+    };
+  });
 }
 
 // ═══════════════════════════════════════
