@@ -577,7 +577,7 @@ header {
       <div class="settings-row">
         <div>
           <div class="settings-lbl">Auto-Refresh</div>
-          <div class="settings-desc">Re-fetch data.json every 30 minutes</div>
+          <div class="settings-desc">Re-fetch data.json every minute</div>
         </div>
         <input type="checkbox" class="toggle" id="sAutoRefresh" checked>
       </div>
@@ -684,7 +684,7 @@ function scheduleRefresh() {
   if (S.settings.autoRefresh) {
     S.refreshTimer = setInterval(() => {
       fetchRemote().then(() => renderNews());
-    }, 30 * 60 * 1000);
+    }, 60 * 1000);
   }
 }
 
@@ -852,7 +852,6 @@ function openAddTarget(prefill) {
   document.getElementById('tPos').value     = prefill?.position || '';
   document.getElementById('tStars').value   = prefill?.stars  || '0';
   document.getElementById('tStatus').value  = prefill?.status || 'Linked';
-  document.getElementById('tPhoto').value   = prefill?.photo  || '';
   document.getElementById('tNotes').value   = prefill?.notes  || '';
   document.getElementById('tDeleteBtn').classList.add('hidden');
   openModal('targetModal');
@@ -869,7 +868,6 @@ function editTarget(id) {
   document.getElementById('tPos').value     = p.position || '';
   document.getElementById('tStars').value   = p.stars    || '0';
   document.getElementById('tStatus').value  = p.status;
-  document.getElementById('tPhoto').value   = p.photo    || '';
   document.getElementById('tNotes').value   = p.notes    || '';
   document.getElementById('tDeleteBtn').classList.remove('hidden');
   openModal('targetModal');
@@ -885,7 +883,6 @@ function saveTarget() {
     position: document.getElementById('tPos').value,
     stars:    parseInt(document.getElementById('tStars').value) || 0,
     status:   document.getElementById('tStatus').value,
-    photo:    document.getElementById('tPhoto').value.trim(),
     notes:    document.getElementById('tNotes').value.trim(),
     updated:  new Date().toISOString()
   };
