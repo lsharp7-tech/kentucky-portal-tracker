@@ -1287,77 +1287,69 @@ ${articleText}`;
 }
 
 // ═══════════════════════════════════════
-// PHOTO / SCHOOL REFRESH VIA CLAUDE
+// ESPN ENRICHMENT (via CORS proxy)
 // ═══════════════════════════════════════
-async function refreshAllESPN() {
-  if (!S.targets.length) { toast('No targets to refresh', 'err'); return; }
-  if (!S.settings.apiKey) { toast('Add your Claude API key in Settings first', 'err'); return; }
-
-  const btn = document.getElementById('espnRefreshBtn');
-  btn.textContent = 'Looking up...';
-  btn.disabled = true;
-
-  const needsEnrich = S.targets.filter(t => !t.photo || !t.school);
-  if (!needsEnrich.length) { toast('All players already have photos and schools', 'ok'); btn.textContent = '📷 Refresh Photos'; btn.disabled = false; return; }
-
-  const nameList = needsEnrich.map(p => p.name).join('\n');
-  const prompt = `For each college basketball player listed below, provide their ESPN headshot URL and current/most recent school.
-Return a JSON array only — no explanation, no markdown:
-[
-  {
-    "name": "Exact name as given",
-    "school": "Current or most recent college (NOT Kentucky)",
-    "photo": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/ATHLETEID.png or null if unknown"
-  }
-]
-
-Rules:
-- Return one entry per player in the same order as the input list
-- photo: only provide if you are confident of the ESPN athlete ID — otherwise null
-- school: the school they are transferring FROM (not Kentucky)
-
-Players:
-${nameList}`;
-
+async function enrichFromESPN(playerName) {
   try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': S.settings.apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true'
-      },
-      body: JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: 1024, messages: [{ role: 'user', content: prompt }] })
-    });
-    if (!res.ok) throw new Error('API error ' + res.status);
+    const espnUrl = `https://site.api.espn.com/apis/common/v3/search?query=${encodeURIComponent(playerName)}&limit=10`;
+    const res = await fetch(`https://corsproxy.io/?${encodeURIComponent(espnUrl)}`);
+    if (!res.ok) return null;
     const data = await res.json();
-    const match = data.content[0].text.trim().match(/\[[\s\S]*\]/);
-    if (!match) throw new Error('No data returned');
-    const enriched = JSON.parse(match[0]);
 
-    enriched.forEach(e => {
-      const t = S.targets.find(p => p.name.toLowerCase() === e.name.toLowerCase());
-      if (!t) return;
-      if (e.photo && !t.photo) t.photo = e.photo;
-      if (e.school && !t.school) t.school = e.school;
-    });
-
-    persistTargets();
-    renderTargets();
-    const withPhoto = S.targets.filter(t => t.photo).length;
-    toast(`Done — ${withPhoto} players now have photos`, 'ok');
+    const lastName = playerName.trim().split(/\s+/).pop().toLowerCase();
+    for (const section of (data.results || [])) {
+      for (const item of (section.contents || [])) {
+        const d = item.data || {};
+        if (!d.id) continue;
+        const espnName = (d.displayName || d.fullName || '').toLowerCase();
+        if (!espnName.includes(lastName)) continue;
+        const idMatch = (d.headshot?.href || '').match(/\/(\d+)\.png/);
+        const athleteId = idMatch?.[1] || d.id;
+        const photo = `https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/${athleteId}.png`;
+        const rawSchool = d.college?.name || d.team?.displayName || null;
+        const school = rawSchool && !rawSchool.toLowerCase().includes('kentucky') ? rawSchool : null;
+        return { photo, school };
+      }
+    }
+    return null;
   } catch(e) {
-    toast('Refresh failed: ' + e.message, 'err');
-  } finally {
-    btn.textContent = '📷 Refresh Photos';
-    btn.disabled = false;
+    return null;
   }
 }
 
 async function enrichPlayersFromESPN(players) {
-  // No-op passthrough — photos now come from Claude prompts directly
-  return players;
+  const results = await Promise.all(players.map(p => enrichFromESPN(p.name)));
+  return players.map((p, i) => {
+    const espn = results[i];
+    return {
+      ...p,
+      photo:  espn?.photo  || p.photo  || '',
+      school: espn?.school || p.school || ''
+    };
+  });
+}
+
+async function refreshAllESPN() {
+  if (!S.targets.length) { toast('No targets to refresh', 'err'); return; }
+
+  const btn = document.getElementById('espnRefreshBtn');
+  btn.innerHTML = '<span class="spin"></span> Looking up...';
+  btn.disabled = true;
+
+  try {
+    const before = S.targets.filter(t => t.photo).length;
+    S.targets = await enrichPlayersFromESPN(S.targets);
+    persistTargets();
+    renderTargets();
+    const after = S.targets.filter(t => t.photo).length;
+    const added = after - before;
+    toast(added > 0 ? `Found ${added} new photo${added !== 1 ? 's' : ''}` : 'No new photos found — players may not have ESPN profiles yet', added > 0 ? 'ok' : 'err');
+  } catch(e) {
+    toast('Refresh failed: ' + e.message, 'err');
+  } finally {
+    btn.innerHTML = '📷 Refresh Photos';
+    btn.disabled = false;
+  }
 }
 
 // ═══════════════════════════════════════
