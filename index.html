@@ -112,10 +112,18 @@ header {
 .player-card.expanded { border-color: #0033A0; box-shadow: 0 0 0 1px #0033A040; }
 .card-top { display: flex; align-items: flex-start; gap: 10px; }
 .player-avatar {
-  width: 42px; height: 42px; border-radius: 8px;
+  width: 48px; height: 48px; border-radius: 8px;
   background: #1a2235; display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 15px; color: #3a4a65; flex-shrink: 0;
+  position: relative; overflow: hidden;
 }
+.av-photo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+.btn-remove-all {
+  background: transparent; color: #f87171; border: 1px solid #3a1515;
+  padding: 5px 11px; border-radius: 5px; cursor: pointer;
+  font-size: 12px; font-weight: 500; transition: all 0.15s;
+}
+.btn-remove-all:hover { background: #1a0a0a; border-color: #5a1010; }
 .player-info { flex: 1; min-width: 0; }
 .player-name { font-size: 15px; font-weight: 600; color: #f1f5f9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .player-school { font-size: 12px; color: #5a6a8a; margin-top: 2px; }
@@ -366,6 +374,7 @@ header {
         <button class="filter-btn" onclick="setFilter('pos','PF',this)">PF</button>
         <button class="filter-btn" onclick="setFilter('pos','C',this)">C</button>
       </div>
+      <button class="btn-remove-all" onclick="removeAllTargets()">✕ Remove All</button>
       <button class="btn-ai-import" onclick="openAIImport()">✨ AI Import</button>
       <button class="add-btn" onclick="openAddTarget()">+ Add</button>
     </div>
@@ -449,6 +458,10 @@ header {
           <option value="Passed">Passed</option>
           <option value="Decommitted">Decommitted</option>
         </select>
+      </div>
+      <div class="fg">
+        <label>Photo URL</label>
+        <input class="fi" id="tPhoto" placeholder="https://... (optional headshot URL)">
       </div>
       <div class="fg">
         <label>Notes</label>
@@ -710,13 +723,14 @@ function renderTargets() {
   grid.innerHTML = list.map(p => {
     const bsc = 'bs-' + p.status.replace(/ /g, '-');
     const stars = p.stars > 0 ? `<span class="badge-stars">${'★'.repeat(p.stars)}</span>` : '';
+    const photoHtml = p.photo ? `<img class="av-photo" src="${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.style.display='none'">` : '';
     return `
       <div class="player-card" id="card-${p.id}" onclick="toggleCard('${p.id}')">
         <div class="card-top">
-          <div class="player-avatar">${initials(p.name)}</div>
+          <div class="player-avatar">${initials(p.name)}${photoHtml}</div>
           <div class="player-info">
             <div class="player-name">${esc(p.name)}</div>
-            <div class="player-school">${esc(p.school || 'School unknown')}</div>
+            <div class="player-school">${p.school ? `<span style="color:#4a90d9;font-size:11px;font-weight:600;">FROM</span> ${esc(p.school)}` : '<span style="color:#3a4a65;font-style:italic;">School unknown</span>'}</div>
           </div>
         </div>
         <div class="card-meta">
@@ -826,6 +840,7 @@ function openAddTarget(prefill) {
   document.getElementById('tPos').value     = prefill?.position || '';
   document.getElementById('tStars').value   = prefill?.stars  || '0';
   document.getElementById('tStatus').value  = prefill?.status || 'Linked';
+  document.getElementById('tPhoto').value   = prefill?.photo  || '';
   document.getElementById('tNotes').value   = prefill?.notes  || '';
   document.getElementById('tDeleteBtn').classList.add('hidden');
   openModal('targetModal');
@@ -842,6 +857,7 @@ function editTarget(id) {
   document.getElementById('tPos').value     = p.position || '';
   document.getElementById('tStars').value   = p.stars    || '0';
   document.getElementById('tStatus').value  = p.status;
+  document.getElementById('tPhoto').value   = p.photo    || '';
   document.getElementById('tNotes').value   = p.notes    || '';
   document.getElementById('tDeleteBtn').classList.remove('hidden');
   openModal('targetModal');
@@ -857,6 +873,7 @@ function saveTarget() {
     position: document.getElementById('tPos').value,
     stars:    parseInt(document.getElementById('tStars').value) || 0,
     status:   document.getElementById('tStatus').value,
+    photo:    document.getElementById('tPhoto').value.trim(),
     notes:    document.getElementById('tNotes').value.trim(),
     updated:  new Date().toISOString()
   };
@@ -879,6 +896,15 @@ function deleteTarget(id) {
   closeModal('targetModal');
   renderStats(); renderTargets();
   toast('Player removed', 'ok');
+}
+
+function removeAllTargets() {
+  if (!S.targets.length) { toast('No targets to remove', 'err'); return; }
+  if (!confirm(`Remove all ${S.targets.length} target${S.targets.length !== 1 ? 's' : ''}? This cannot be undone.`)) return;
+  S.targets = [];
+  persistTargets();
+  renderStats(); renderTargets();
+  toast('All targets removed', 'ok');
 }
 
 function cycleStatus(id) {
