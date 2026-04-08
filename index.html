@@ -1110,12 +1110,12 @@ async function scanNewsWithAI() {
 
   const prompt = `You are tracking Kentucky Wildcats basketball transfer portal activity.
 
-Below are recent news articles${hasFullText ? ' with full article text where available' : ' (headlines only)'}. Extract every player linked to Kentucky basketball.
+Below are recent news articles${hasFullText ? ' with full article text where available' : ' (headlines only)'}. Extract every INCOMING transfer target linked to Kentucky basketball — players from OTHER schools who Kentucky is recruiting, offering, or has committed/signed.
 Return a JSON array only — no explanation, no markdown:
 [
   {
     "name": "Full Name",
-    "school": "Current or most recent school",
+    "school": "Current or most recent school (NOT Kentucky)",
     "position": "PG|SG|SF|PF|C",
     "stars": 0,
     "status": "Linked|Offered|Official Visit|Committed|Signed|Passed",
@@ -1125,14 +1125,16 @@ Return a JSON array only — no explanation, no markdown:
 ]
 
 Rules:
-- Only players linked to KENTUCKY
+- ONLY include players transferring TO Kentucky from another school
+- EXCLUDE any Kentucky players entering the transfer portal or leaving Kentucky
+- EXCLUDE any player whose current school is Kentucky unless they have committed/signed to Kentucky from another school
 - status "Passed" if they chose another school or declined Kentucky
 - status "Committed" if committed, "Signed" if signed
 - addToRoster: true ONLY if status is Committed or Signed
 - position: best guess from context, default to "" if unknown
 - stars: 0 unless explicitly mentioned
 - Deduplicate — if the same player appears in multiple articles, return them once with the most recent/advanced status
-- If no Kentucky-linked players found, return []
+- If no incoming Kentucky transfer targets found, return []
 
 Articles:
 ${articleText}`;
