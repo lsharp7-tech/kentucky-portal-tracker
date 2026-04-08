@@ -385,7 +385,10 @@ header {
   <div id="tab-news" class="tab-content">
     <div class="news-meta-row">
       <h3>Transfer Portal News</h3>
-      <span class="news-count" id="newsCount">0 articles</span>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span class="news-count" id="newsCount">0 articles</span>
+        <button class="btn-ai-import" onclick="scanNewsWithAI()" id="scanNewsBtn">🤖 Scan for Players</button>
+      </div>
     </div>
     <div class="news-feed" id="newsFeed"></div>
   </div>
@@ -1083,6 +1086,140 @@ function commitAIPlayers() {
   closeModal('aiModal');
   renderStats(); renderTargets();
   toast(`${added} added, ${updated} updated`, 'ok');
+}
+
+// ═══════════════════════════════════════
+// SCAN NEWS WITH AI
+// ═══════════════════════════════════════
+async function scanNewsWithAI() {
+  if (!S.news.length) { toast('No news articles to scan yet', 'err'); return; }
+  if (!S.settings.apiKey) { toast('Add your Claude API key in Settings first', 'err'); return; }
+
+  const btn = document.getElementById('scanNewsBtn');
+  btn.innerHTML = '<span class="spin"></span> Scanning...';
+  btn.disabled = true;
+
+  const articleText = S.news.map((n, i) => {
+    const header = `--- Article ${i + 1}: ${n.title} (${n.source || ''}) ---`;
+    const body   = n.body ? n.body : '(full text not available)';
+    return `${header}\n${body}`;
+  }).join('\n\n');
+
+  const hasFullText = S.news.some(n => n.body);
+  console.log(`Scanning ${S.news.length} articles (${S.news.filter(n=>n.body).length} with full text)`);
+
+  const prompt = `You are tracking Kentucky Wildcats basketball transfer portal activity.
+
+Below are recent news articles${hasFullText ? ' with full article text where available' : ' (headlines only)'}. Extract every player linked to Kentucky basketball.
+Return a JSON array only — no explanation, no markdown:
+[
+  {
+    "name": "Full Name",
+    "school": "Current or most recent school",
+    "position": "PG|SG|SF|PF|C",
+    "stars": 0,
+    "status": "Linked|Offered|Official Visit|Committed|Signed|Passed",
+    "notes": "one short sentence summarizing the key detail",
+    "addToRoster": true or false
+  }
+]
+
+Rules:
+- Only players linked to KENTUCKY
+- status "Passed" if they chose another school or declined Kentucky
+- status "Committed" if committed, "Signed" if signed
+- addToRoster: true ONLY if status is Committed or Signed
+- position: best guess from context, default to "" if unknown
+- stars: 0 unless explicitly mentioned
+- Deduplicate — if the same player appears in multiple articles, return them once with the most recent/advanced status
+- If no Kentucky-linked players found, return []
+
+Articles:
+${articleText}`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': S.settings.apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 2048,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!res.ok) {
+      const e = await res.json().catch(() => ({}));
+      throw new Error(e.error?.message || 'API error ' + res.status);
+    }
+    const data = await res.json();
+    const raw = data.content[0].text.trim();
+    const match = raw.match(/\[[\s\S]*\]/);
+    if (!match) throw new Error('No players found in headlines');
+    const players = JSON.parse(match[0]);
+    if (!Array.isArray(players) || !players.length) {
+      toast('No Kentucky-linked players found in current headlines', 'err');
+      return;
+    }
+
+    // Auto-merge into targets
+    let added = 0, updated = 0, rosterSuggestions = [];
+    players.forEach(p => {
+      const existing = S.targets.find(t => t.name.toLowerCase() === p.name.toLowerCase());
+      if (existing) {
+        existing.status  = p.status;
+        existing.notes   = [existing.notes, p.notes].filter(Boolean).join(' · ');
+        existing.updated = new Date().toISOString();
+        updated++;
+      } else {
+        S.targets.push({
+          id: uid(), name: p.name, school: p.school || '',
+          position: p.position || '', stars: p.stars || 0,
+          status: p.status || 'Linked', notes: p.notes || '',
+          updated: new Date().toISOString()
+        });
+        added++;
+      }
+      if (p.addToRoster) rosterSuggestions.push(p);
+    });
+
+    persistTargets();
+    renderStats(); renderTargets();
+
+    // Prompt to add committed/signed players to roster
+    if (rosterSuggestions.length) {
+      const names = rosterSuggestions.map(p => p.name).join(', ');
+      if (confirm(`${added} target${added !== 1 ? 's' : ''} added, ${updated} updated.\n\nAdd ${names} to the Roster as well?`)) {
+        rosterSuggestions.forEach(p => {
+          const alreadyOnRoster = S.roster.find(r => r.name.toLowerCase() === p.name.toLowerCase());
+          if (!alreadyOnRoster) {
+            S.roster.push({
+              id: uid(), name: p.name, position: p.position || 'PG',
+              year: 'Fr', type: 'Transfer', depth: 99,
+              notes: p.notes || '', updated: new Date().toISOString()
+            });
+          }
+        });
+        persistRoster();
+        renderRoster();
+        toast(`Roster updated with ${rosterSuggestions.length} player${rosterSuggestions.length !== 1 ? 's' : ''}`, 'ok');
+      } else {
+        toast(`${added} added, ${updated} updated`, 'ok');
+      }
+    } else {
+      toast(`${added} target${added !== 1 ? 's' : ''} added, ${updated} updated`, 'ok');
+    }
+
+  } catch(e) {
+    toast('Error: ' + e.message, 'err');
+  } finally {
+    btn.innerHTML = '🤖 Scan for Players';
+    btn.disabled = false;
+  }
 }
 
 // ═══════════════════════════════════════
