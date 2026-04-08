@@ -706,10 +706,12 @@ function renderStats() {
 
 function renderTargets() {
   const grid = document.getElementById('playersGrid');
-  let list = S.targets.filter(p =>
-    (S.filter.status === 'all' || p.status === S.filter.status) &&
-    (S.filter.pos    === 'all' || p.position === S.filter.pos)
-  );
+  let list = S.targets.filter(p => {
+    const n = (p.name || '').toLowerCase().trim();
+    if (!n || n === 'unknown' || n.includes('unknown player')) return false;
+    return (S.filter.status === 'all' || p.status === S.filter.status) &&
+           (S.filter.pos    === 'all' || p.position === S.filter.pos);
+  });
   list = list.slice().sort((a, b) =>
     (STATUS_ORDER[a.status] ?? 9) - (STATUS_ORDER[b.status] ?? 9) ||
     new Date(b.updated) - new Date(a.updated)
@@ -1197,6 +1199,8 @@ ${articleText}`;
     // Auto-merge into targets
     let added = 0, updated = 0, rosterSuggestions = [];
     players.forEach(p => {
+      const n = (p.name || '').toLowerCase().trim();
+      if (!n || n === 'unknown' || n.includes('unknown player')) return;
       const existing = S.targets.find(t => t.name.toLowerCase() === p.name.toLowerCase());
       if (existing) {
         existing.status  = p.status;
