@@ -21,13 +21,13 @@ header {
   z-index: 50;
 }
 .header-logo {
-  width: 46px; height: 46px;
+  width: 50px; height: 50px;
   background: #fff;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-weight: 900; color: #0033A0; font-size: 15px; letter-spacing: -1px;
-  flex-shrink: 0; user-select: none;
+  flex-shrink: 0; user-select: none; overflow: hidden; padding: 4px;
 }
+.header-logo img { width: 100%; height: 100%; object-fit: contain; }
 .header-title h1 { font-size: 18px; font-weight: 700; color: #fff; }
 .header-title p { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 1px; }
 .header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
@@ -332,7 +332,9 @@ header {
 <body>
 
 <header>
-  <div class="header-logo">UK</div>
+  <div class="header-logo">
+    <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/96.png" alt="UK" onerror="this.outerHTML='<span style=\'font-weight:900;color:#0033A0;font-size:15px;\'>UK</span>'">
+  </div>
   <div class="header-title">
     <h1>Kentucky Transfer Portal</h1>
     <p>Basketball Tracker — 2025–26</p>
