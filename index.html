@@ -377,6 +377,7 @@ header {
         <button class="filter-btn" onclick="setFilter('pos','C',this)">C</button>
       </div>
       <button class="btn-remove-all" onclick="removeAllTargets()">✕ Remove All</button>
+      <button class="btn-ai-import" id="espnRefreshBtn" onclick="refreshAllESPN()">📷 Refresh Photos</button>
       <button class="btn-ai-import" onclick="openAIImport()">✨ AI Import</button>
       <button class="add-btn" onclick="openAddTarget()">+ Add</button>
     </div>
@@ -609,6 +610,7 @@ const S = {
   filter: { status: 'all', pos: 'all' },
   settings: { apiKey: '', autoRefresh: true },
   aiPlayers: [],
+  blocked: new Set(),
   editTargetId: null,
   editRosterId: null,
   refreshTimer: null
@@ -634,13 +636,16 @@ function loadLocal() {
   try {
     const t = localStorage.getItem('uk_targets_v1');
     const r = localStorage.getItem('uk_roster_v1');
+    const b = localStorage.getItem('uk_blocked_v1');
     if (t) S.targets = JSON.parse(t);
     if (r) S.roster  = JSON.parse(r);
+    if (b) S.blocked = new Set(JSON.parse(b));
   } catch(e) { console.error(e); }
 }
 
 function persistTargets() { localStorage.setItem('uk_targets_v1', JSON.stringify(S.targets)); }
 function persistRoster()  { localStorage.setItem('uk_roster_v1',  JSON.stringify(S.roster));  }
+function persistBlocked() { localStorage.setItem('uk_blocked_v1', JSON.stringify([...S.blocked])); }
 
 function loadSettings() {
   try {
@@ -711,6 +716,7 @@ function renderTargets() {
   let list = S.targets.filter(p => {
     const n = (p.name || '').toLowerCase().trim();
     if (!n || n === 'unknown' || n.includes('unknown player')) return false;
+    if (S.blocked.has(n)) return false;
     return (S.filter.status === 'all' || p.status === S.filter.status) &&
            (S.filter.pos    === 'all' || p.position === S.filter.pos);
   });
@@ -748,6 +754,7 @@ function renderTargets() {
           <div class="card-actions">
             <button class="card-btn" onclick="event.stopPropagation();editTarget('${p.id}')">✏ Edit</button>
             <button class="card-btn" onclick="event.stopPropagation();cycleStatus('${p.id}')">⬆ Status</button>
+            <button class="card-btn danger" onclick="event.stopPropagation();blockTarget('${p.id}')">⊘ Block</button>
             <button class="card-btn danger" onclick="event.stopPropagation();deleteTarget('${p.id}')">✕ Remove</button>
           </div>
         </div>
@@ -909,6 +916,17 @@ function removeAllTargets() {
   persistTargets();
   renderStats(); renderTargets();
   toast('All targets removed', 'ok');
+}
+
+function blockTarget(id) {
+  const p = S.targets.find(t => t.id === id);
+  if (!p) return;
+  S.blocked.add(p.name.toLowerCase().trim());
+  persistBlocked();
+  S.targets = S.targets.filter(t => t.id !== id);
+  persistTargets();
+  renderStats(); renderTargets();
+  toast(`${p.name} blocked — won't appear again`, 'ok');
 }
 
 function cycleStatus(id) {
@@ -1210,6 +1228,7 @@ ${articleText}`;
     players.forEach(p => {
       const n = (p.name || '').toLowerCase().trim();
       if (!n || n === 'unknown' || n.includes('unknown player')) return;
+      if (S.blocked.has(n)) return;
       const existing = S.targets.find(t => t.name.toLowerCase() === p.name.toLowerCase());
       if (existing) {
         existing.status  = p.status;
@@ -1270,10 +1289,10 @@ async function enrichFromESPN(playerName) {
   try {
     const q = encodeURIComponent(playerName);
     const res = await fetch(
-      `https://site.api.espn.com/apis/common/v3/search?query=${q}&limit=5`,
+      `https://site.api.espn.com/apis/common/v3/search?query=${q}&limit=10`,
       { headers: { Accept: 'application/json' } }
     );
-    if (!res.ok) return null;
+    if (!res.ok) { console.warn(`ESPN ${playerName}: HTTP ${res.status}`); return null; }
     const data = await res.json();
 
     const lastName = playerName.trim().split(/\s+/).pop().toLowerCase();
@@ -1283,15 +1302,23 @@ async function enrichFromESPN(playerName) {
         if (!d.id) continue;
         const espnName = (d.displayName || d.fullName || '').toLowerCase();
         if (!espnName.includes(lastName)) continue;
-        const photo  = d.headshot?.href ||
-          `https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/${d.id}.png`;
-        const school = d.college?.name || d.team?.displayName || null;
+        // Build photo URL — prefer direct PNG over combiner URL
+        const rawHref = d.headshot?.href || '';
+        const idFromHref = rawHref.match(/\/(\d+)\.png/)?.[1];
+        const athleteId = idFromHref || d.id;
+        const photo = `https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/${athleteId}.png`;
+        // Don't use Kentucky as the "from" school
+        const rawSchool = d.college?.name || d.team?.displayName || null;
+        const school = rawSchool && !rawSchool.toLowerCase().includes('kentucky') ? rawSchool : null;
+        console.log(`ESPN found ${playerName}: id=${athleteId}, school=${school}`);
         return { photo, school };
       }
     }
+    console.warn(`ESPN: no match for "${playerName}"`);
     return null;
   } catch(e) {
-    return null; // fail silently — CORS or network issue
+    console.warn(`ESPN lookup failed for "${playerName}":`, e.message);
+    return null;
   }
 }
 
@@ -1305,6 +1332,25 @@ async function enrichPlayersFromESPN(players) {
       school: espn?.school || p.school || ''
     };
   });
+}
+
+async function refreshAllESPN() {
+  if (!S.targets.length) { toast('No targets to refresh', 'err'); return; }
+  const btn = document.getElementById('espnRefreshBtn');
+  btn.textContent = 'Refreshing...';
+  btn.disabled = true;
+  try {
+    S.targets = await enrichPlayersFromESPN(S.targets);
+    persistTargets();
+    renderTargets();
+    const withPhoto = S.targets.filter(t => t.photo).length;
+    toast(`ESPN refresh done — ${withPhoto} photos found`, 'ok');
+  } catch(e) {
+    toast('ESPN refresh failed: ' + e.message, 'err');
+  } finally {
+    btn.textContent = '📷 Refresh Photos';
+    btn.disabled = false;
+  }
 }
 
 // ═══════════════════════════════════════
