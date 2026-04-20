@@ -1,13 +1,61 @@
 {
-  "last_updated": "2026-04-19T19:56:47.168Z",
+  "last_updated": "2026-04-20T07:29:29.952Z",
   "targets": [],
   "news": [
     {
-      "id": "gsjkxj",
+      "id": "j0z07w",
+      "title": "Every BYU basketball transfer portal addition to this point, remaining roster needs",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ09wdkdaR2pPLW5rMkFCQlEwOW9UMTNPVlpsYzZSR0ZaUjNVTUJqdm0zVXFDalBVUk5oNTVFMTdpTHc1TndRZzMteGVsVUk0LUJJVkxQMVgyVldHMGtNaVJrSFNMLXhMSnVLSUM5YkswM0prb0hQcnBzSnd3Y1U1VG9WbWYwS1hqanhkWDQySjA1WjgyaVhwUVY3c1FteC1fVlhQSVF4cEM1SF9ubnhv?oc=5",
+      "date": "2026-04-20T03:06:09.000Z",
+      "source": "Lawless Republic",
+      "body": null
+    },
+    {
+      "id": "l3duze",
+      "title": "Kentucky Grabs Another Impressive Guard from Transfer Portal",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRmwtQW45Z2JwU3ZrNmQwWUpOZ3JUa2VFMExRa1pEeTZadzU0b3hLTlRacnFsU2hMemFRdzFtUWtyVWpieUlZeklwT09DTmVFMC1YQnRvSXgzdG1zbUZaR1hKMHV4elFuOUlqX1RQOWp5LU1HMmxRd1FDZ3UxX2xFYy0yLWdyNmE1UE9sM2lGU1R3cllUTUZ3bEhZLUpOZ1pa?oc=5",
+      "date": "2026-04-20T00:20:38.000Z",
+      "source": "Busting Brackets",
+      "body": null
+    },
+    {
+      "id": "wx3c13",
+      "title": "Mark Pope has two new transfer portal players coming to visit Kentucky next week",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRDVnQTlldnJDVnNzQklMWUlGXzVuRXpVb0NiaVhraTdqaVZXQlBpc2tuSmZKN2x5bDFaQ1FRUUlBYXpNTC1pLU5QWnA4Mko0SDZjbG4tUnp3TmUzM1FkeXg1MkNGN2M0a1VxZE5DUDhkUlNjQmlwczBKelZUVTRsX0w4ZjAybm9DdlVkU0cyQldSQzBTbFdwbmFrLXc2RjRQN2t4WWZfU3JFWFhhTzZsU2tYMTVGY0pOTUZ0N09NanB2T25fNXRwa2hTRWxldw?oc=5",
+      "date": "2026-04-19T22:57:41.000Z",
+      "source": "Sports Illustrated",
+      "body": null
+    },
+    {
+      "id": "5y2auv",
+      "title": "Texas basketball, Sean Miller add fourth player in transfer portal - Austin American-Statesman",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUUREanF0Q05HWlVoTU5tRGdkZnJyYjc1aFJadjJ0Nk1nRkhCY0JiSlRCLTl6Z2tNR3d6RURzVEN2UHBxWVFqNDhGTy0tNUVkYU5BS2FEUFdrWHlWdWlnUEEzaTRnQ0hwMEd6M0c5RXFlXzF5cWdLZ2tQU29SS0dSY0NQV3JQZ2w0cWVkR3dIZTNjV2lHV0hZQzd2TldDblNEVGpfNEFZTFVpbDB2b19WUWxqRHNic3lON0M0MVBqZmlOQVBLUXo3T1FmZDNDZFQtd1pjdw?oc=5",
+      "date": "2026-04-19T22:13:11.000Z",
+      "source": "Austin American-Statesman",
+      "body": null
+    },
+    {
+      "id": "1tqw5e",
+      "title": "LIVE: KSR Rapidly Reacts to Alex Wilkins' commitment to Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGpEOWVFZzRDQkxkNkg3YmRBRWNiZ3lMcmhzbjhZZlRiTEdWTjhSLUdrRXRtMWRQV010eG5SLVBWZVNfQjZldzJzMHg4d0NnVmlrMXpMZ3FValczeGhJSHlCVGxBZUxPcTZTcFdYSExyZTNEbzBQSUt6ejJpWEhyaHE4Wk9IcDJBUjVGR3k0QjNYdjlCSUxDRlpNNjZyUExyTDgyZUJ4dlVlZ1E?oc=5",
+      "date": "2026-04-19T20:33:29.000Z",
+      "source": "On3",
+      "body": null
+    },
+    {
+      "id": "1pdz2fp",
+      "title": "Another new name from the transfer portal is on Kentucky's watch list",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNcHNqcGZvREp5MVp3NDAxZmxyZGVzVlBuUE1XQzZwa3dHclEwN0JjaklBQnZiUlVnWEc0bDQyODJrbEpDWEpvZzMxRmRfdkRiT25fcWpfR0dORjRxRXdmTVRsUTF1a3NId211aGxVRUphd3EyV1ZWaVE0bGdLek5HZEQ0Z3hIdllLeUtkcGNSWFZ1ZWE0YWtyQWdGQVJaMnFSZlB1V2NCMVhEaTl6U0c2YkNaYm12VERUSzdJcXdLdHpaSDh2U2psdHMxbzV1eXdFLTJPdHdqVEhkRDQ3SUg2M2tzREYtTFhhTW5zcEtUODBPWjdTckpLbXdR?oc=5",
+      "date": "2026-04-19T20:24:00.000Z",
+      "source": "UK Wildcats Wire",
+      "body": null
+    },
+    {
+      "id": "m5kfg6",
       "title": "Transfer portal and NBA Draft dates to know for Kentucky Basketball offseason",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS3d2UEJLenlwVzJQZlZaWlVnYXNRTkxWVlh4RVUwUGpjcUo3MVRVMVVjQnltclRmUzYwazRWdlA5Y1JNMEJHNmxENXdMendyNDY0WVRrUEM4eWVkYlkwZkVLY0RISlUzZE8xeTcxZ0tLdnNSMWtUTnB6eXRZaE9zV1hxcXp0azloMGVXQ3JiNHVzelBRZnBTbEwybnFwSUk4UU5KeUdzV0RLa3AwaGkxbFJBVDNhaDU3?oc=5",
-      "date": "2026-04-19T19:53:41.000Z",
-      "source": "A Sea Of Blue",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSGNtRGtSSUJJUWZvZnY2NXBuN1pkZDdWZEh5RTRDS2psTXRhMi00andrLXdvX3I2UTJPSHlyV0lkTUxjcGZ5cGpkRDk4ckZEak1mWFRGUkFORG4yVEExZU80SWJVa1NMZllJRk1MSkY5WHFER0gyY3JGTnBPR3JmczN6MXFRY3M?oc=5",
+      "date": "2026-04-19T19:52:46.000Z",
+      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -16,6 +64,14 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWnVXYWhxdjhFNUI1b244X2tURTI4bWJqcDZZeHpabFo0a3JnUVVZMzkxbkVRQjZLMnkwRTJrOHg5SkhXRFFPcXBQTUl4a0RTUHZnQ2swR25ZYV9ZckpSX25jS3FPOTRMa1VXdlRFbGVldzdDbDdxUjJrbGJSalNRTjBKWUdqbGJkZFYtaHVrdU1jTE9pWHh6cm8zN1pXZVM2VzB6cWR5Q0xTU0cwUUJPcjRUS05NaXFwbUdBTFFMTEJEWWM?oc=5",
       "date": "2026-04-19T18:03:22.000Z",
       "source": "CBS Sports",
+      "body": null
+    },
+    {
+      "id": "nsfp7v",
+      "title": "7-foot-5 Kentucky native transfer could be coming home after Mark Pope meeting",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcVlpNm80aUs1QXpVN05fSDJ5UkQ4c3B4aEtlejk0ekhGWU1CZjFBel9IcWluTDRRRk5UM2ZhY2xZTENNS3ZoRUJzT3F6T19PR0xFUDRzYkFRemtCOERrRkoyOUFaWHFGMWhjam9VR21ILXRkNE5adnNGT1JmX2FEajRjVnk5MmgtVE1aak5pTGVRekN1LUhZVmQ4dGROVndjM193OGJ6RDNtcnJlR09zODVhYlVaOGZHX3YzTWdn?oc=5",
+      "date": "2026-04-19T18:00:00.000Z",
+      "source": "Wildcat Blue Nation",
       "body": null
     },
     {
@@ -35,6 +91,14 @@
       "body": null
     },
     {
+      "id": "9k8fs9",
+      "title": "Kentucky's Mark Pope has found a new point guard target in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSk1nSjF1X3Q1NklMc2g5SXdYM2JqTDNiSlJXSV9uZjBiUzFOb1lxckVYM3NwOUVUTXJhdzRiQmExclpETDJLQm5XVEtrM2RPeUxYSmJFX01GczRfdmRicVQ5U1ZvY3NGUWktM1g3dlI3bW5PZ3hVYTRIaFpRMlk0WUVONWNjZlZiNV80ZUloUS1DWnVWdVNmSS0tYk5rVUVKVm5McGZLUTQ3dUFya19KcGtiQUVKdU8tc2pJdzd0WUJRNlk3MVZTSjFTQW94T3FOMDdDdl9sSHVVMllPNnVDSDJiUkVfVVhKZDlEVUo5LUVudXhUenota1hPTFhsUjhCQU12Zm9R?oc=5",
+      "date": "2026-04-19T15:42:35.000Z",
+      "source": "MSN",
+      "body": null
+    },
+    {
       "id": "pn8ocl",
       "title": "Missing on this PF in the transfer portal could be a good thing for Kentucky",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcy1qUjZ0d0RJeGdzWDZWb1VNaktMcDZpSlNnNjdyeGZ0RTFCWldqaURkUFNuQi1uWXhkclpaZGRYMC11VF9Pd0NMdXJ1MkRMeEM1MHhkU2pWeEZRTExyaGlMbTlwLW8wQ3NrM1p6Um1KMFNTVko2NFBWS1F3V1p2bFhkblNSNnRRMGZraWdKTzZnVjdsTjVFZ2ZRZFpGSkxvN1c2OUFrSXQ3Y1U0dGJJMVpNZmlZemNFNVczMmJka2J6U2tHVEt4Uw?oc=5",
@@ -51,6 +115,30 @@
       "body": null
     },
     {
+      "id": "cksn1t",
+      "title": "Kentucky's starting lineup is one move away from being truly scary",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ0VVSHU1VGlpN0FWNkFwQ0gwVUV2a05mZ2NaYTMteDhBN0U0VEFSanUwSWl1cWF1Y0ZWc3pUbGdPN1gyWTJlZWd4MnZ6TDYyY01WMzBrSDJiWmNhR3llSlpPRUNUQXRuOVplZGNkZG5KSTRXWUUwOWNHUkpQRnZqSXJERTBWYlYtRHJHMzNSclVBd1hITEhSa2FCYWNVYTRDaHBjY2swNWVEOTdTeEE?oc=5",
+      "date": "2026-04-19T15:09:24.000Z",
+      "source": "Wildcat Blue Nation",
+      "body": null
+    },
+    {
+      "id": "1jfuel3",
+      "title": "Kentucky target Sebastian Rancik commits to Florida State",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdU9SbEJ2X0NUUEg1YzczZnNQNUdUSnNIU0dKYXNVSHFjaGROancxRFlFZmxiZWpYempoNXp2OVEyTE5lUVU3UDhKM2dBOHlLWF9YU2I3djNBY2Z4V2lzQnpUVVdFaTVxalIwTF84UVBpTWYwMUZLZzc4aW9zQ21fai0xd0Z5bG1HaTJzNUxKcXhFQURJMG1KTUpPZURodkxLZGowblZadmlpWG56RzNMeg?oc=5",
+      "date": "2026-04-19T15:07:01.000Z",
+      "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
+      "id": "1mdzrdx",
+      "title": "Mark Pope has targeted a new forward in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZWtuN3oyZTRsdlFQS2RVUjhjUzJrWVhrOVZ3dG81dUpWaUd4NHZjWWxVZ1dxVjB4aGFtZXhlT01IVm9OS0Y3UTFrV2NkVEc2dlRfQkJ6d21vZGl2ekNkUXIwMC1sQjMza3VVU1RQZmVHN3U2X2lSUk5qem16UkFCQVNKLXdIcHdRRjkyVTJRNmFqZEE4QjRoZFM2NTh1b3U2cDF0ZjI4eXpMZ2hnM2EzUzRKajhjZ0F2c3BNN0plRlozTzhBMXhqYXoyOEs3QkpJZGhxOF9kT3FtNzEyM3ZtX05B?oc=5",
+      "date": "2026-04-19T11:22:38.000Z",
+      "source": "MSN",
+      "body": null
+    },
+    {
       "id": "1muzbbi",
       "title": "Kentucky Basketball Transfer Portal Tracker",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUXJ2OGRqVkRiZXlGaTVreGI5ZkUweWc1X2dfRXJFSUI5OVJQNXJRMWE4UmRabEtyRkQtNzI1emY5YWdZWUdRZGpDdGpBV202czdsWUIzRzdFa25sMjRFLVVJQWpqWlpqSThZVzd5Q3JzOWpWUXloZktNaG5rWFNqMEpIRXVqZTg0aVltRnAzZDJzVzUyRUdZVw?oc=5",
@@ -59,27 +147,19 @@
       "body": null
     },
     {
+      "id": "1afynsv",
+      "title": "Mark Pope and Kentucky have landed a future star point guard in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQWlJUeU53Z0hBSVN1RWJNeG5rN1J3eGpJVkItUzhTVG55LW5TVGE4dG4tcU9acFNjUTAwM2lSZjFKSkdBa2dzQm16TE8tcHZILU05QlZrQVUwN2lLYV9pdGZDdGRGNXBiQjNPcFhrSnM5S04yeDhTUWpKMHhtT0ZaOXVuS1JTUGRKVnVIQ0hycnV4bnF1bVlrSmkzbzdNQ2FVdFdwdEd6M1NnWG9vLUQyakJITkg3Ti1aV293Q3EwXzMxaTZOWjNUa1dGUTlJS0FZSVQ5dUJocWNxM0FRd1dGdTJudHJqR3FSRlFWTG1jNHI3M3VkdHFnNUo0XzcxT1loOXlndHItY2hVaklHa094VnJoajRLZw?oc=5",
+      "date": "2026-04-19T10:29:32.000Z",
+      "source": "MSN",
+      "body": null
+    },
+    {
       "id": "kzlfhh",
       "title": "Oregon men’s basketball continues adding talent through transfer portal",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDZhd2VmZFRyek15Z2hOQm1sa05MMkhqQWVQWWx5WXZSYVJwUVc3UHc5SG9oajB5dVpaVW01TFNNa0tyanVnbEkwVTNreE5ia2JzcUU0eDRsTV9JZWN4SldNamdtSmluX0JYaDJUM0FoSDBDaTRNSXFRTXVoQXFZUFg5Rk5ZTEJkWVYtSjJfaXlWWkNYMkhsZFZXTXZrNms0ZzNXam9FNWJVbXpPa0c3bHhadzEtSUnSAcsBQVVfeXFMT2FSNTlEQzFRajF3T3M5R1VqSXRicVg2VGRsSXFteTdDeDFobVFTbl8yV3hjcllLZkVuMTJ3TmlDUHRKbUgzbHp2UUQwZS1OQlBranZoTDZtWTZXRGFyaVhwb1VVNjFCZ1dRV2ZsZGNfTXNTSFpzc252ajBZRUk3LWxINEVmNDd6MVZnWlBpU0JoRVlCRHNlYnJ1SS1UR3JvRU8xQTl2bjB3b3UyTzJTV2lGUm5YcXpCd21WMlEzY3VpVHZUZXBrMzdmeGM?oc=5",
       "date": "2026-04-19T03:38:00.000Z",
       "source": "OregonLive.com",
-      "body": null
-    },
-    {
-      "id": "wkss7v",
-      "title": "Zoom Diallo-Alex Wilkins could be Mark Pope's version of John Wall-Eric Bledsoe",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNGlqZnZhV0JnaXpBMjkxaTZkZkIwUWtjNUd6dVc0WWR5R3VvZEJwUGxSclc5S01rTWNCZE5BR3M2VEZpRVpUSm45OHBDWHA2SzFZclVaQy1YYjdKbTVxU2FySFB4bHkzWk1tNFNfZHR4bHNBRTlZSDlvRjR6eFJYRTFFZWplaEFmbGtJdjVicGlwcUwzekJDWk9mRHh3TDh4TGM2c1NJd2thdw?oc=5",
-      "date": "2026-04-19T02:58:52.000Z",
-      "source": "On3",
-      "body": null
-    },
-    {
-      "id": "yw4exi",
-      "title": "Kentucky basketball’s HC Mark Pope loses sharpshooter to transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZU51b01mRFlZX2o4SmRJRXhEQy0yamZ4cXhiSVR4SXNMMFNlTFoybkN2QkdZYjE4dlIyVnBrSnhsLUs5V1E0WnZMcmxTRnZoT2lvUm9CRi1VRVhBVTFPVFd3d3A0RmlzdWhPODJHMjlna2s1ckdJTUxYM2tFUXhMOENhY3pkTGZHbTBFVEx6c3dXcVZUQ3R4dUhrdURXclMyX2FDV2FHWDllTnU2d21lMEIya0lRN0F3T1B4NGFlTU9WTm1uZE1VaUJaSXUyczJM?oc=5",
-      "date": "2026-04-19T02:40:48.000Z",
-      "source": "MSN",
       "body": null
     },
     {
@@ -104,22 +184,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbW1kcGdxaGhvZDhjekloRXQyT3FGdXJRQzlRNU9WTDJRbk9MOVlxTU1RcHFmcEJRZElEM3h6cE5UV0dPTDB6TXpmU2NxRm5ZQ1h5MmlwS3FwLW5tZDNJbmtzN1dEY3hETENtX3ZSbkYyamYtcnN3Qjhtb2t6T05nM1BEbERuS3JVT1JFRDFqY2xaZWtnU3VZdmRKa2ZXdnZYVGgwT3ZB?oc=5",
       "date": "2026-04-18T23:21:00.000Z",
       "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "klgcef",
-      "title": "Kentucky transfer G Jasper Johnson commits to Oregon",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa2ZTUjFFa0dZQnQ3QWlDVzE4TWpITlBnb3dWY2M4Zlc0SXB1aVRIVzkxT2FYV3FJbVMxdl9hc3Jod2RLU183S2pfN2NFM3dvbGtwa0xNMmpKS0pjQ1ZwQ3V5UWdocUlvSVVpaXM3ZGs1V0x6TVhMZmRxbE5LWi0ySWl4VnB4R2xQcmhZbnpnSjJOUVVzTDB1RDV4RWd5Y3UxTkJaMVRLZXlscTh5TVIzdVZPNndqSzlOSWRwd1hrMDNWOTJ4R0hBMHB1UDZTbjJhU09yUlRUVHhkZjE0dkdiS3k5Zlc5cFVONTA4?oc=5",
-      "date": "2026-04-18T22:23:00.000Z",
-      "source": "Ducks Wire",
-      "body": null
-    },
-    {
-      "id": "e17ubg",
-      "title": "Mark Pope and Kentucky have landed a future star point guard in the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVUZTNkVNRE1OU2pIOWtSdUpTME1jVTJDcG1wWTRUbnYtY0ZuVXVtRWVxMUtpX1FGeDJYaVRYRG9LRWo4RnBLSnhWcUw5VHFaQjRTcEN3d0pOOHIwZUZ3b2Nmd1p5OEJMWFJpc2RKT3ROUGJlX0dxRW9mWmtxMFY3OUNKQUU5ZTQ4VVVUNmZzcVM3SmJWUldrMzVMbTdWUUx2am5SR3Z2SHJac2otby0zWTAtb1VKRVNfS2lHTHVkOGg3ckpFZF9JSlU3a1kxYnc?oc=5",
-      "date": "2026-04-18T22:19:31.000Z",
-      "source": "MSN",
       "body": null
     },
     {
@@ -283,14 +347,6 @@
       "body": null
     },
     {
-      "id": "1s1pgud",
-      "title": "Mark Pope has targeted a new forward in the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZVJTalZHQk5nSHU1c3gwRmU5WHlpTzk3MUJCbTgzcnQweDdlaDhJOU10eEZYRHRCbTVkVTZnelpMbXgyZzNXZ2xyaklqMEViNXpJb3NNM3o0UW5HNnk3OHFYMzMydDRRNDlLVm5PdDhNY3FyOTdPNzZDVkdMekNld0I0Tm1IYmo0QmJsTnpQM29Xb2Q5RjVXYXYxc2xSZzRjWlFCQkhJSVJSbkk2NVNmaXVDRGhxVXhDUDgyUFozdlFaYzY5Z1FLWm5qVURRV3haN0tlWGNxS19LR2FVWlhGM2FjaXNYR3pzTFRPVjhMUGFaQkU?oc=5",
-      "date": "2026-04-18T06:00:00.000Z",
-      "source": "MSN",
-      "body": null
-    },
-    {
       "id": "huphom",
       "title": "Kentucky has reportedly moved on from top-10 transfer Paulius Murauskas",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa1dzSUVGR1lhdGc0VWduSm80YnlSWnpkLWMzVGVwbDZrTXl0QjhfS3hpUnVULTVfTVM1emZBakpJSVJ2NXltbHVGNlljMEJLRTF5Z2J6aEdqdHpkNlRjWjlkSHhqYmhmSWpCa3hhcnJwYWQ0dTBpOVM0eEVSTG1MWG9wZHFLaU5hWS1OY2RaVlQxMnlSaEpyVkdyak1FN0Z3bDBadWtxZUFiNUktZ3dj?oc=5",
@@ -344,62 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYl9LVXdNZ3pUS191c2ZKMTlfNVNmcTBfdDhpaUhhVkhTMlpjVjB6RDFMR2lDOFgycE4wN1FxcG9IUHk1T3JWLVpiZmFrZXI0V3lLRnRNVDItYTZ2R1lVT2dubVNQdEFOallfR3Qxeno4Qjh5TC1GMXVncEVqUlZ0Wl8tY0NycWpHcWYzdnB1bUJaRkZEZDRfOTRwTUFQaUYxckNYNUNOTjZDNmpNX2oyWlNwNmdORE0tOFE?oc=5",
       "date": "2026-04-17T17:54:10.000Z",
       "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "9xeax8",
-      "title": "Kentucky gets some potentially good news concerning Donnie Freeman",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQ0dPZzNOeFRYdE5XdnRzX3p1OWE2a19GNXZlZXN1cUZtM2l0a2QxVHAxZzNjOXl2UTRqVmhfeVdQYnVmQ0NfclpndV9kRkFKalZtRFRKczdJekFDamRXcmJpMGx1WDhiYU5tbDlIM3dxRnpYbzVkb19tYnlSZU1aaWVyZ2xQa1F5dFVwWHFVYkV6MjRKQzRrSnhpelhUZS1lblh4Znl5MHBNQktScTg5cEJWNlFmYlpkcWVGZTdyTWNYTVZZcnFWVm4zR0lzTnhUcXNIUE9LbzltWWhfNEpwQ3I0ZzNIOU9qd3ZNa2o5MjM2U2M?oc=5",
-      "date": "2026-04-17T16:02:00.000Z",
-      "source": "UK Wildcats Wire",
-      "body": null
-    },
-    {
-      "id": "zl6ka5",
-      "title": "Highly-touted transfer target just slammed the door shut on Mark Pope and Kentucky",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcVF4MFY4Y2J1a2pfdkpETVJiNi1Ra1JIRnBIMmlBaXJQRF9WT2NNMGtXMTJiS3dXZzljbTBMRVNPOUpNNG5ReGVKOUZNU3pNaTdDc0RlMVFweVJYRW1pZ09qeDJNcXBoaVpYQ2RuNDZybDB4amp3c1JqSERCVWR3YkVZWUVLM0JPNHdpX2o2b09wOV9GV3laNUhoR3RkRVJVWnZsWm9GM01yWHhpVkpmTUdmR0t6YnYzOXhRT2tYMkpBVGM?oc=5",
-      "date": "2026-04-17T15:38:48.000Z",
-      "source": "Wildcat Blue Nation",
-      "body": null
-    },
-    {
-      "id": "16kreh5",
-      "title": "Mark Pope's transfer portal backcourt decision was just made for him",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM2h0VlJLZGY5anJQNmRId29QLVFhRHc4Vmd4VDNmaTQ3UXhQQVVuMURJUEhNS2hDaFlzNmFMT2V0X0dLNDhjZi1aV1hMUDB0akZsZzhLZGtvT2lXSU5JdGJ3bU9fN1NaUFY1cENiT3FaV1ByT1JDRUpmTUV3QnlYeXVaQ2ZuNjhHTVI5SFJ2Z0lPRXhyTUJPVHNMLTd4b1p5ZmR5NjZpRkNOb08tbW5hTA?oc=5",
-      "date": "2026-04-17T15:06:26.000Z",
-      "source": "Wildcat Blue Nation",
-      "body": null
-    },
-    {
-      "id": "1e9ecww",
-      "title": "Mark Pope has targeted a new forward in the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVnJnalFteDZ1dWJtbWNiRGg3MDEyejVqUno2b0tRVmlKcHYxWC1qaUtiNlVPMllPSEFMRFdZM3cyR25BUzV1ZlhzMU5hWE9XcUdhUFVjT1ptMEVUcUZDSW94Sk5wazRRUXZRRzVtN1ZfODduMnM4YnNkU21wNHJLWlpaVEN0Q0Z6Ty0wVWItUGY1T2ZEaWhiUWZOTU90WkVteWVVTk4zSUFtYlVGUXVDQ0hn?oc=5",
-      "date": "2026-04-17T14:51:00.000Z",
-      "source": "Sports Illustrated",
-      "body": null
-    },
-    {
-      "id": "veg8a0",
-      "title": "A sharpshooting guard won't be taking his visit to Kentucky",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPX2tLOElEVDRNdE84REgwNXJFV2pSNHhvbDB3a0haXzcwYmhyLVl3R29odWRQVGd3eTRoaDdkY0pBWkhGNG9NTldQZW5sdmg0YlBheC16bUpUdnVhdEVZMEpKR0RHc0xMSVZaTy1oYWV5NmMxbk00aFpFRGlYbFlVQXlJMHFYejVnMS1JUnJNdUszY0tQY0hnMjFkelJoZjlVb2dSZEJady1NWUh4TVozUE1tTkRtck9PRUZwTE9wbUw2MnVpZ3lwQlNXeHVHME9LZDl3aGJVVGsxUVhOQU5jMnA5cE9zQ3R0SXdsX0FEWXU?oc=5",
-      "date": "2026-04-17T12:33:00.000Z",
-      "source": "UK Wildcats Wire",
-      "body": null
-    },
-    {
-      "id": "15yezr",
-      "title": "Kentucky basketball under Mark Pope: Insiders reveal transfer portal news, 2026 recruits, roster, best targets",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNUJ5dXROa2x3TDV3a2FRdkwyQmlsdWJPZkJOVWl6cGF2MThLY3p0SDZ1NnR3WEFfZnRaUS1uNVpZZWJLSHJlMGozNVZRTnVCR0lFRTBmTFBUdHZBbXVURWRrTW5fR0F0ckZvYzY5bTd6MmZiZGc5Tlg2cExjU0FxaXl3X2d2RjQwY3VtdjhUaE1Rci1ZdFp4S2RieGFMRC0zYjBYYl9NWXlvZUxBV1NfNF9SbGlITzJQSi1Pd053UjR5UQ?oc=5",
-      "date": "2026-04-17T11:39:17.000Z",
-      "source": "CBS Sports",
-      "body": null
-    },
-    {
-      "id": "1mmkd8r",
-      "title": "Kentucky transfer portal target Rob Wright III makes his decision",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYjZndXA1ZjRranVkbFE5ODZZcXZjRmNMN21aM2FlWTdreXhUTVpOZEczdThEZUlNakF5NS13ZTM1cnJpTVdCQVEwWkEycjVCUXFIUzUzNEhQanhTTTdXTFpfQ3l4Vk1lN1dNOTV5RUhwWDF6Yi1LVndkS0pSZ1NQRE54UHZCcS1MenhObEpYd0d2T1c5Z09FQkk2YXFUcEZEN3Qxa2xVdDZ3aV9iZTZDaGtoVG05eWVFR0pDb3Z6WTQ1RkF3V0lMZzQ3YXU3SnRrbkppMlh2ek1TS1NXMk00SzRtaHVTaG1aQloySXpnNFhndzR0dUN3NXZ0YWE?oc=5",
-      "date": "2026-04-17T10:28:43.000Z",
-      "source": "MSN",
       "body": null
     }
   ]
