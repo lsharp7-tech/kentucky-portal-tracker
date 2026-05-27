@@ -1,7 +1,15 @@
 {
-  "last_updated": "2026-05-27T15:51:41.422Z",
+  "last_updated": "2026-05-27T20:22:00.188Z",
   "targets": [],
   "news": [
+    {
+      "id": "3343z9",
+      "title": "Pope confident Kentucky can be pacesetter in 2027",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMUtTU096c29Nb2xSdU52LXF4amdrbjNrNG02OWFhUmRneHF5VVNxWEV4V25tM3JvSEwxUXlzMjdzRVo3T1JVUkpZeEtuV0IwZi14SlFxVXg1b2EweFA2aXM2dlJ1dU9CU3d0aDdSRV9aZjR0OGFhb24yNW8zdHdaSmtpLTAxTTh2MmpVenhaVQ?oc=5",
+      "date": "2026-05-27T13:47:55.000Z",
+      "source": "247Sports",
+      "body": null
+    },
     {
       "id": "t49ql9",
       "title": "Pat Kesley is the fit Louisville basketball needed, Seth Davis says - The Courier-Journal",
@@ -15,6 +23,14 @@
       "title": "Kentucky's Pope says summer trip unlikely in 2026",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWJsVjFkTGpzY1ZCMkx1dHhRVHBBVUp3Um9NYldyQzdVdnRZN2tYYU5Qb0lPMmdTaXZaS084V1pmU2gxVE13RWV2VUZKM3FtVkxORDJQRTRjLTktTE1XeDllR0JnTW9kZ3FqeG5pZkpxQ3k4bTJkTE9HeDlORWdReUxQa2hHYlhYN2l5NzRhbw?oc=5",
       "date": "2026-05-27T02:06:18.000Z",
+      "source": "247Sports",
+      "body": null
+    },
+    {
+      "id": "1hwymb9",
+      "title": "Kentucky's Mark Pope addresses fan bitterness on social media",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tNndZRG1PNXM0RDdjZndwbnNjOVF0bk9OMGJyN2E4RTFXTUpqdGVqelJXbExqRlE3TnRNLXNkV192eHFQQ1ZMbDlwdVlXeHZwMVpaT19QNHFtR1ZpOFR1djc2eXplcXNWeE1NX0ZQelJNWTJhVnBiZQ?oc=5",
+      "date": "2026-05-27T00:33:54.000Z",
       "source": "247Sports",
       "body": null
     },
@@ -35,27 +51,11 @@
       "body": null
     },
     {
-      "id": "1osgh2z",
-      "title": "Pope confident Kentucky can be pacesetter in 2027",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BNC1pY0hRaG1PYnFUbU9OVWQ3dFQ2aFFuRXVvbnkxVUp3QzN2SkljTEhDU2NMWlI5Uy1wcFRKNjZWYXdjODF1NmZFeVEwcVEzX1ZPNkpscjJOc2hUN3JvYzdkQjdyeUJlemhHZEd0TnJMczljV0txag?oc=5",
-      "date": "2026-05-26T07:00:00.000Z",
-      "source": "247Sports",
-      "body": null
-    },
-    {
       "id": "906ypd",
       "title": "Roundtable predictions on where Milan Momcilovic will play next year",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVU5xeHctR3dvSHhiS1VKOElIYzVlc2MtVEw5a0VEd25VcmVZMFZEM0R0Y0V3TEVEdS1Wd2RqUE5aWjQxc2UtOHRKeUgxUnZFWEJXdXUwREI4TmtOVzdGWF9US3hFdlhqeDB5WkJtdTNxRU9HcTF6ci1semY3MGY3Nmh2X2FENE9fRk1IZVNnRVlvOWJoM3pOR2p3LUsxR1dyOS1hY2ZrX0oySlRXQjhiYWIyam0?oc=5",
       "date": "2026-05-26T01:29:00.000Z",
       "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "1d20rm7",
-      "title": "Mark Pope, Kentucky Suffer Transfer Portal Blow on Monday",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZEpJaTViWlp2N0ZUcDI5UUI1VEkyY05BTGo3ZmQ1Rm00ZEpqUlVCWHhDQzRkYkw4UjJGTFVKbVp5TXIwcDRTU2JDODZFWDk2S2NfckVCbjZkYjlfWjkwQnEyeXVyY0lQMnF2Znl5TUp6SERhdkpsV25PdU9VQXV5YXBSZXc?oc=5",
-      "date": "2026-05-26T01:02:30.000Z",
-      "source": "AOL.com",
       "body": null
     },
     {
@@ -83,14 +83,6 @@
       "body": null
     },
     {
-      "id": "1wtp6dv",
-      "title": "Kentucky basketball targets No. 3 transfer Milan Momcilovic for roster boost",
-      "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxNMXlqdWl4OVNaREEtVjBrRFk0aFY0Q2hQTHpJbHdsemFnVWtIdnh6eDlfWUI0dm8yUWhtcmtvRktrb2EzZVg3TTEwNGJ5bU9seXdhOG1mVmUySGNzUUN5VW5xeHJwbTFoN09KZmNZY1hXbk53NUFET1lLVlByQUZ4TTZLdlM2Nlc0ZC1FYXR1S3NzazZ3TWw3WEZXTnp6bFJhX2RXY3N0VGNveEM0bmE2ZmJndzU4Q3FjWHZVOXktdVl2UnRndFI0eTlwaEF2YnVUMmYtbmg2ZEZSTUtOM1ZBbWFmQjNfVU5vQTJGNURWVlVxNUtCbkJMV1FsaVJVd1JUNmlMXzlWTzJVeTJrZUZybXp6eFRWbV9zcE9OX2lsTUEzQzBudkZmTjYwTnJPUXQ1MmlUR283dlZPRUV1TjUyam0zdFJNRXRJRmNCTVI4Z2NnVjdvSk95eW9IdlZwY2VwMDV6ZzBUbDREc2dfRHRpeE1lQnJUcFI3OEZfLV9WbVpKQUNReVp4Y1hvZGNqNzFnSXRyZk9kUkoxT2ltSWc?oc=5",
-      "date": "2026-05-23T11:06:01.000Z",
-      "source": "MSN",
-      "body": null
-    },
-    {
       "id": "1j5cgcd",
       "title": "Kentucky Basketball Receives $6 Million Update on No. 2 Transfer Portal Recruit",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYm5ybFJKbXlmMVBzVXlGU3pxV1VCSFAyc0tvcC1adnp1ekZZVHR2dnpUcTdxbi1LcHM3QVl1dDBtVEVCMmMzQllyU05tZG9RaVZuampsU0pidTZISllOQW0zVm8yOEF2MHBNcDFCU1FxamN3cUEzaGZyWnRVem9vdllJUUM4WXEtUmZDUDlSd240ejlsNVB5VFNUbFNHT3gzcVpGdkNkX29BWTJVMjAwYlZ1VVJlZw?oc=5",
@@ -115,11 +107,19 @@
       "body": null
     },
     {
-      "id": "1ud8eda",
-      "title": "3 best Kentucky basketball transfers that were worth every NIL penny",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX2dPbnJTdVNNQXlfalhoQmdZM0NNdHlZU3VWMzlEUW94S2g1Umt0aDR6Nnl3M19QOE80R191cEhIWl9JQWl2Wk1jbVJEcHp1WHlMS005WUdTa0lndmZDQm1FOFhFOTM1QXQ4WmFJUjVNLWI0OG4wYWdLUy1UMlBVQWpNYkNTN0I1V1ZoVzJseEg3N1pRWWlfWUVXOWJXQjRPUUNwYThNS0EzUUhjZEliMA?oc=5",
-      "date": "2026-05-18T17:00:00.000Z",
-      "source": "Wildcat Blue Nation",
+      "id": "udvcyh",
+      "title": "Mark Pope made an impression on star recruit. But the NBA could be his next move",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1Joa2RvQ0dPajcwN3oyelhOazVMN3dXNWVFUVdVS0M0X0JqZ3hUaGFRLWYzYXFXay04TEduUU5MMVl2VVZkNWlXRXlqcDhFbl9FRkhkc0FaV3IzcklSYU9ZU1pqWHIxOGFhWDZJSWFMYmpYaVg1YkJ1dGFacncxTVNJQVZXSTJXeU5rNUhTeUpWTUpWWE91ZllxRdIBmwFBVV95cUxPVTBvZnNTRDVONW5kSm54dWxSbEVmZmJzVE50SEdtYm1id0xBVzNqV0lXZjJ1QnJtY0huMzA4MlBhWVVsSzlQNWxuWFBweFNPaGpCMmUyOWEtc01oTE1kWFkzWTdSRWpkYUctdDdTQzAycVZOVXhjdW1nak8tVkxFSzZKWXMySl9nMlNxUWZnT25GVkZNVi1DZUNicw?oc=5",
+      "date": "2026-05-18T07:00:00.000Z",
+      "source": "Lexington Herald Leader",
+      "body": null
+    },
+    {
+      "id": "2pyznv",
+      "title": "Is Mark Pope's time running out at Kentucky?",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckRVQkJ2LU40anlIUFBlUEZjSVdmMkU4bVVSMXJ5Y1pJVXFXSUJlT1AwbW9Yc0d5RzI3dVZCSFJvSEZ3clpCdlpSanBlVFRkSWRqbnNDMkVrbHRJeXZ4VWVtdFBIb2s5eXN1MDgxY0ZhaDk4Z3Vfa1lieWR0WjFLcVJSeTNGR0ZuQlE?oc=5",
+      "date": "2026-05-16T07:00:00.000Z",
+      "source": "Busting Brackets",
       "body": null
     },
     {
@@ -147,14 +147,6 @@
       "body": null
     },
     {
-      "id": "1083x1b",
-      "title": "Kentucky basketball adds experienced center to 2026-27 roster",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQnVHdmQ0NmFEekV2dEE0VjJIbXFld3B4TTFFYWxHT1BFRFFqMXdYUWI5ZTNQZWgzYnV1MEdiVW03T2tOUlZDZ0doeU1GUTRIOGNudWpFVGdBdUNrR0hJeF85bGxDdWRSYWZqaEQxb3BvcWt0R21QZnJkZV9GaFRyY1BSQVdEUUItLUF1MWlNVEwyelFhQ29pZDFLd9IBmwFBVV95cUxOc01LLUxyTTRvTDA4c3pmU1hBSm42YU1vVS03djV6azdZLWgxRmdqZ2FWcXk2cGJUM2JFR2hYTld1SHg2VnBLSXVGdXFNR1YtQjYyTWJQMDlrWjZGd2hMVUFOVzBqaXdXQm03dzRWZUc2SWg3ZEc3R050NHNYTzVKZ3JMdWZ1bUcwdkhnQy12cTNjaVlfdVBQSG15Zw?oc=5",
-      "date": "2026-05-09T07:00:00.000Z",
-      "source": "Lexington Herald Leader",
-      "body": null
-    },
-    {
       "id": "57q7ne",
       "title": "Franck Kepnang commits to Kentucky basketball via NCAA transfer portal - The Courier-Journal",
       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNaE50dms0ZHJIT2ZUaWQ3eDUweF9lbnNKdGFFMEdPNXZoeU9aa2VQemdZSnR0QnBueXRXa1BObC1PM0NvdG5XcHZleGlEOTIydGg1VGxtbUF4YkxwZUZQMTk0R0VMaDJXaVdzTTdSeUJFSXBwckRGR3laN3VrNWZGeG1ISjRKa1oxbUlLUHQzWTIxVmstb2h3R3M2NjY3SEtOWl90b0daWjVBR2ROSHo2bDdtdFdlR3oyMy0taHVGRzllU3VBekRCZmhicUlMdFNvc2hGQVl5SDFEcFozdnZ0WVpCMkRmQnZsY2REU1JTbWxVUUo5Y2pwbUZzeGNNa2htOC1jMloxQWI5UkFMUnc?oc=5",
@@ -163,11 +155,11 @@
       "body": null
     },
     {
-      "id": "1x8oryz",
-      "title": "Kentucky reels in top 10 transfer portal class",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSnFqZDQxSmxXV2lBVFV1VmlrVFhEV3hteFgzYnhOSF85d0tZWC1femdiakw5OS1RMmZ2NTQxdW9sblhJZ2xnUlRJZWxoNFFnNWIyOFdWQVhoUTloZ3ctd1VGOXFzWEJLSFppd01WUXhQaW5oR3dsQlVadEVyZUR0XzZJZ0gwMHA3RFlhVlFJOFZnVEdpMEcxc191Qmo?oc=5",
+      "id": "s6mn4p",
+      "title": "Mark Pope might be cooked",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yMlRBbFA2WmhhZ2NEUFZZRnJ1b1czY1BCbkpTYlJKZ0dpOTlqY1I5Qk02LXBvUllTU0RxR2ZEa05YQnVVMndHbTFoWVFiX0pwQk1pZ3d3VXJKZU1ycHRaM2xwejBrTF9ZX293Smd6SEJrSjg?oc=5",
       "date": "2026-05-08T07:00:00.000Z",
-      "source": "On3",
+      "source": "Craig Meyer | Substack",
       "body": null
     },
     {
@@ -176,6 +168,14 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcE9sWUhZS1g0SUV2SHJhYW5rM0Y3RVR4ald2MnRzOG1xM0c0Wng0MXJHR2swTzhkbVBWbXE5elJPME1lZTVwR0FaRlJ1Ul9iWWM5M1pUYy0zWUN5YWtzN2dCTjQwQWxzNmhCdHk2SWxxOXhwN1dGYmN4YXBZZE9oWlFJSkY0aGkwSjhaVXBncEMxampfRl84UHIyMTI?oc=5",
       "date": "2026-05-08T07:00:00.000Z",
       "source": "Athlon Sports",
+      "body": null
+    },
+    {
+      "id": "1x8oryz",
+      "title": "Kentucky reels in top 10 transfer portal class",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSnFqZDQxSmxXV2lBVFV1VmlrVFhEV3hteFgzYnhOSF85d0tZWC1femdiakw5OS1RMmZ2NTQxdW9sblhJZ2xnUlRJZWxoNFFnNWIyOFdWQVhoUTloZ3ctd1VGOXFzWEJLSFppd01WUXhQaW5oR3dsQlVadEVyZUR0XzZJZ0gwMHA3RFlhVlFJOFZnVEdpMEcxc191Qmo?oc=5",
+      "date": "2026-05-08T07:00:00.000Z",
+      "source": "On3",
       "body": null
     },
     {
@@ -267,6 +267,14 @@
       "body": null
     },
     {
+      "id": "17rt7m6",
+      "title": "Kentucky Wildcats News: Kentucky Basketball Roster Watch",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS3RuX1R6cXgwSmc1QkNDZ1NCTTNvTnB2b1gtNWxHbzdKZ1dwdGhqeVpDT2tBcVFFVjVxRWNEWTF0ZFlSZGxvWF9NRVpiOHNJM2JGRnpaWURVZmhyUV9CcG9OUXh5enVCZkM5ZWUyMXMwQ1dCbjF1YXBzZ0JGdlpqZHY5OXNoMTYzejZXamV2UmdnUGVJZ0E?oc=5",
+      "date": "2026-05-04T07:00:00.000Z",
+      "source": "Yahoo Sports",
+      "body": null
+    },
+    {
       "id": "mkg8ts",
       "title": "Basketball transfer portal’s early losers: Big names, big swings, bigger questions",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORmNQV1ZPM1pVcThJMVdtZ3ZPb0w4MEF0b2ZWMS1GU0NwbW8wYkJTdFV2aFphU1NkZEZvZXJtU1h0dDdTU2Q2VThKcmVZSDJvZlA4cVlSYnN5V1RFVGRvbmhPYWwwMXczRFdYbjk1eE5aMTFzUElhY0VKTXMyWDEtM25HdmN2dGM0cHBNZGlYM1NZcEp6TFRaUS1mVTR3QVUxOU8zX2hqZlgxMlpmNXl6SWpwUzJrbzRnRDBBWi1QV2ZqaXVhUkRsRUJfQnZOTlV6Y3c?oc=5",
@@ -304,6 +312,14 @@
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa3V5SDIwQ0l3V2JsZFNXM3hQNHBTelhnYU1BUl9TdzhlXzBFRzc5S1BwRlRhTTRiMG9UQXdDM3dKa1g0UEFzdVNjbE9teF9Tc0hzdzc5eXdzeHdnajRyUV9QRDBkVm5WU0VKNDF5MzdZS2c4UllDUGlOZkJmb3VfZlYtLXZiYXVUX2RsajZkNFBlaTk3cWVhSklLaWhxWXd4dW9GbkxndFB3NUtuTGZaX1YzUG1fWHBBRDhMcHFCQmlOb0ViWnp0UkxtYw?oc=5",
       "date": "2026-04-30T07:00:00.000Z",
       "source": "Wildcat Blue Nation",
+      "body": null
+    },
+    {
+      "id": "1mz1xjd",
+      "title": "Mark Pope has landed a Lexington native guard in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeVd1cmNxOWhZTlBPcDAyM1h5Y0FLZlRUQXdNdGNvcmd6S0Z6aG1GaGM0Q0hianJQOEJLZFM1dkVMZUxEWERJV0trUHYtbmlQSFFRTW9hYjQ2SHJYdTVfSW42MVNESk1QOHJHVHc5bl9VODN1Ul9RQTl5Y0VtRVlSeURzbDhHbTNxcllpb3pkOG50YUtGMDZPdGc5NVRZY1hCYTJrNzctcHM4aVUzcllub0ZRLWNvT01oM2l5ZUJR?oc=5",
+      "date": "2026-04-29T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -384,22 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPNDRuRHRpOHJDQ2tNa3Y4Q1A0OUJ4TlBDRktLbldCaksyWjk4c0tJY0lMdmE1QnJZOG5NLVRJakluZFNwcnhMNnRLUW9fcE1TRk14SThiR0FMb1FlUWpIRkhPV2pnTFVtU0FPNXJzS2VPQUozVjdWZmFSTUprMzB1T2QyalFyU1Mxdk1id2xtdXpxd19Gc0NjVGJOek1jS0I4LVVyYkxDTnZRX2RoTG4tME94YUFtY0RzLS13MExoZlhKbURCUkkyd29LRTZUN0dDTXdxOU5SUEdnaFNxWUFReUw4b1FRai1PRFUzZjF5OVFtcDlIYWlPNlEwUDBTNjlLRXEzQlZ0Yw?oc=5",
       "date": "2026-04-26T07:00:00.000Z",
       "source": "pmg-ky2.com",
-      "body": null
-    },
-    {
-      "id": "1f52zar",
-      "title": "Pat Kelsey is pulling away from Mark Pope in a transfer portal grudge match",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV1ZORnZrejNybDA0OUxoejF5X2dpWU9JRVlrXy1SMnREdXhDUGE2OV9BcWlHeEVJRzVtbXVNWUJWSDVHMkpQLWZOZjZ3d2p0OUxobE0zdkpraUpPVXJwNGN4dHljTGY1c1lnTEhJcVE5QWZadGxMZ0laYXVpZnIwemwtMGxTc0Y3UzdsVXFDWVFxWFI4M0dTUjlCZ2paM2hRdG8wc3dINGdISndsNk1SSDNqUm1pMHlFRFE?oc=5",
-      "date": "2026-04-25T23:24:30.000Z",
-      "source": "Wildcat Blue Nation",
-      "body": null
-    },
-    {
-      "id": "1wv2qa9",
-      "title": "Kentucky loses a second transfer portal target to Louisville",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcTlHNlNoekxfOG9QSEFvTUNrLWN3cEdNekhLZFdJQzUwbXM1OENLd3NyVkM4M2VOZGJEa2NGX0ZQaVd6bmhOOFZxa2huWWFxMlVuWDFMUGFiYVBtUG1rM1VpNXhFM3RtRlBTZzNIZS1zdVJGbjlZcUJyOEZKTnBCemtUTURwbHBOdVlTcUJfQVZjSTVCSi0xdVRRdVlCRGlETVN2eDJzOTlXdmFxYk9HaHBhajFJV21vNzc4S21VeXpqalN3R3RBVTNjaUlOblJYSE1VaEJBaXpTRXZBY3RZcG1wWFJiVEo2dF9NU3dWYlhudGJuNXc?oc=5",
-      "date": "2026-04-25T07:00:00.000Z",
-      "source": "UK Wildcats Wire",
       "body": null
     }
   ]
