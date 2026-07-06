@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T10:27:42.307Z",
+  "last_updated": "2026-07-06T15:38:12.700Z",
   "targets": [],
   "news": [
     {
@@ -32,14 +32,6 @@
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaXQtRFZSTjdsbnRjRmRrNVE0UHAwaHEwUGxRSW9LR0h5S181Y2RiV2RpZDJQcVhtNkpxWkxBcUczM05BR2Z2Tk9jOS1aZC1TaE5MWkZ5UHpfVURYeWFpZWR1Y2lmNXpQYldBcjNMTXYyaHJrQWhvdHFVYWJlME10NDRVWDVBQTVoZkdqZzd3THFWZm1EVUNBQmgxaktyUVBoOTh2cUQ1TWZHbzNCTDdZZk9Xb2hPc3loQVlaRmhBcHVoWHFqSzlxTG9oZEZ0d092?oc=5",
       "date": "2026-07-04T20:16:45.000Z",
       "source": "On3",
-      "body": null
-    },
-    {
-      "id": "kpep62",
-      "title": "Top-Five portal classes no guarantee of on the field success",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQ2d5SXk4ejgtUWI2VUE2aTJsZ2ZfZXF0eXFJS3VuUXZ4WDgwcnB0ZF9UOS1WOV9SZzhpcHU0RkJpZUdQRy1CZGxHNFFVWHpscDdiQVJiXzlGN1FtOVhIUDl0X3ZjWF9uRjI1OXBEdm1FNkgtbWl4dUhkSU9YMWFNZGF4TjR3OHJyYm14eklxZXBHTEg4NE1zNGUwNGhUc3hoa3V2TDJFaXh2SHBCU3NicG4zS1ZOYlc1c2Y4V1ZjblpfSzBTbkJQM05ubFNHLWU5TTFOcg?oc=5",
-      "date": "2026-07-03T21:29:00.000Z",
-      "source": "247Sports",
       "body": null
     },
     {
@@ -315,19 +307,19 @@
       "body": null
     },
     {
-      "id": "1y0tp5d",
-      "title": "Kentucky Basketball lands five-star transfer Milan Momcilovic",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUUxTeTNZb1pXd00tUGZ2b0E0WVZZMldyWTFBX1MtOXlnZDExN3NWdE1vdjBleDFXM3ZZTGhUNWNaZWpvRnhRczNrSE5kdE5MYVJfZ0lqeGh4TVhsVXJJYkxyVld5elBUX3poRUxLMzdTRldjS21PUi0tWFlQTW1Ca09iRGVod0twRTM0M184cG5jdWFWSklndmczMVdkTzFZR2c?oc=5",
-      "date": "2026-06-01T07:00:00.000Z",
-      "source": "247Sports",
-      "body": null
-    },
-    {
       "id": "m6zh09",
       "title": "Milan Momcilovic commits to Kentucky basketball via transfer portal - The Courier-Journal",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVmJzcHVaSlktMFkxektYR0VSYVJyYXBXRmRhVUJSUVZrTVBfemNWTWR6NFVIYUVteXBzbXlsNGJZWkw1RWIxZDhaaDlvYlFkY3hBYzJCdWNYdjhNTW9RSE1zV3RVRVVjekxzRHpuTk1lVTR5MFhDSDk1Q3pkR1JkdmJhOWMtR1JWSFMwWVRBdDBHSjRIMzdRd0JmS1h3NmRCTGlJdzV1RzhfV3J5bnVWaXhUdVJVOC1sdFlIWVczSV9EUTlOaVZFby1NYnRuOVhiVnpUM2hybEpScU1CVXl1cVpYeTVET1c2dmR6T2hJcm1pYkJwZm4telA5RzdkVlRqUzg1MEV6dmhycXIxWnEtcg?oc=5",
       "date": "2026-06-01T07:00:00.000Z",
       "source": "The Courier-Journal",
+      "body": null
+    },
+    {
+      "id": "1y0tp5d",
+      "title": "Kentucky Basketball lands five-star transfer Milan Momcilovic",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUUxTeTNZb1pXd00tUGZ2b0E0WVZZMldyWTFBX1MtOXlnZDExN3NWdE1vdjBleDFXM3ZZTGhUNWNaZWpvRnhRczNrSE5kdE5MYVJfZ0lqeGh4TVhsVXJJYkxyVld5elBUX3poRUxLMzdTRldjS21PUi0tWFlQTW1Ca09iRGVod0twRTM0M184cG5jdWFWSklndmczMVdkTzFZR2c?oc=5",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "247Sports",
       "body": null
     },
     {
@@ -400,6 +392,14 @@
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcXlkZlRfWmFzbnFTd1dNczdqZzl3OVl2MHVIM0VWS0NBaVhTd1JwSmF3ekM0ZE5RZktmenlBcXFlcUpWQzVrZ1JZZHM0SDMycmZBMHdVVEZwRy1Pbkx5R1BOaU9ncWFpZTZ5c2NQUUJhWk55OTRaaC0tMl9VXzhjLUFsdzJKNHJBYjQ4bTVtTFlRODVfaVA2REVLYzU4aWUtLXpKOGNYVTNmaWk2eXowUG95SDMzN2k5bjFiREpyUTVNdDVXNlZNV1owWlpXdC1senhJc25ueVBOaWFLbi1HOHpiMVg1RVVnaGs3TEhxMG5HUmZ1MHpxV1FGck1rbENOd2djZk9SRWVLUQ?oc=5",
       "date": "2026-05-26T07:00:00.000Z",
       "source": "The Courier-Journal",
+      "body": null
+    },
+    {
+      "id": "1ohb0dw",
+      "title": "Mark Pope knew how important getting Malachi Moreno back was",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd0pmR0FlZm5XUXJUdnJISzY1QkFsTm5uR1I2aWVKQXZtYlY2OXFTQUl2cHlxcDZoTDhqaVhpQVllNjBFbnJObWxpMTRpejN3aTRja3ROM1BiWnppZ0o4blU0UFpTYXRYclN0LTc3TEQxWWZlMFdmSkR0d3V0bE1DcEFZYWFQUTBzYjdLb1VoYUItSUZmUTYzZDJ1SVlZTjl5SlBhN1d3cWNOa0g3ZHlUZVczUQ?oc=5",
+      "date": "2026-05-25T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     }
   ]
