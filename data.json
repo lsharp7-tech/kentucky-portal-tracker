@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T19:14:48.692Z",
+  "last_updated": "2026-07-16T02:46:12.678Z",
   "targets": [],
   "news": [
     {
@@ -16,6 +16,14 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUXJ2OGRqVkRiZXlGaTVreGI5ZkUweWc1X2dfRXJFSUI5OVJQNXJRMWE4UmRabEtyRkQtNzI1emY5YWdZWUdRZGpDdGpBV202czdsWUIzRzdFa25sMjRFLVVJQWpqWlpqSThZVzd5Q3JzOWpWUXloZktNaG5rWFNqMEpIRXVqZTg0aVltRnAzZDJzVzUyRUdZVw?oc=5",
       "date": "2026-07-15T16:27:38.000Z",
       "source": "On3",
+      "body": null
+    },
+    {
+      "id": "qvu5cr",
+      "title": "Kentucky Basketball is reportedly interested in potential fifth-year transfer Cade Tyson",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0pfMnVpZ0kxOVRqY3ByTlBBZXV4QXQzY0VvRGZ1VDdqTEt0YktNR005YldsZmxrODlOUE9uWjNCVFlHOG9lVUU5UTFfUldEY05RTmtjcDJLN3BBSHhZcVdLQU5TUHNzY0lmaEhHV0NiNGRLNjNHWHZ0MUdsZjA0TU51T1prSTJGUVFqSUdKYS0wb3pfTWFBSThwRWhhbk4yb054bm05RGU0Z2NxY0lsbjVvLTBraU9S?oc=5",
+      "date": "2026-07-15T02:39:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -72,14 +80,6 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1NlRGFMR2k2cnotQkhsdjR6QU1KV0l6dHVaTVU5d214LWdWSmhaMkE5aHByLURoWVA1RGctR3ZkdnNqZWRkZzY4VVNvMXpYdmRubWZ2RU5Fc2h4Rld4aERRMS1kV1lFLUNwUFVjRVZ1VW1qdkNvNWczem1IRndQcnp4Y1hreExySDNjRHp4OWh1b3hEcEdudFhxNTlPQUctNE96VVJRcnRHVUZicmYzTG1OSDVkZng1Vi1VMFc4Rmx1TDQ?oc=5",
       "date": "2026-07-10T15:15:00.000Z",
       "source": "Wildcat Blue Nation",
-      "body": null
-    },
-    {
-      "id": "2npe5b",
-      "title": "Kentucky Wildcats News: Franck Kepnang explains why UK is the best college basketball program",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFFFWTdHam1mbC1xRVQ0Q0RYYTUwdWZDRFI5X0RtNDNlTjZaY1l3QVZvMk5Pb3k5MFhVVkhwTzVnUVU0ZzYwSDVvY2lrMjRleEtBNDZVSlpPdEtvcUo3QnM4Z0dWa3QyNmhxYWJmdkJVNEI5NWt1TGhVUExfb0xCWk5ScW5SLXNkQTFYT3VMTjF0OFBnVGc2U3pqRE56eXNnRnlrVnBfRkpNa1pnRGpXLWh3?oc=5",
-      "date": "2026-07-09T10:40:00.000Z",
-      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -267,14 +267,6 @@
       "body": null
     },
     {
-      "id": "brne0i",
-      "title": "No. 1 transfer Milan Momcilovic picks Kentucky, gives Mark Pope big portal win",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTBuckJNeEQyVUd6UmxPNF9qZmxoWVd6Z0VTV1RHTmFOX2wwckVlVmU0bHlrX1U0UGlmUTY0ME9ZdWtMNHZKYlc2SVpzeTI1R0VQODVtUTB3ZWpieENvYWQ5OHdUeGdfcUwxdW9mWm1vRGcwemIzNmd0VEh6aS1UWXdtLTdkQQ?oc=5",
-      "date": "2026-06-01T07:00:00.000Z",
-      "source": "Yahoo Sports",
-      "body": null
-    },
-    {
       "id": "10bhajh",
       "title": "Top 3-point shooter Milan Momcilovic commits to Kentucky for 2026-27 season",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9LRk5pOGVYOVRYUUVnUEw2ZE93bHBBbUhCODBIR1VvYVExOWt2TVgwcXVvd0dqMjJwWHV1NXh0VkQtOTQxNE9jUjV1dGNfVndFR1kzemZsTXhKUm5PUlNvd3ZSSmwwS3FPazU4QjBsVHhzUkloRlppVlpXZEVWNmJzNnM2cTF4YlJkRWpXaGx0QlU0T2JOSndwUdIBmwFBVV95cUxQUjRCb0w0elVwWVd0Mkt5ekYxOC11Rl8wT0prWE1XN2xtME9MaTJMY1ZYc3pTeE5zZGpSemF3M1ZzeTY4U1BGZy1CVXZUMHFXSHQxVWxLQjAyb2hFZW1SclZLSzBRcF9FNGNyQmpqcldzRklndWFSUkR0M2hmVFMxZzE5X0N5U0x6Rk80WXVmeFBacUFHRGZNVTJpSQ?oc=5",
@@ -312,6 +304,14 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOUtSc1Y4TEVibXlXLVUzRHpXMk1OWXVxdmpkSl94eTBTek93VnJyXy1mazB3dDdyX1pfajVfRUFtdmd3OEIwQ3ktUGdvdzV3REFLUnNDYkpNeFNMTkZ3aEhZWGtwYmpmQTVwdElVVTJBYnhhckdlYmhwa2h2aUh1Q25rWjRQMFQtZm40QUlHS1E3ZVlpSWYtM0p0YjZnQ2lNb3c?oc=5",
       "date": "2026-06-01T07:00:00.000Z",
       "source": "FOX Sports",
+      "body": null
+    },
+    {
+      "id": "brne0i",
+      "title": "No. 1 transfer Milan Momcilovic picks Kentucky, gives Mark Pope big portal win",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTBuckJNeEQyVUd6UmxPNF9qZmxoWVd6Z0VTV1RHTmFOX2wwckVlVmU0bHlrX1U0UGlmUTY0ME9ZdWtMNHZKYlc2SVpzeTI1R0VQODVtUTB3ZWpieENvYWQ5OHdUeGdfcUwxdW9mWm1vRGcwemIzNmd0VEh6aS1UWXdtLTdkQQ?oc=5",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "Yahoo Sports",
       "body": null
     },
     {
