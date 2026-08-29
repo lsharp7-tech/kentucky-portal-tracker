@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T16:23:17.780Z",
+  "last_updated": "2026-08-29T20:36:23.401Z",
   "targets": [],
   "news": [
     {
@@ -24,6 +24,14 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQODJYeVNudWx3MDhYVDNiOVFfMjgwQ1pST2pBSzdPMVp5c3B5TmVVWXp2V3daWGduSGNBRmxDZWhNNkQzWkYyNHgzWXFZd0RFZ1l5SXB1dW5qZHhFcmRrN3pzd1pSS2EyOGRTQVZpYU1fV2ZBa0JSM2M5N2J5c2RWdXJEY1Bqd3JUSUMySEdZbTFHOUJpVmlPSUFlcWFLWEU1TmVHVVVtckJtdy0zSTFOVHV3?oc=5",
       "date": "2026-08-24T00:28:04.000Z",
       "source": "Lawless Republic",
+      "body": null
+    },
+    {
+      "id": "qc9xi8",
+      "title": "Updated Kentucky Basketball starting 5 after landing standout transfer Mark Mitchell",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOHFFcWJ5SkZ1aHN0VmRoZDJlNkQ2SEI2LWdjUkJFSFh3RFpxLUtpR2NCNXd6VWV4N2JfT0d3N2kzYkM5d1lNNzJnbklWRlV0NzRvcl8xZkdHS1dvTVVCUzUyR1dtVWhTMGVFLTFZcFJlR3hackxEQlRfN19UdUFrZkNrRDlMeHFma1F1V2hReG9jd0tiN19iVTdOVUt4dk1PUXEzYXgtWlk1OVdiUzdPTDdn?oc=5",
+      "date": "2026-08-23T14:30:25.000Z",
+      "source": "The Big Lead",
       "body": null
     },
     {
@@ -56,14 +64,6 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem5VZTY0UzJPNVdkTFpNSlk0RVI3TjdlRy1MZjR1MDdyOXlROTlBR2s5N1FhZDd3eXhVdTcxTTlrLXVaeXhRTFJvdXFublFwYV9iNHdhSXZlZVhoSmVuVXFybzNlVmFJbmo1ZWdkOEplNWxhZGlSSUQ5RVJ1YUdNSmVLMXdOOFktUXNaNWNlUVR2X2M2QkIybVRoVHk4V2N2U0hyRHp4SjlpMHIyN05UbVljNEJLdlk?oc=5",
       "date": "2026-08-23T00:24:00.000Z",
       "source": "CBS Sports",
-      "body": null
-    },
-    {
-      "id": "fqkqmw",
-      "title": "Kentucky basketball lands Missouri transfer Mark Mitchell",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUnh0eEtRUXpmU3ByQW9oQVdHSURJQXFSQ3ozU2lPSWlXcVQ0bmhFTFBEek9LRTlPc2N0aHowVm91ZVhmdG13TXVQb0dzSTV6Z2xNYk5hdktYSUdwVkFPVDBsLXZhVmkwMlQ2LXFyeXlFOWh0a2hqT05jdFFsQVNwcVRuWVlaNGVnRFk3amN1ZVVXNUJTVHA0M1BLa2JxRHRzZVEyN2pwNk44NWpQcHpoLXNrVThQZjJ6V0tnSHBYaVhTX0JadGFmaC1pcGhmVTRjX3VJMWg3b200SHJGRmdFVjE4R1hCS0Y2MkVHX3ltTHd0R0JsTWdXUmFKVQ?oc=5",
-      "date": "2026-08-22T23:30:00.000Z",
-      "source": "College Sports Wire",
       "body": null
     },
     {
@@ -104,14 +104,6 @@
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeFB1cy1wM0JBOENyeXhhSVJqUlFUYmdJclBVanhBazl6V001UFE1QnBqQ0tXWjA3b0U0NjVjek1YcDBuc3JkazBIbzlERE9JZmpuNXhaY09NaVNaNkZQdGxFVG1ta2JHdXV6TzVZSERUNjVZdDRYRGUzLVNibHR2X0lISWFGblp4QUMteGFBeDJDdDVnLVZmbjZUVkd6R1NMbXRSUXN3MXR3QjBFWEt6blZ0WERlSjhHU1ItSU5DR0VLa1NqZkxzaTdjeFlsekpQVkFjcHpPSUlxVGg2a2VNbnJycmFTTWtaT1N6RGFyTQ?oc=5",
       "date": "2026-08-21T01:56:00.000Z",
       "source": "BYU Cougars Wire",
-      "body": null
-    },
-    {
-      "id": "701oyh",
-      "title": "Positive update on Mark Mitchell, who just entered the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1VKOUNWQkd3elhfaG5qU2lTSTNrU2pOenNBdDhFTzZLNUVIQllEcnlHQURlcHNVNGl3YjNQbU9oLXZGM09DVm1CcElLXzVDUm96M1N3Y1I3T0Q3Zmx5cUxnTVNadmNBd1ZsMmtNWXk3Q2QxZ0NpZ1BFVXhIZFFCcXhFOTkwUXg4WXpUQkNXdzVOX09RUE1uTHlONjMwODNwWW9sVUMtRGxlNERhbUdSRWh1dGxlUQ?oc=5",
-      "date": "2026-08-19T01:03:02.000Z",
-      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -160,14 +152,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0tNbkV5YXhjMXVYcno3V1JhckFkM3dOYTJRNGZKUUM1Ri1nNDgzQ0VWV2ZpUEJ2bExQV2VOUUZRcVVuZURJTUdQQk52R3J1NDBxTDNTVm1zUng2RFQwVHBoVGg1ZGhITEk4MXFDSzhqU1JmVHlPTXlEb0t3ZFNXWVUwLWQxOGRtcjRVb1ktdl9IamY5Wm9tdklIU2ljdmtvZ21udkdXR1VHM29aN29V?oc=5",
       "date": "2026-08-12T07:00:00.000Z",
       "source": "FOX Sports",
-      "body": null
-    },
-    {
-      "id": "12aplqd",
-      "title": "Cade Tyson being ruled eligible means Mark Pope's perfect target is available for Kentucky",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0Q5czBjMmg1Y1hQQVJaTmdUMThjWFVFdUc1NG1uZEEtS0trZ1BDUmw1ekN4VXk4dlVVSzZEczZyYW9Rb2NZWEc3LWpUYjYtSXRxZWk5SVltUHpBTFdTU2FhVlptVmZUM3JQT1ZDN3R4YzJTYkhUNzFmUHkzYTItclcydl9IQWp5NzdkbjhWaF82Wmx0V0V5MUtoSVZJXzNWX1FlR1BvQ3dhVEw0QWNfaU9rZTBvWkgxT2tkOEh4ejdSRWNTNkJNd0tqVTJCZw?oc=5",
-      "date": "2026-08-10T07:00:00.000Z",
-      "source": "Wildcat Blue Nation",
       "body": null
     },
     {
@@ -235,6 +219,14 @@
       "body": null
     },
     {
+      "id": "1ut9v8x",
+      "title": "Kentucky Basketball shows interest in Daniel Rouzan",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaW9WNXA1cHVpR01MenhMUWg5SkJmVWpyZ1ZKQnFyUzB1eUxlQ3Y2eFZKdlRhMkNqdUZUdEVIVlVKTDVyYk1NcTZ1bDNsZGY3ZDRCeG8xaDZSVjRVcU9Xd2dwRVIzd1ZOYlBpVHRnWlpYSEl6UjhSX184Z05qdDBySHVJb2xfTWdGSEozdFRoX2lNbklxMl84Vw?oc=5",
+      "date": "2026-08-03T07:00:00.000Z",
+      "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
       "id": "fn7kt1",
       "title": "Kentucky’s transfer portal overhaul still isn’t impressing national experts",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWks5X3p5cU42RmxQWnc3RkFiTG1XaUw3SE9icnZoVWxUZzQyc3ZLaU01bVU0azNBN2xEbzFDd1JpdGVkWUJLaVFRM3dVUTdRVDM1a3hsa1JVYTlEMnFxeVFpNFV2VHZVbjZjMm1sNTBxYXVjQkNTLUFIQUhHMkw5YUFCMUhFQ2pKR0Zrbl9BNGxCTFV3U2NpOGFhUEF1blJhQXBtckt3Vl9YWk9kcVlTSXpMTDc?oc=5",
@@ -271,6 +263,14 @@
       "title": "Mark Pope and Kentucky are after a former Michigan State superstar in the transfer portal",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcUYwd3pmLWNId2hPbkc3eEpZanBkVDJsNjRESTRibzZFajdwMmV0cGNMN3o0R0l4bnVNQlpMWlZuUXowYi14b0Q0cFQwWFJXYVo5QWdlcWlfWFBTTEdlbEs2enA5V2JRcTBaZ0NLMDNSMDRVdHZyTDNRWjlGdnU3b004cjhXckRYZ0ZwWkdZaW5faTlwV1QwRmNEd09XdHFoODB3WjFCYUhaVXNBSFBvOUJBbXRYQ3BUN21ZVy1qemtMZER4M1lkcXQxUThpSEdSaDdhSnNrYWs0UQ?oc=5",
       "date": "2026-08-01T07:00:00.000Z",
+      "source": "Sports Illustrated",
+      "body": null
+    },
+    {
+      "id": "5v9xyk",
+      "title": "Mark Pope and Kentucky have one of college basketball's top breakout candidates",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZlBUTUxkTjBQTDNVem1TS3RNNjgwVGRUQUR5czFudUk5ZGl4c1E2al8yTjYwM2RLVjFWTUY1NGFLdFYzSDV4WWRNX2gyYU9NTTBrRzBOMUdKa2hNdVlFeUtZSm9zSkRIYlc0eVZmeXFlQm1YaDQyQ1J0ZUc0ZzBzdWt0dXNqbmxKZ1JubXZ6N1hDYkNDSlM1TnFpMl9BU0JubElXR1M4aW5DQVdPMXdYMTJxX3RlTUdsTm5LTFZYdzVxYUdrWjBIX2I3cHg?oc=5",
+      "date": "2026-07-28T07:00:00.000Z",
       "source": "Sports Illustrated",
       "body": null
     },
