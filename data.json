@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T16:10:47.947Z",
+  "last_updated": "2026-09-02T20:42:05.471Z",
   "targets": [],
   "news": [
     {
@@ -8,14 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaG8wTU5oVUlQWjBYUWF3N1ZkSDhuTnhzcmgtLTVqeHR1dXNsNG1LRlpIVVFQR0g0dVhQd3YzZGxnTmxhOHp3YjVDMkRiZ1otbFQ1N3VUXzk5NmQzRl9LNVJ5RE84NGQyTmNDalRHaml2ZzBWMXhYZlpnUE1JTGxoM0d4WG91ajJ6dVHSAYoBQVVfeXFMTU9MMl9pa0NMUlF2c2F4NzNpbFdicGtQOHBDbG50RjFTR2RmTWtVQlFMY2tIeDNhS2NHakROaERfTzlvellDZnhFVWxGcE9TQ280cm5XV2RTRDIyT1hEUlZsTnVvTERLblpwYTY3SWhLb3BXTkZIODktT1JOTmlpOWMzVndTa2xWMk9R?oc=5",
       "date": "2026-09-01T09:00:00.000Z",
       "source": "Lexington Herald Leader",
-      "body": null
-    },
-    {
-      "id": "ozcgpg",
-      "title": "“You Can See the Pain in His Eyes”: Fans React As Mark Pope Addresses Kentucky After Big Transfer Portal Disappointment",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5NXkwQzAwWnVUVEdhQm9UNG1tTy1BT2JHQjUyQW1QZ3hHeGxTTk02ZXNINHFFdExzbzVIVVVqUXR1eEJ4SEhRR3FucF9lZmtrT1EyeU9IWUNVbF9DRDd3bThfWkUzaEZ2SktOZmZtSm1lVkt0Y2kzYU5tc1VxUQ?oc=5",
-      "date": "2026-09-01T07:47:08.000Z",
-      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -43,14 +35,6 @@
       "body": null
     },
     {
-      "id": "1kpg3mm",
-      "title": "Kentucky’s Roster Is Loaded After Mark Mitchell Addition. Can Mark Pope Deliver?",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHdEWjh0VUJRb0dBZ3hiY0ZwS1NlcUI4V2x5WlNCeXFkZlJSM01yeGhXWWk4bk1EMGJ2bzFZRktCZC1xQXNZZnVWWUpoSy1Fb0Z5QktjNUhpRlVJdVhJMjZPczBtZ0NQMkxzYmhtcVEtWkdHT3gzSUtKeGFPVG1KWmJmMVJ1YkRmbmJmRUVJQXZaS2JvMU5zUFVBd2tBa3NZdi1BTGJ2N2RLNDBJMnRtWTE0OTA?oc=5",
-      "date": "2026-08-25T07:00:00.000Z",
-      "source": "Sports Illustrated",
-      "body": null
-    },
-    {
       "id": "pjlw8p",
       "title": "Mark Pope's unlikely Kentucky restoration is a new SEC plot point",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEdma3RNVVZKUUt2b1o5RHpwcENYeml6UEZGLWgzSWdMY1daU3RqQ3M4N2pJc2ZsOVVNYzZkWFlDaHVzUlNkOG1kNHF5V0s5dUdLWm1kQXhNdFFCRUZFMkFkZmVxSmNBOGYwU1BGT1FtelFVYkFuU2dCM2lxeFoxdV9HdEJMRW1aYWlKT0p4cWtYSWJqMVowY1V3bW9pLTlJTjZaVC01aldndGNqSzU2VzNR?oc=5",
@@ -75,19 +59,19 @@
       "body": null
     },
     {
-      "id": "1d75ed3",
-      "title": "Mark Mitchell transferring to Kentucky: Wildcats land former Missouri big man after court allows fifth season",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem5VZTY0UzJPNVdkTFpNSlk0RVI3TjdlRy1MZjR1MDdyOXlROTlBR2s5N1FhZDd3eXhVdTcxTTlrLXVaeXhRTFJvdXFublFwYV9iNHdhSXZlZVhoSmVuVXFybzNlVmFJbmo1ZWdkOEplNWxhZGlSSUQ5RVJ1YUdNSmVLMXdOOFktUXNaNWNlUVR2X2M2QkIybVRoVHk4V2N2U0hyRHp4SjlpMHIyN05UbVljNEJLdlk?oc=5",
-      "date": "2026-08-23T00:24:00.000Z",
-      "source": "CBS Sports",
-      "body": null
-    },
-    {
       "id": "fqkqmw",
       "title": "Kentucky basketball lands Missouri transfer Mark Mitchell",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUnh0eEtRUXpmU3ByQW9oQVdHSURJQXFSQ3ozU2lPSWlXcVQ0bmhFTFBEek9LRTlPc2N0aHowVm91ZVhmdG13TXVQb0dzSTV6Z2xNYk5hdktYSUdwVkFPVDBsLXZhVmkwMlQ2LXFyeXlFOWh0a2hqT05jdFFsQVNwcVRuWVlaNGVnRFk3amN1ZVVXNUJTVHA0M1BLa2JxRHRzZVEyN2pwNk44NWpQcHpoLXNrVThQZjJ6V0tnSHBYaVhTX0JadGFmaC1pcGhmVTRjX3VJMWg3b200SHJGRmdFVjE4R1hCS0Y2MkVHX3ltTHd0R0JsTWdXUmFKVQ?oc=5",
       "date": "2026-08-22T23:30:00.000Z",
       "source": "College Sports Wire",
+      "body": null
+    },
+    {
+      "id": "1nx1x0i",
+      "title": "Mark Mitchell commits to Kentucky basketball after suing for 5th year - courier-journal.com",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOXhGYTVxTWdxa2dFNnZaOS1QanRIeHRlcEQ2WGQ1cEdKemg2Y2xwM2ppUktTN0tLRnJRblNtemFPQWZQNXVULWVXeXN2bEZZdWJOUnJFb0V5aUhrMFRPT0FTWDdyX0w1TE5saGxUOWNQWXgwSDhxa080TTFPN3VaX2Q3bFpaaGI3OWxJNlktVlBQeXVTekQ0YnJneDcxLXRtMERSekxTMEpVZUlOaVdLNXFYdV9ITmxaemVqdXd4ZnJQZDByWGFzRmdCeW9zek5Cbm1JQjBTZHR3Y1djQm1xa3JSUloxN0tIanFwOF9kM2NQemp5cGNHMnR3bDdOdlB1cV90MS1vc2VQQ3ZfU2gxWGMwTQ?oc=5",
+      "date": "2026-08-22T07:00:00.000Z",
+      "source": "courier-journal.com",
       "body": null
     },
     {
@@ -99,19 +83,11 @@
       "body": null
     },
     {
-      "id": "181jcj8",
-      "title": "Mark Mitchell commits to Kentucky basketball after suing for 5th year - The Courier-Journal",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOXhGYTVxTWdxa2dFNnZaOS1QanRIeHRlcEQ2WGQ1cEdKemg2Y2xwM2ppUktTN0tLRnJRblNtemFPQWZQNXVULWVXeXN2bEZZdWJOUnJFb0V5aUhrMFRPT0FTWDdyX0w1TE5saGxUOWNQWXgwSDhxa080TTFPN3VaX2Q3bFpaaGI3OWxJNlktVlBQeXVTekQ0YnJneDcxLXRtMERSekxTMEpVZUlOaVdLNXFYdV9ITmxaemVqdXd4ZnJQZDByWGFzRmdCeW9zek5Cbm1JQjBTZHR3Y1djQm1xa3JSUloxN0tIanFwOF9kM2NQemp5cGNHMnR3bDdOdlB1cV90MS1vc2VQQ3ZfU2gxWGMwTQ?oc=5",
-      "date": "2026-08-22T07:00:00.000Z",
-      "source": "The Courier-Journal",
-      "body": null
-    },
-    {
-      "id": "hy7vpr",
-      "title": "Mark Mitchell has been granted a TRO: What does this mean for Mark Pope and Kentucky?",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQTEtMzI3OU9JblZBN181QVNxSnlCUVZHWUNaUkVEWUNST2tHYWc3R1pfeGlyMlZ0MENDUlczY3VJRDBUZDZ6S0dMX1pyR3B0cE4yRlNvdUNkRnFCNnpkM2h0Sm1jZHdoaFl1eWdubG9jVm1xLWpYR0MySXpkNUFyMHpFaDl0SjRwZWhmQm9wbXA2MXNhNC1jYmVjZjVvUjVjTmZpbm5XR2lWRUdyZ19pLWdlVzBibVpGSnQ4NmlxVHEtc0w0c2hHU2poUkw3WnpZUFE?oc=5",
+      "id": "ukv7vn",
+      "title": "Positive update on Mark Mitchell, who just entered the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbTVibExQRjJiYlRMVFdUTmRISlhtbG11Z0p0UWdmTURDWVpINE9mTkdNVFhWZERReW1IeTlmTDJTNll4WlRaQzV0aHVKd1gyQnhiYTI0UTRReUphMGZFQ1Q2M2lrQUJpSkZYREkyOHlVNHRHTHVSMFFXa0ZPcmdkY1pPNzhPRTRNbnlLSQ?oc=5",
       "date": "2026-08-21T07:00:00.000Z",
-      "source": "Sports Illustrated",
+      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -131,17 +107,17 @@
       "body": null
     },
     {
-      "id": "jlzwjv",
-      "title": "An intriguing transfer option could be emerging for Kentucky Basketball",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZzVtNzJ6eENwN1Z3U2kwYnVKaURGdEMtR0NHczBZZ19LXzZ2MmkxYWlQdVBManQ0WkdfV0xvY0I5STJJYWFURmJxdVdmYU5tV1NwVEVWcllCMXdpSDZ5WVFfLW15Z1dPc1dyajVNcWN3d2NvSms3cDF2RU1mVld6RFY2S3FBMVVkdXdkNV9wNUFzcFFLbHRZOExJdTM3U3dzNGtabGJuTk9hVlZLZ3R1WkpB?oc=5",
+      "id": "1xemzxf",
+      "title": "Jaxon Kohler is entering the NCAA transfer portal and considering Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMFJucG9xMzAyZ0M2VHJzX0Nzdmx3MURvWU4xSzRpRkRKejlnUUlhdnFPMVk5aEpKWnZRZHBSM3daYjV3T0JQdkcwdG1vVFdkWWxhT05jNGNVdkVTU3k1VlNoTjNBUmQ1SW1TWkFxSWpHam45SWs2aEg2aVdjT0Q2VmtVS05zYmJ5VmVsYm5zNzNVZ0xyS0FEUGlvOVM0OFpqZWt0bWtOandOejI5R0w4ZkFwNmNTdw?oc=5",
       "date": "2026-08-18T07:00:00.000Z",
       "source": "A Sea Of Blue",
       "body": null
     },
     {
-      "id": "1xemzxf",
-      "title": "Jaxon Kohler is entering the NCAA transfer portal and considering Kentucky",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMFJucG9xMzAyZ0M2VHJzX0Nzdmx3MURvWU4xSzRpRkRKejlnUUlhdnFPMVk5aEpKWnZRZHBSM3daYjV3T0JQdkcwdG1vVFdkWWxhT05jNGNVdkVTU3k1VlNoTjNBUmQ1SW1TWkFxSWpHam45SWs2aEg2aVdjT0Q2VmtVS05zYmJ5VmVsYm5zNzNVZ0xyS0FEUGlvOVM0OFpqZWt0bWtOandOejI5R0w4ZkFwNmNTdw?oc=5",
+      "id": "jlzwjv",
+      "title": "An intriguing transfer option could be emerging for Kentucky Basketball",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZzVtNzJ6eENwN1Z3U2kwYnVKaURGdEMtR0NHczBZZ19LXzZ2MmkxYWlQdVBManQ0WkdfV0xvY0I5STJJYWFURmJxdVdmYU5tV1NwVEVWcllCMXdpSDZ5WVFfLW15Z1dPc1dyajVNcWN3d2NvSms3cDF2RU1mVld6RFY2S3FBMVVkdXdkNV9wNUFzcFFLbHRZOExJdTM3U3dzNGtabGJuTk9hVlZLZ3R1WkpB?oc=5",
       "date": "2026-08-18T07:00:00.000Z",
       "source": "A Sea Of Blue",
       "body": null
@@ -179,14 +155,6 @@
       "body": null
     },
     {
-      "id": "1d5sg6s",
-      "title": "Mark Mitchell Could Be the PERFECT Piece Mark Pope Adds for Kentucky Basketball",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPbmFldlpRNWI4N1k0ZzBHVEhGMVVraTAtUzVzM3FYcDhoaGcyT1ZyVmc4OUhMM3FfVzRYNWFhbjhhLU1kYlBDR09TZGlfYm5CcHJFMXpzbDJEQjJDcHh3X1JDbE1lT1FtOFNfcTlfSUVQX1g4dkF6YS1Tanpoc3p0ZnBnVkFwYkdZZml3c0tZT0puN3VLQlU5clAyQ3g0RXk2bVd4Q21GWWtxdFBkQ19HOVpTZUJHNUNEU3I3RlNpX0RDc0JKaHQ5OE5oazVaQTB5WkpxOXdzemRHSHIweFRJNEE4a1Ruc1NXS2xJSWVFbUNWX0c3M1puQ2o1N08xQjV0SFFveWxmMXoxNnhfWVpXUHJKTlhiM2lTMnAtRV9kOW1nV0dMMHNYWHFn?oc=5",
-      "date": "2026-08-08T07:00:00.000Z",
-      "source": "11Alive.com",
-      "body": null
-    },
-    {
       "id": "rrxyuz",
       "title": "Kentucky basketball has dropped in this updated preseason top 25 ranking",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHoxUzhmMGdCMnUtQmRMQXdCQjczM294OEp0c1d1Y2NIejhNZTQwc0JNRE9NTHBfaE5QRnlXS0stUGVmVWh0RG1JWVpPNGlXMHJMc0NxbGZZOE5HVUl2MGVBSEhaS3VDSlBKT0trZmNReks2M2dMbnNrVktRR0tLUXhEckNjNHhrM2s5MFN3Q1diVlIxYVRjeFRTYzR3SGxvTGRXRFZWNFNNUEc5Znk4a1ZIMHpmM0Y1Q2Q0V3M0OHdxSnM?oc=5",
@@ -195,11 +163,11 @@
       "body": null
     },
     {
-      "id": "15cqgzd",
+      "id": "8pw50x",
       "title": "Mark Pope Is BACK in the Transfer Portal, Kentucky Wildcats WANT Keyshawn Hall, Jaxon Kohler?",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQMW8wWkV3TEdQV3FHUEJEMlI0TW12c2RvWG9PNnZJajBTOTEybUhwQ3J3Z05LWmdRbFpIZlNrRHZlb1NPN3JJcFlJQ29PQjRfTVdYdlh3NGEweFl5azltWW5peDY3bGdXWi1tZ0s2Y3N6bUgybGdaUkZEMGJGRGRNTlBtaXFLd1Jta3Q0UUdKUzdGZEh3NkVTT19yUHh4SDBaSU1QUUpnYVhOUzRnX0FjcnhJQVF4bnlvdnV0aU5tX2wzVElGbVktZFZTb0x4bllEZTJ6M3hTWGZ3a3NJVHp4Um1iSTYtc25hTGQ4NWx6RFItTVBkVEl2TE4xWnJFSjNZUU52M3NzRHRKVm0xd0lGLVEtRkwtdGloemd0TUdWeWMyNW9Kc1lTSVg2MERBNjcwQzVUN09R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOcEJTTkZ0LTJrRGxPWEx5Z01zZWp3emt6VUwzTF95RXBFRHVEMTdaM1FnQlN0YU1OZl8zY0RGLTRVZHpRbDRRYWFrMW1GYnZCeHJTdU16Mi0wNTY3V2hjYjhYaFlOUzdHWlY5d01UZ0k0amJwNFoxQWtPUmtTYVRPRXpYck1kTzVVLWhnVkxLYTNVMGw4bTNWY3EwUXkyQ2JwUnJlb2YxVmxqMDdmMkE4djJac2NzeGFVeDV6R3lPRzVRbHdXcnJaTkpxM3ZHX3UwaWNlc0hpbk56MHA2Rk5qNEltNGZtTW1LMUJfN3hEcjlEeklkRGRIQ3dCNVBxMkVvc0tYTkllOXVpeHMxYnp0NTIyZVJ5d3ZHQm5TaHNlVl9GTVowX2JFeW8wSkpGVmpCaTR4SFNB?oc=5",
       "date": "2026-08-04T07:00:00.000Z",
-      "source": "9News",
+      "source": "WUSA9",
       "body": null
     },
     {
@@ -219,11 +187,11 @@
       "body": null
     },
     {
-      "id": "1ut9v8x",
-      "title": "Kentucky Basketball shows interest in Daniel Rouzan",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaW9WNXA1cHVpR01MenhMUWg5SkJmVWpyZ1ZKQnFyUzB1eUxlQ3Y2eFZKdlRhMkNqdUZUdEVIVlVKTDVyYk1NcTZ1bDNsZGY3ZDRCeG8xaDZSVjRVcU9Xd2dwRVIzd1ZOYlBpVHRnWlpYSEl6UjhSX184Z05qdDBySHVJb2xfTWdGSEozdFRoX2lNbklxMl84Vw?oc=5",
-      "date": "2026-08-03T07:00:00.000Z",
-      "source": "A Sea Of Blue",
+      "id": "15cqgzd",
+      "title": "Mark Pope Is BACK in the Transfer Portal, Kentucky Wildcats WANT Keyshawn Hall, Jaxon Kohler?",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQMW8wWkV3TEdQV3FHUEJEMlI0TW12c2RvWG9PNnZJajBTOTEybUhwQ3J3Z05LWmdRbFpIZlNrRHZlb1NPN3JJcFlJQ29PQjRfTVdYdlh3NGEweFl5azltWW5peDY3bGdXWi1tZ0s2Y3N6bUgybGdaUkZEMGJGRGRNTlBtaXFLd1Jta3Q0UUdKUzdGZEh3NkVTT19yUHh4SDBaSU1QUUpnYVhOUzRnX0FjcnhJQVF4bnlvdnV0aU5tX2wzVElGbVktZFZTb0x4bllEZTJ6M3hTWGZ3a3NJVHp4Um1iSTYtc25hTGQ4NWx6RFItTVBkVEl2TE4xWnJFSjNZUU52M3NzRHRKVm0xd0lGLVEtRkwtdGloemd0TUdWeWMyNW9Kc1lTSVg2MERBNjcwQzVUN09R?oc=5",
+      "date": "2026-08-04T07:00:00.000Z",
+      "source": "9News",
       "body": null
     },
     {
@@ -235,11 +203,27 @@
       "body": null
     },
     {
+      "id": "1ut9v8x",
+      "title": "Kentucky Basketball shows interest in Daniel Rouzan",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaW9WNXA1cHVpR01MenhMUWg5SkJmVWpyZ1ZKQnFyUzB1eUxlQ3Y2eFZKdlRhMkNqdUZUdEVIVlVKTDVyYk1NcTZ1bDNsZGY3ZDRCeG8xaDZSVjRVcU9Xd2dwRVIzd1ZOYlBpVHRnWlpYSEl6UjhSX184Z05qdDBySHVJb2xfTWdGSEozdFRoX2lNbklxMl84Vw?oc=5",
+      "date": "2026-08-03T07:00:00.000Z",
+      "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
       "id": "17jfk1x",
       "title": "One of Mark Pope’s new portal targets comes with a red flag that should alarm Kentucky fans",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUEZLdXBBYWVXdG51SnRzOG8wLUdEM1RRdU5md3RYeE9kaTg5X2huNHVTQU82UnU3eF9pWFA2TC1jbmdfTkVEZlpnbmRiZlJmd0dsQ2ZNTHFZSnh6ckxKeVUxQVJOdVVqVmxtbVBscnE4dV9SNGt0X3RJa24waGtGMzQzRWp0VlFjNUYzNkhaRDJjd2tTVG1FX0s1WTVhTVlJVWN5YnBtaXl4b3RqT0VIS3ExRTZiQUR3SEFncmhNTlYyRFI0akg5UzFVU2FYdjQ?oc=5",
       "date": "2026-08-03T07:00:00.000Z",
       "source": "Wildcat Blue Nation",
+      "body": null
+    },
+    {
+      "id": "xv0esx",
+      "title": "With the court ruling here are three transfer portal players Mark Pope should contact",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOXpsdlVtbGdKRVFIclpCODM1T0IwN05XZnZBRkZRMHpGVW1ESHZMRDBwdzN1SlhDRk9zOUp4c29xeWRFeVJNb05oMG9sLU52cnJFcHAzUFdoNWZFcExDaC1ZQlNxQi1FVnJQVWFCeU1IbnR0cG8xdjRLcmdUQVlXd3N6R0Z6aUt6OEczcEw4SlBRYVVfY3lOb2ppZGpCcDlWSmRHcmhWam1lWUtsZEFWNHFvcTV4NFBwbXRucmR0VGVZY2pmZkpXaTZDY0RNTXUyVTFlaA?oc=5",
+      "date": "2026-08-01T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -299,11 +283,19 @@
       "body": null
     },
     {
-      "id": "1k4n4ky",
-      "title": "Why Milan Momcilovic chose Kentucky basketball, Mark Pope in portal - The Courier-Journal",
+      "id": "1jwxeck",
+      "title": "Why Milan Momcilovic chose Kentucky basketball, Mark Pope in portal - courier-journal.com",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZFJXdE1SWjZpRGVuU2tEVlROVENjYi1LOEltMzdWU291YWlaTHRGWE9HWWh3QnE5dUJLNUVHbGJfX3FXdE15c01FQjRXejJ3VzNIUDZrYUpNUEZXUlZfWjFnU3VDMnhoVlVVdE9peUg0ZXdNdEFEemJENFpHcU15dDBmdGlsQktOeEhHWXI4cnM5NHVLNzJzbkUzaHIwdFdtYXF6c09BanRxZFM3WmxRYmsyU0RQN3BMMXJDS1lfVEVTVEYtdFBRaG9LNFVaei1uaFdtM1hDdDJXLTBTS05PN3UyckxQZXhSVUZoSncyVlp3Rjdwb3JlSjZyWWR4SEs4MkFOenVJS2VCSHg2ZE1r?oc=5",
       "date": "2026-07-02T07:00:00.000Z",
-      "source": "The Courier-Journal",
+      "source": "courier-journal.com",
+      "body": null
+    },
+    {
+      "id": "1rpawsq",
+      "title": "Alex Wilkins explains why he picked Kentucky in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUcyOGtvenZOclpHOGV0Z3dzclRIUGJfcEVpQWpGcmNweXp2enFZUkpoVDZhTmxUSGNwRnpHbUFRZkxkandOemtndFlSWmE0TDRGUVZvS0I1bTBrMzJyODRDS3Voa0UtU0R6YW5zY1dMZjJMaGlKVTJSWkxCbGo0ZFJ3MlBxZ3lhSERHSVdfMk0tXzI4bXFKRTJGaWFSY1ZZajdMeUxrenozemFNMmowYkJaamZyUU1XcnpUVQ?oc=5",
+      "date": "2026-07-01T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -320,14 +312,6 @@
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbjNCUHhWWk5PMm15WHZFMHRpWk5ZVlUwLWNZX1lZb0FPMW9Wd0dSLTFPRjYtbGJNT3hmY0VwVUJ0eVdZZkV2RUl2TmVKZnE4YVd0dG4xU2x0U1RMV1RXb0l2bWxzRk9WNHVRaHlwb01uU2VfTjVINXhlQUgxcU1IQzRQblV4dDlSMHdJYS1LaVg1YTFrQlkwM0xicUVFTXJVV2loNjAzOUdFSWdoR1RSN3l3TTE0MlpEOURPSU5ScFBnMGFKd0JUbDBVcw?oc=5",
       "date": "2026-06-09T07:00:00.000Z",
       "source": "On3",
-      "body": null
-    },
-    {
-      "id": "96ksd9",
-      "title": "You are watching Mark Pope fix his biggest perceived weakness as Kentucky coach",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNGFhaDc1c3JrUkc5bTY0V3Q4VWctN21PemJEaW9ZQ1c0TkZXY2lzcDI4bG5HZFNnTnZJTW5wSFh0Z2NEbGppeWlqdkFvQXlabkVLR2puRFJLVWYyZjRCN29YX2FsSnVwWlB5am84bkZwZ0xLcEs1Wl92SXQ0RDY3NmFCb2tZc3pQX1HSAYoBQVVfeXFMTWN5Ukc3T0NWWHFDeWNWRWs3TkdWTkRfZDRfRmFPQXJOT2l4SnlfMVgwQmhHdVdFdGlYQ1o4UUFaRlRhZUpockZfNl9rSllkdkVxOUNYYnJnWEhLZ1AwU1FySGR1QkNfQUhOMEExSHFuUGdqSXV5V0ZxSmRfT0l0Qzhzd0FEbmZOeGVB?oc=5",
-      "date": "2026-06-09T07:00:00.000Z",
-      "source": "Lexington Herald Leader",
       "body": null
     },
     {
@@ -387,19 +371,35 @@
       "body": null
     },
     {
-      "id": "1ffd9em",
-      "title": "Kentucky lands commitment from former Iowa State forward Milan Momcilovic",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcW9rVjdoNmJUX0JZemROSjJub2VYV2tKb3FMT2JKdUNlTjV4THJ0cVV4Yzc1S3ROajdkV2tiZWRicENrdV9SanR3bzhaTmNYcHQ5NlVreDRGbXhCaUM0NU9FZ3JKVWFVXzcxVUVqQXNuOUlJRjBhM0NCbWNGSnZmODcxeFV4LWVaamJHVGNZclc2Sl9oRFBWb1AyYkxCQWl5VGVsY0hPd2VOeDRJd0c4UjNSenVNc2pTWFN5cWpwWmhmR0x0MHhOSEhUMmtIcnVHS1V5Ym9TdGJlWXhxbjB3U043aE53REJ3RkVlU3NfM0M?oc=5",
-      "date": "2026-06-02T07:00:00.000Z",
-      "source": "sports.yahoo.com",
-      "body": null
-    },
-    {
       "id": "1ey88b7",
       "title": "Kentucky Basketball Lands Big Name Transfer That Tennessee Is Familiar With",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak1IVDR1MnZ5b2xIY1dPUWM0LWQ5Nm16TTMzVFdieHAyaUYzX2tXRHg3N0tWelFjdHczT2NZWWNIQmlIY2NxeEN2WTdJaUZNYXkxWEx2aTJMdnZlc0tTZzhncFdNOGxTM0dSbTlXcEEzb1E2dGdMeXp1azJ1M2xZRzI3Q29VdjZLVkRISFh6bzFlRGFfc0p5Qlc5b2U4enBNcnIxRWNyTkRucWRncWFrYl9TTQ?oc=5",
       "date": "2026-06-02T07:00:00.000Z",
       "source": "Rocky Top Insider",
+      "body": null
+    },
+    {
+      "id": "r7ykq2",
+      "title": "Former Iowa State star Milan Momcilovic transfers to Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYWxuWXcxb2JDS0YxbzJndUxueWlCcWs3d0tlTF9QSXJHOGt3U19kYk1PWXpCYmp1bXlSOUY3b1BBcThrSTFHOTBUTWdlS2VHRUhIXzZJcFlTTS1jM2k5dzVTN0NlRFVuNWVMb1JPdWxxMS1MbkhMMXhhdkhJa0VMT1FjLXR6MUVMRnhjaVFjM1lvdUk2UGdVWFlUcXA0VDlIZTBKbXdZMjIxNVlMbVhZZnA1SnQ0SmRsSXpzU3JNR1E?oc=5",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "ESPN",
+      "body": null
+    },
+    {
+      "id": "1b2qhqn",
+      "title": "Milan Momcilovic commits to Kentucky basketball via transfer portal - courier-journal.com",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVmJzcHVaSlktMFkxektYR0VSYVJyYXBXRmRhVUJSUVZrTVBfemNWTWR6NFVIYUVteXBzbXlsNGJZWkw1RWIxZDhaaDlvYlFkY3hBYzJCdWNYdjhNTW9RSE1zV3RVRVVjekxzRHpuTk1lVTR5MFhDSDk1Q3pkR1JkdmJhOWMtR1JWSFMwWVRBdDBHSjRIMzdRd0JmS1h3NmRCTGlJdzV1RzhfV3J5bnVWaXhUdVJVOC1sdFlIWVczSV9EUTlOaVZFby1NYnRuOVhiVnpUM2hybEpScU1CVXl1cVpYeTVET1c2dmR6T2hJcm1pYkJwZm4telA5RzdkVlRqUzg1MEV6dmhycXIxWnEtcg?oc=5",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "courier-journal.com",
+      "body": null
+    },
+    {
+      "id": "o5zv79",
+      "title": "2026 College Basketball Transfer Portal Tracker: Momcilovic's Decision Is In",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOUtSc1Y4TEVibXlXLVUzRHpXMk1OWXVxdmpkSl94eTBTek93VnJyXy1mazB3dDdyX1pfajVfRUFtdmd3OEIwQ3ktUGdvdzV3REFLUnNDYkpNeFNMTkZ3aEhZWGtwYmpmQTVwdElVVTJBYnhhckdlYmhwa2h2aUh1Q25rWjRQMFQtZm40QUlHS1E3ZVlpSWYtM0p0YjZnQ2lNb3c?oc=5",
+      "date": "2026-06-01T07:00:00.000Z",
+      "source": "FOX Sports",
       "body": null
     }
   ]
