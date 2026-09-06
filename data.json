@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T15:07:23.847Z",
+  "last_updated": "2026-09-06T20:08:13.836Z",
   "targets": [],
   "news": [
     {
@@ -48,6 +48,14 @@
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeVhKSjk2Z2ZlU2FzbnB4YldVb2FKNGVYTVFSNVNtTVVOXzJNbUlkcDNtcjlRSExEQ2habHhkX3dFODhyTzE0QkotbEhueWZGQUZUVmxSS3ZucGFtc0dHMHVEUzdwUUZDa3JBSVFlNkV1TFNsZE1GNzBDeFFINk5Eb25aejdSa3ZIZjNLZkZQMUZWVDJuanprTXVCazR6aHBUam45NFlSV1RfZDNjb2RkWHo0LTgzWW5XWE92eDB2bUZUeXRKZWFZTlVJenZza3g2ZUlTNlNaMktUT01hVHRZWTE4TzVGSkl1VG1LcWEzcE1rM2NIazRR?oc=5",
       "date": "2026-08-31T17:45:00.000Z",
       "source": "UK Wildcats Wire",
+      "body": null
+    },
+    {
+      "id": "17mldst",
+      "title": "Mark Mitchell Will Stay at Missouri After Committing to Kentucky in CBB Transfer Portal",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHB0akE5RHlrcWNtcFgtLVBrU3p6SG1OOEJEU3dzMjhVa3hlOFl6R3g1emYzOERtYmlWMzZQU1BUb3hxMnBBQi1Ua0NWUVd6YVBHRi1HeF9CczRWaHVnVy1YNk9FTHNWSkhOZGItbjc2dHcwT2ZjRlROU1hmamkxRHJyUHRKZnYyNTJYd2tqSDRycHlTWkNpS1p3SjltRk5CdXdlUVFFWXlCT29wN2R2MEpNejFRME54aUpTVU94bGw?oc=5",
+      "date": "2026-08-31T07:00:00.000Z",
+      "source": "Bleacher Report",
       "body": null
     },
     {
@@ -192,14 +200,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0tNbkV5YXhjMXVYcno3V1JhckFkM3dOYTJRNGZKUUM1Ri1nNDgzQ0VWV2ZpUEJ2bExQV2VOUUZRcVVuZURJTUdQQk52R3J1NDBxTDNTVm1zUng2RFQwVHBoVGg1ZGhITEk4MXFDSzhqU1JmVHlPTXlEb0t3ZFNXWVUwLWQxOGRtcjRVb1ktdl9IamY5Wm9tdklIU2ljdmtvZ21udkdXR1VHM29aN29V?oc=5",
       "date": "2026-08-12T07:00:00.000Z",
       "source": "FOX Sports",
-      "body": null
-    },
-    {
-      "id": "1d5sg6s",
-      "title": "Mark Mitchell Could Be the PERFECT Piece Mark Pope Adds for Kentucky Basketball",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPbmFldlpRNWI4N1k0ZzBHVEhGMVVraTAtUzVzM3FYcDhoaGcyT1ZyVmc4OUhMM3FfVzRYNWFhbjhhLU1kYlBDR09TZGlfYm5CcHJFMXpzbDJEQjJDcHh3X1JDbE1lT1FtOFNfcTlfSUVQX1g4dkF6YS1Tanpoc3p0ZnBnVkFwYkdZZml3c0tZT0puN3VLQlU5clAyQ3g0RXk2bVd4Q21GWWtxdFBkQ19HOVpTZUJHNUNEU3I3RlNpX0RDc0JKaHQ5OE5oazVaQTB5WkpxOXdzemRHSHIweFRJNEE4a1Ruc1NXS2xJSWVFbUNWX0c3M1puQ2o1N08xQjV0SFFveWxmMXoxNnhfWVpXUHJKTlhiM2lTMnAtRV9kOW1nV0dMMHNYWHFn?oc=5",
-      "date": "2026-08-08T07:00:00.000Z",
-      "source": "11Alive.com",
       "body": null
     },
     {
@@ -387,19 +387,19 @@
       "body": null
     },
     {
+      "id": "28zq8y",
+      "title": "How New Northwestern Transfers Can Revive Women's Basketball Program",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdTd4VG1nSW42YzEzUkZzMVE2X3BPaHhBQlpiNTdMLTBmZk1BemxvVm0wR1dwUktybUIySG9RbG9tWWgtXzVfM0FGaFlEVWlFNndFYzB1NXI4YkpZdlAyeU83dlNTZm9aM0hlS3N6eHBuazAzcFJRYkNObU9neDAwMXA5SzFvNk5HTjQ4RFIxNWdnQm9xX25fT2ZaeGNLX0VkOWZGbmpTOGVYM3FEOG11LWh6YzRMaGxFdUE?oc=5",
+      "date": "2026-06-03T07:00:00.000Z",
+      "source": "Sports Illustrated",
+      "body": null
+    },
+    {
       "id": "1ieaioj",
       "title": "Milan Momcilovic commitment jumps Kentucky up transfer portal rankings",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdUtVRXhqZjZZM1BPeExnQW1zUjRtdm1nQTFjZF9oMmVwN0FPd292VXlqYnluRmNWNWE5R0JNWnNRSWhnMnFZbDZ6N0M4NmV6ZUI5YXpfRjVZNUU5LVBaVHJXVkV5VUw1M29jYnhiX3V6NHRueHJtN2ZoS3R3cVJxTk54QURHQVB0eHZyVzBJZXJ6ZUlaa09YSnBjczEwRmdWWERsTi04ZzV0WWJFeVJueVZ5aHhiSmFjeXBxTEZjdDJrcDI1S1B1UzB3NUowVTdRRm4yNkthTzctbzA1ZC1iZzJxbVlpbHBORjh2Mg?oc=5",
       "date": "2026-06-03T07:00:00.000Z",
       "source": "UK Wildcats Wire",
-      "body": null
-    },
-    {
-      "id": "1iatpxb",
-      "title": "Ranking of top 10 SEC Basketball transfers after Kentucky lands Milan Momcilovic",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVnR4SUQ2Y1NfeHdhd3BHYmg2TWItc09xTlRnLVcxTzR1Q0JBQ1prMlJaMWNJalNlU1RwWFAzUzNqaTZxcDJfdjJHeV83aHdFc0hIZkRDem1HTlFPdWNKVXpGVlNKdXVLekFTTXg1NTMyNFFIa3A0c1FBMU9rNi1peW5xMlVsNEVSc2lhYWhMM3AtNFBOUTNidXRNcF85N0MxVi1zVUZfejVDeGRMMkNpVmRXWkZ0WWsxYzJn?oc=5",
-      "date": "2026-06-03T07:00:00.000Z",
-      "source": "Busting Brackets",
       "body": null
     }
   ]
