@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T20:03:55.586Z",
+  "last_updated": "2026-09-06T03:32:02.189Z",
   "targets": [],
   "news": [
     {
@@ -8,6 +8,14 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWpuWG1BbmNoS19haXN3VXlyM0pLMlgwVTV1MERSdVQtMEIyTlNfQ3JhQ01wWFRZNjlNWGgxZDdObWFPSkdlajVTMTU0X01VMU8yMlJrYmNvbGxJcUFTNzRwVXJnTnpqcFN2WjRhNk5EdC13NnhMYnJkSE14MldnX3ZLR3JTUm1KR25TSXNmYnhmSHhmdk5rTU9LRnlRd0F1UHF5RDRvZUlwT0wzUHk1WjR3?oc=5",
       "date": "2026-09-02T10:15:00.000Z",
       "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
+      "id": "2dwv6t",
+      "title": "Denzel Aberdeen to Florida is OK, but Mark Mitchell can’t play for UK? Here’s why",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUjlaOUhMcjhfYVEzMi1tblYzS2NNZWUxMGFPWUdpMXNoZ3RDaDNKMW5yU012NnE3WGVUYTJHOWJ6ZTA3NWtaSnZZNmowUDBUME1sRFFraEdGMC1LdW1rSTlnTFFQZ2ZGSENXTmljUjJqNnZkLWZReE5ZM2d3MmFhMW5qU2k2d185Q0RtVmtXU21maG51NFNQcWJDONIBmwFBVV95cUxOcW5xTkV3RXpGdXVwa3huZW9LTzdzOHpaaFhPQjIyckExZWpvTUtvOVJMXzFWZGFQVG5jbEkzLV9hRTVFWFN1VDZYa3k5bHZyLWlfeDhUbnhMUzRFUWozZXNhX05LaHpWbkpScFFKekVOZ0RxNndtbVgzLURIUTJjMEFMODEzZnkzWXNRcHpQd0NlZTNCSzZ1NFJKRQ?oc=5",
+      "date": "2026-09-02T10:00:00.000Z",
+      "source": "Lexington Herald Leader",
       "body": null
     },
     {
@@ -35,22 +43,6 @@
       "body": null
     },
     {
-      "id": "17mldst",
-      "title": "Mark Mitchell Will Stay at Missouri After Committing to Kentucky in CBB Transfer Portal",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHB0akE5RHlrcWNtcFgtLVBrU3p6SG1OOEJEU3dzMjhVa3hlOFl6R3g1emYzOERtYmlWMzZQU1BUb3hxMnBBQi1Ua0NWUVd6YVBHRi1HeF9CczRWaHVnVy1YNk9FTHNWSkhOZGItbjc2dHcwT2ZjRlROU1hmamkxRHJyUHRKZnYyNTJYd2tqSDRycHlTWkNpS1p3SjltRk5CdXdlUVFFWXlCT29wN2R2MEpNejFRME54aUpTVU94bGw?oc=5",
-      "date": "2026-08-31T07:00:00.000Z",
-      "source": "Bleacher Report",
-      "body": null
-    },
-    {
-      "id": "17lnkmd",
-      "title": "John Calipari defends SEC transfer rule amid Mark Mitchell eligibility battle",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUQyQy1jZlQ2TUNzQXgyWHpYRTBRVmZKcWFhVTJCbEFqSEhsTVRZTFprRVRWYzJscVhHbndFNzNLRU14Z3BEMllUTzRFY0thNkxKVWxQTFBzbXViRkVmYTJXenVLQzBIN2diNXl5NHRzdWdQMG9XaU9SN0xhcmVMY1NOMl9fUUJveDlJTUZ1M0NrMEhBamk3NWZrWk1Tb3g3VHBTUHRYWjYtUnVtc3hPUkZVN0YzbXhUSldmMGJBTXZyaXNkdko4azRwdzFhM05R?oc=5",
-      "date": "2026-08-29T18:28:25.000Z",
-      "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
       "id": "1kpg3mm",
       "title": "Kentucky’s Roster Is Loaded After Mark Mitchell Addition. Can Mark Pope Deliver?",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHdEWjh0VUJRb0dBZ3hiY0ZwS1NlcUI4V2x5WlNCeXFkZlJSM01yeGhXWWk4bk1EMGJ2bzFZRktCZC1xQXNZZnVWWUpoSy1Fb0Z5QktjNUhpRlVJdVhJMjZPczBtZ0NQMkxzYmhtcVEtWkdHT3gzSUtKeGFPVG1KWmJmMVJ1YkRmbmJmRUVJQXZaS2JvMU5zUFVBd2tBa3NZdi1BTGJ2N2RLNDBJMnRtWTE0OTA?oc=5",
@@ -64,14 +56,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEdma3RNVVZKUUt2b1o5RHpwcENYeml6UEZGLWgzSWdMY1daU3RqQ3M4N2pJc2ZsOVVNYzZkWFlDaHVzUlNkOG1kNHF5V0s5dUdLWm1kQXhNdFFCRUZFMkFkZmVxSmNBOGYwU1BGT1FtelFVYkFuU2dCM2lxeFoxdV9HdEJMRW1aYWlKT0p4cWtYSWJqMVowY1V3bW9pLTlJTjZaVC01aldndGNqSzU2VzNR?oc=5",
       "date": "2026-08-24T07:00:00.000Z",
       "source": "roundtable.io",
-      "body": null
-    },
-    {
-      "id": "b3grrk",
-      "title": "Jaxon Kohler's BYU commitment is another recruiting win for Kevin Young over Mark Pope",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQODJYeVNudWx3MDhYVDNiOVFfMjgwQ1pST2pBSzdPMVp5c3B5TmVVWXp2V3daWGduSGNBRmxDZWhNNkQzWkYyNHgzWXFZd0RFZ1l5SXB1dW5qZHhFcmRrN3pzd1pSS2EyOGRTQVZpYU1fV2ZBa0JSM2M5N2J5c2RWdXJEY1Bqd3JUSUMySEdZbTFHOUJpVmlPSUFlcWFLWEU1TmVHVVVtckJtdy0zSTFOVHV3?oc=5",
-      "date": "2026-08-23T07:00:00.000Z",
-      "source": "Lawless Republic",
       "body": null
     },
     {
@@ -96,6 +80,14 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOHFFcWJ5SkZ1aHN0VmRoZDJlNkQ2SEI2LWdjUkJFSFh3RFpxLUtpR2NCNXd6VWV4N2JfT0d3N2kzYkM5d1lNNzJnbklWRlV0NzRvcl8xZkdHS1dvTVVCUzUyR1dtVWhTMGVFLTFZcFJlR3hackxEQlRfN19UdUFrZkNrRDlMeHFma1F1V2hReG9jd0tiN19iVTdOVUt4dk1PUXEzYXgtWlk1OVdiUzdPTDdn?oc=5",
       "date": "2026-08-23T07:00:00.000Z",
       "source": "The Big Lead",
+      "body": null
+    },
+    {
+      "id": "b3grrk",
+      "title": "Jaxon Kohler's BYU commitment is another recruiting win for Kevin Young over Mark Pope",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQODJYeVNudWx3MDhYVDNiOVFfMjgwQ1pST2pBSzdPMVp5c3B5TmVVWXp2V3daWGduSGNBRmxDZWhNNkQzWkYyNHgzWXFZd0RFZ1l5SXB1dW5qZHhFcmRrN3pzd1pSS2EyOGRTQVZpYU1fV2ZBa0JSM2M5N2J5c2RWdXJEY1Bqd3JUSUMySEdZbTFHOUJpVmlPSUFlcWFLWEU1TmVHVVVtckJtdy0zSTFOVHV3?oc=5",
+      "date": "2026-08-23T07:00:00.000Z",
+      "source": "Lawless Republic",
       "body": null
     },
     {
@@ -203,14 +195,6 @@
       "body": null
     },
     {
-      "id": "12aplqd",
-      "title": "Cade Tyson being ruled eligible means Mark Pope's perfect target is available for Kentucky",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0Q5czBjMmg1Y1hQQVJaTmdUMThjWFVFdUc1NG1uZEEtS0trZ1BDUmw1ekN4VXk4dlVVSzZEczZyYW9Rb2NZWEc3LWpUYjYtSXRxZWk5SVltUHpBTFdTU2FhVlptVmZUM3JQT1ZDN3R4YzJTYkhUNzFmUHkzYTItclcydl9IQWp5NzdkbjhWaF82Wmx0V0V5MUtoSVZJXzNWX1FlR1BvQ3dhVEw0QWNfaU9rZTBvWkgxT2tkOEh4ejdSRWNTNkJNd0tqVTJCZw?oc=5",
-      "date": "2026-08-10T07:00:00.000Z",
-      "source": "Wildcat Blue Nation",
-      "body": null
-    },
-    {
       "id": "eemgps",
       "title": "An NCAA rule is preventing Kentucky basketball from adding a 15th player",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmhfb3h2anhVXzlFVTdKSEtVajBDbjFyNXF4LWFRSmhsM1V1amVYSy1Fb05XcU9ZV1AyZ1RlcENKZWM5WXd5MkdMRGE0S0dCRWpxVVR3OWJMeHp6WnlyaV9fbl9wbmZlV2c5a2o1eXNicEtDRUgxbnZzZEdVR0N4ZVdXZkhJUzNLRVNCZ1ZCYWdOLXFNblZTQXg3b9IBmwFBVV95cUxOd2tYeFRVMmgyRExwbHk4aU9HRlFiVkhjdkRvWVczaWdRNWJObXNsVFUyeUExNnN0cXlVMzhuYk5XblRxTmplZnpZQjJPdExEWmdUaENJd25JeUg2eEZGT1lnemZPMDFfbUlNc0ZhVlVnNk43LVBCWmgzTmMzYVRIS0RvdWEwa185MWQ4WDJ0X1JJNXY2QWhydUlSTQ?oc=5",
@@ -224,6 +208,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0VRVmJYYXBZNzV6N1ozSHV5MmtERHlEY1pFQnJTNWs3TVlKTm05cWwyeElvTWtQdHpfSUF4b2Qtak5mQmZTU0ptZC10UTZ2Qlp5RTNTLS10dmNkZzNvSXlxNjZWOGJNYktrTVpZUUszdUVfLTRBSEZybEtvbExXQ0hfcnZ5RWYtN01OUVNaNkhVXzFid0NYTXZ2dkpmWjA?oc=5",
       "date": "2026-08-04T07:00:00.000Z",
       "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
+      "id": "7j4k4r",
+      "title": "All-SEC transfer Mark Mitchell drawing interest from Kentucky Basketball",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYmdDamdZYjVRLUdjYUsxOVFwRUV6eFFZaUZjZmJuR3VHLUFjbXNsQm1jSVlVd2JKa1V6VHVWNG4tMTFqd3hpdHA4NzFaSjNCM09vam5lNG0tWDJ5d1Z3WjZGVUI5bUEtRTBVaWtNRFY4T2o2aVJJZ0tia3ExRF8xam9tUXhRZm5UN3ZZMmJuRWxUbGtzODl2UjNmRmNRR204U1h3eUgtUTNDa2s0TnNocjZxcw?oc=5",
+      "date": "2026-08-03T07:00:00.000Z",
+      "source": "aseaofblue.com",
       "body": null
     },
     {
@@ -304,14 +296,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ3ZERTIzQ0xOcllLX3lSb2ROZzA0LUdNRVpHcmJBcm1aNHZwMjR5VUo5NUdlWnhHUndCSWo0X2M1UzZfYzBNX3hwaXY2VzBMYVNJVVFoZ0dnOGNLR0hHM2ZZS3ZYWnJVYzJ3OXZoU2FzUmJQYTlIN0VldWxuQkRZbHVsUHpnZERWWWfSAYoBQVVfeXFMTkhQenNrX1pxQ1ZnNlNXQXk1LUhnNTdIeURIbTZEb09UTm9pSWVNdEROekJ3QUtzOG9LZDYxcXg1b3V6bUpHb3VIWTZSeFVZTmpTcmhMUjZxa3JjREhKbTIxenRZbzI0QzY0MHNuYTd5NlhnS3RxLTJNTWtrY042XzNsX3JGNm9MTlNR?oc=5",
       "date": "2026-07-14T07:00:00.000Z",
       "source": "Lexington Herald Leader",
-      "body": null
-    },
-    {
-      "id": "thb1ll",
-      "title": "Kentucky listed as a team capable of winning the National Championship this season",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMXJaUE54MGNxLU80Z1RaVENFZ1Jad1ptNkktVUFzblYwRzBrVWFXN3FVVVhkTm8xVnlTejVwVXh0X1VuNlFFZHFidF81eko1ZU5Ydk5xWUg4SHhxUjZ6cTBhSkN3OXB4SmloeE41bTN5enktZ1lyNDQ4WVhTQU5PY1ZqWjY2S3NKQ2hlZVdMcHlWUFdlemJfNjhOTVN0cjZ4ZGxFMkliMWNDWlNrREowZWwxblNxcHVsYS1xTTQ0WEZYOUpRZU9TNk9aVlJtaHd6?oc=5",
-      "date": "2026-07-07T07:00:00.000Z",
-      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -400,6 +384,22 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2pwcHNuSTdWMER5c3BwR241RU43ZDZWZ3VkSVJleU9ERnpwNzJRYmp4TVBKREtHRnMzQVVZNXdHdXRTU0hGZHdFQVlzUnh3aXNQTVdZOVNZMXNZaUFtR1VQb0xxanBQcmVJMnI2bXM1TGRjMXJYVFFTc0RPamVJcHp3QlNDaUgxN25YSWpKQW1jT2E1a0FFbTVwR1d4TWl3SXQ5NXY1Q2JJUF84THpFQXRNNDRtUWs?oc=5",
       "date": "2026-06-04T07:00:00.000Z",
       "source": "On3",
+      "body": null
+    },
+    {
+      "id": "1ieaioj",
+      "title": "Milan Momcilovic commitment jumps Kentucky up transfer portal rankings",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdUtVRXhqZjZZM1BPeExnQW1zUjRtdm1nQTFjZF9oMmVwN0FPd292VXlqYnluRmNWNWE5R0JNWnNRSWhnMnFZbDZ6N0M4NmV6ZUI5YXpfRjVZNUU5LVBaVHJXVkV5VUw1M29jYnhiX3V6NHRueHJtN2ZoS3R3cVJxTk54QURHQVB0eHZyVzBJZXJ6ZUlaa09YSnBjczEwRmdWWERsTi04ZzV0WWJFeVJueVZ5aHhiSmFjeXBxTEZjdDJrcDI1S1B1UzB3NUowVTdRRm4yNkthTzctbzA1ZC1iZzJxbVlpbHBORjh2Mg?oc=5",
+      "date": "2026-06-03T07:00:00.000Z",
+      "source": "UK Wildcats Wire",
+      "body": null
+    },
+    {
+      "id": "1iatpxb",
+      "title": "Ranking of top 10 SEC Basketball transfers after Kentucky lands Milan Momcilovic",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVnR4SUQ2Y1NfeHdhd3BHYmg2TWItc09xTlRnLVcxTzR1Q0JBQ1prMlJaMWNJalNlU1RwWFAzUzNqaTZxcDJfdjJHeV83aHdFc0hIZkRDem1HTlFPdWNKVXpGVlNKdXVLekFTTXg1NTMyNFFIa3A0c1FBMU9rNi1peW5xMlVsNEVSc2lhYWhMM3AtNFBOUTNidXRNcF85N0MxVi1zVUZfejVDeGRMMkNpVmRXWkZ0WWsxYzJn?oc=5",
+      "date": "2026-06-03T07:00:00.000Z",
+      "source": "Busting Brackets",
       "body": null
     }
   ]
