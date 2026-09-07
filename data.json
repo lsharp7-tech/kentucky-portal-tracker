@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T03:32:10.218Z",
+  "last_updated": "2026-09-07T11:53:44.085Z",
   "targets": [],
   "news": [
     {
@@ -136,6 +136,14 @@
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQTEtMzI3OU9JblZBN181QVNxSnlCUVZHWUNaUkVEWUNST2tHYWc3R1pfeGlyMlZ0MENDUlczY3VJRDBUZDZ6S0dMX1pyR3B0cE4yRlNvdUNkRnFCNnpkM2h0Sm1jZHdoaFl1eWdubG9jVm1xLWpYR0MySXpkNUFyMHpFaDl0SjRwZWhmQm9wbXA2MXNhNC1jYmVjZjVvUjVjTmZpbm5XR2lWRUdyZ19pLWdlVzBibVpGSnQ4NmlxVHEtc0w0c2hHU2poUkw3WnpZUFE?oc=5",
       "date": "2026-08-21T07:00:00.000Z",
       "source": "Sports Illustrated",
+      "body": null
+    },
+    {
+      "id": "11gqmav",
+      "title": "Kentucky loses a transfer option, pivots to another",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUZ4bF9CU0VXcWE4Q2xubVBPMkNrdDlSeUxsaWJWSWRud202YkJmd0JQMnVNVG96blFfNGpBQkNZLW02Zi1weFZFbEdnSFN4MHlRYzhwbXJwYWRacDliUkR2ZUxpd0JMNHRaM0pwZlp4cHAzdVQ1aGtXSndYclh3Q3RZeDk4RDQ4R0FYY3ItSQ?oc=5",
+      "date": "2026-08-20T07:00:00.000Z",
+      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -371,6 +379,14 @@
       "body": null
     },
     {
+      "id": "gojd5i",
+      "title": "Kentucky's Mark Pope can look to Joe B. Hall entering pivotal season - The Courier-Journal",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRWdCV1JCOXEzOWdUR0dTU3NDM2pHTkJtSWVSR0pvcjA3cEs4N2hqWHExNktJZ2dLZzh2YzhVYUt5bTN4cWIxYVFpd20xb1VjbWJCMkx0R0JTRFVRREpvYjFvNGt6c2U3eGRPUm5HdXRGLWllWkNLRWRPQ0VsT2hlWHVJQ0VKQ0F1cGc4aV9YSjB1QS1SUkxtbzN6LXU0Z0dZY0dlXzlhOUttZk1zYnBxWWJjRm1FT25zV1FUV1lHSlh1TFVJQW55cF9adjduLXlxWTh6X3hyWU5FVlFxQl9aR3FWVEZXVURMMmltbHdnNzVXMmdtSlhNOUZlQnFkbjBhLXJXVU55ajEyRGc?oc=5",
+      "date": "2026-06-04T07:00:00.000Z",
+      "source": "The Courier-Journal",
+      "body": null
+    },
+    {
       "id": "omw2m7",
       "title": "Mark Pope got more than No. 1 transfer. He may have saved his job | Opinion",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSk9HQXV5cURaVkNZYjRuSnplTlNKLW41dWxoOG9qWnFuMUJLMUpHT29RODM5T04xYk95aGpCX3ZmV25iZGFFRVVfVFV2MTBEdVllLXhjNmM5RnQxODdTT2RtSFlWeVhaeWZzUnNfaTM2OHpIYVFnbG9KNF9MQ2t1ZzVWR0JBRmtkTTlTYkVuQXJGbjBlT3VBSjNYclNMMm50WHI1d0d3aU5JczdLZGVpeXh0dFJENEY0b2YtSkdxWU0?oc=5",
@@ -384,22 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2pwcHNuSTdWMER5c3BwR241RU43ZDZWZ3VkSVJleU9ERnpwNzJRYmp4TVBKREtHRnMzQVVZNXdHdXRTU0hGZHdFQVlzUnh3aXNQTVdZOVNZMXNZaUFtR1VQb0xxanBQcmVJMnI2bXM1TGRjMXJYVFFTc0RPamVJcHp3QlNDaUgxN25YSWpKQW1jT2E1a0FFbTVwR1d4TWl3SXQ5NXY1Q2JJUF84THpFQXRNNDRtUWs?oc=5",
       "date": "2026-06-04T07:00:00.000Z",
       "source": "On3",
-      "body": null
-    },
-    {
-      "id": "1iatpxb",
-      "title": "Ranking of top 10 SEC Basketball transfers after Kentucky lands Milan Momcilovic",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVnR4SUQ2Y1NfeHdhd3BHYmg2TWItc09xTlRnLVcxTzR1Q0JBQ1prMlJaMWNJalNlU1RwWFAzUzNqaTZxcDJfdjJHeV83aHdFc0hIZkRDem1HTlFPdWNKVXpGVlNKdXVLekFTTXg1NTMyNFFIa3A0c1FBMU9rNi1peW5xMlVsNEVSc2lhYWhMM3AtNFBOUTNidXRNcF85N0MxVi1zVUZfejVDeGRMMkNpVmRXWkZ0WWsxYzJn?oc=5",
-      "date": "2026-06-03T07:00:00.000Z",
-      "source": "Busting Brackets",
-      "body": null
-    },
-    {
-      "id": "1ieaioj",
-      "title": "Milan Momcilovic commitment jumps Kentucky up transfer portal rankings",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdUtVRXhqZjZZM1BPeExnQW1zUjRtdm1nQTFjZF9oMmVwN0FPd292VXlqYnluRmNWNWE5R0JNWnNRSWhnMnFZbDZ6N0M4NmV6ZUI5YXpfRjVZNUU5LVBaVHJXVkV5VUw1M29jYnhiX3V6NHRueHJtN2ZoS3R3cVJxTk54QURHQVB0eHZyVzBJZXJ6ZUlaa09YSnBjczEwRmdWWERsTi04ZzV0WWJFeVJueVZ5aHhiSmFjeXBxTEZjdDJrcDI1S1B1UzB3NUowVTdRRm4yNkthTzctbzA1ZC1iZzJxbVlpbHBORjh2Mg?oc=5",
-      "date": "2026-06-03T07:00:00.000Z",
-      "source": "UK Wildcats Wire",
       "body": null
     }
   ]
