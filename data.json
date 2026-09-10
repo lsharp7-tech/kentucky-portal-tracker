@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T20:38:45.141Z",
+  "last_updated": "2026-09-10T03:39:57.871Z",
   "targets": [],
   "news": [
     {
@@ -8,14 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXAtUW5zWlB1Tk84cWw4TVR6MXJSUFJYdkxpRGxhYmN5Y201dXdTWGdCdkpaeUxoUEVBRV9lelQ4eTJTbFJ1Uzk4RzQ5cFFrRE5BWXFZY0Q0S0RIaW9rdVJIZmwyWUFuN2ZVdTZRaXVyMkYtTGxrY3g3d2t2RVZPUDdpdmFaT0FiM3B1d0hDY2Y5dHNtZmtjeEFtUFVCdnlNZDBsc3FPanVwSHdjdU1vLWpTT1RtSFRwUTNhSA?oc=5",
       "date": "2026-09-09T01:59:26.000Z",
       "source": "On3",
-      "body": null
-    },
-    {
-      "id": "1r084mz",
-      "title": "Milan Momcilovic Injury: When Can Mark Pope Expect Star Transfer Portal Guard to Return?",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZEtFZkU1bmdoSTJOaU5SaTJhaGR6SlVJTnIwb0xpbl9rTnRpSThzYWFPbnhNbHU3T0F5c0pIUXh1bmJJY3laQzJvZEppbEEtbmpPUDk0SFFCY1Vrb05oTnQwdmFKMERNcjRtcktVR1NRWUtHNXpTQVR6VXNRWmY2dFNLenVkSDQ3OFE?oc=5",
-      "date": "2026-09-04T21:11:21.000Z",
-      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -64,6 +56,14 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEJaS2QybW1PLUFocHJhS21kRTlGeFNienV2YWtuMjFEWkU0VnV6LVdhTU5KMGZjYmZpRS1Rajk3RjJZSHFmbWVyT2taR0M0TTlzUjM0NE4zbTdNT05VcHZxbk9mdHRCUUd1d2hPb2ZaYmJHOW83Ri1jaUU4QXFKMXY0MzVFREkxWmRaSkVWMGJRVmZZY1NxMEtRODlBeDZBcDZidU9yWWdjbE1McE9KanpTTQ?oc=5",
       "date": "2026-08-31T07:00:00.000Z",
       "source": "On3",
+      "body": null
+    },
+    {
+      "id": "1yr4lsf",
+      "title": "SEC will comply with court orders on eligibility",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeERDSXhpdHdYa0ZlRENPRjhUcWdxV1FlaG5YcnhmUFE4b0JRTlVORVYyVFhPVUc0TVNLZTd0QTdZMnJsSEtkLXp3NmVJVDM4WG1YbF85ZW5raTRmWmJ2MlI2Mi0zenY3TmFfN2tBb05WUmhUVHIxWC1TUmUzUndya0hkbWZGZUljZTBYOFM3MEdMQWNaY1l2MnpBcTVJODJnRXJyVnZWUElKb21B?oc=5",
+      "date": "2026-08-29T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -179,14 +179,6 @@
       "body": null
     },
     {
-      "id": "1gecrff",
-      "title": "With Jaxon Kohler in the portal will Kentucky pursue him or stick with Mark Mitchell?",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUzF5Q1BjNElqMHkzQnExUTNCZ2pYSjQwdDFEUjdfaXVzZFRleHRiemNaeTZsUV9DcWlQTjR3VEpsUVhkdWlvQmZWdXZtaF9LUHZkeldmQms0LU91a2dMbWxBcFVfbmd5dUlwOVZ5MEtvaHNocWJjaGtNVDRJTzJwQWJRak5mVGw2WVYyWUJrNzFKZFFGVjYzdXowVjdoTU51SWJBUGFoRW5qZXpyX19nOGFoSEIzeHJiQmN0NU81SmRWa1lYTDBjOW5hMzNkQnRtbkRj?oc=5",
-      "date": "2026-08-18T07:00:00.000Z",
-      "source": "Sports Illustrated",
-      "body": null
-    },
-    {
       "id": "116t94y",
       "title": "UK basketball target Mark Mitchell still in transfer limbo after court hearing",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNWduUzZWVFZkbkdwbE9raHhvZU80eC1nWmpXV3JTVm1kQjFXVmliTDlDNDRENTVwbjF1YUxXTVh0U0Z3YXIwaFhOUUVJUTBmWnhad1FpSW1tYTFkUGJJQXRnVkpjaEctcm1fRWFKeE02QU1wSFJ1Q29tc21DQ3RGMVQ3cnl5dTQ2b2p5dTRYa3U0VjBPc1V4Zms1NNIBmwFBVV95cUxNSkhBVnUwWDJaMmhScEFGZ0FDNzVnbE5mS05wT2pKakp4eGg5c214aUZ0ZC1ISVRBMmswYm1TeU5uMVA0T1pHaWJacGVtTHNRdkxTaU5weFhRUW5jOXliRk1RTWNYQ2N4ZGtma0lyamY3OEM4amZQQnhBQ0dkV2YtOEF0d2hXczlqbFl5d0dNb292Q2xyQVMwdDJ0cw?oc=5",
@@ -216,6 +208,14 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmhfb3h2anhVXzlFVTdKSEtVajBDbjFyNXF4LWFRSmhsM1V1amVYSy1Fb05XcU9ZV1AyZ1RlcENKZWM5WXd5MkdMRGE0S0dCRWpxVVR3OWJMeHp6WnlyaV9fbl9wbmZlV2c5a2o1eXNicEtDRUgxbnZzZEdVR0N4ZVdXZkhJUzNLRVNCZ1ZCYWdOLXFNblZTQXg3b9IBmwFBVV95cUxOd2tYeFRVMmgyRExwbHk4aU9HRlFiVkhjdkRvWVczaWdRNWJObXNsVFUyeUExNnN0cXlVMzhuYk5XblRxTmplZnpZQjJPdExEWmdUaENJd25JeUg2eEZGT1lnemZPMDFfbUlNc0ZhVlVnNk43LVBCWmgzTmMzYVRIS0RvdWEwa185MWQ4WDJ0X1JJNXY2QWhydUlSTQ?oc=5",
       "date": "2026-08-06T07:00:00.000Z",
       "source": "Lexington Herald Leader",
+      "body": null
+    },
+    {
+      "id": "15cqgzd",
+      "title": "Mark Pope Is BACK in the Transfer Portal, Kentucky Wildcats WANT Keyshawn Hall, Jaxon Kohler?",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQMW8wWkV3TEdQV3FHUEJEMlI0TW12c2RvWG9PNnZJajBTOTEybUhwQ3J3Z05LWmdRbFpIZlNrRHZlb1NPN3JJcFlJQ29PQjRfTVdYdlh3NGEweFl5azltWW5peDY3bGdXWi1tZ0s2Y3N6bUgybGdaUkZEMGJGRGRNTlBtaXFLd1Jta3Q0UUdKUzdGZEh3NkVTT19yUHh4SDBaSU1QUUpnYVhOUzRnX0FjcnhJQVF4bnlvdnV0aU5tX2wzVElGbVktZFZTb0x4bllEZTJ6M3hTWGZ3a3NJVHp4Um1iSTYtc25hTGQ4NWx6RFItTVBkVEl2TE4xWnJFSjNZUU52M3NzRHRKVm0xd0lGLVEtRkwtdGloemd0TUdWeWMyNW9Kc1lTSVg2MERBNjcwQzVUN09R?oc=5",
+      "date": "2026-08-04T07:00:00.000Z",
+      "source": "9News",
       "body": null
     },
     {
