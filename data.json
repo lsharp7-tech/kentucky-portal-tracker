@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T20:18:55.253Z",
+  "last_updated": "2026-09-13T03:49:42.526Z",
   "targets": [],
   "news": [
     {
@@ -56,6 +56,14 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHB0akE5RHlrcWNtcFgtLVBrU3p6SG1OOEJEU3dzMjhVa3hlOFl6R3g1emYzOERtYmlWMzZQU1BUb3hxMnBBQi1Ua0NWUVd6YVBHRi1HeF9CczRWaHVnVy1YNk9FTHNWSkhOZGItbjc2dHcwT2ZjRlROU1hmamkxRHJyUHRKZnYyNTJYd2tqSDRycHlTWkNpS1p3SjltRk5CdXdlUVFFWXlCT29wN2R2MEpNejFRME54aUpTVU94bGw?oc=5",
       "date": "2026-08-31T07:00:00.000Z",
       "source": "Bleacher Report",
+      "body": null
+    },
+    {
+      "id": "17lnkmd",
+      "title": "John Calipari defends SEC transfer rule amid Mark Mitchell eligibility battle",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUQyQy1jZlQ2TUNzQXgyWHpYRTBRVmZKcWFhVTJCbEFqSEhsTVRZTFprRVRWYzJscVhHbndFNzNLRU14Z3BEMllUTzRFY0thNkxKVWxQTFBzbXViRkVmYTJXenVLQzBIN2diNXl5NHRzdWdQMG9XaU9SN0xhcmVMY1NOMl9fUUJveDlJTUZ1M0NrMEhBamk3NWZrWk1Tb3g3VHBTUHRYWjYtUnVtc3hPUkZVN0YzbXhUSldmMGJBTXZyaXNkdko4azRwdzFhM05R?oc=5",
+      "date": "2026-08-29T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -155,6 +163,14 @@
       "body": null
     },
     {
+      "id": "1x6dn2r",
+      "title": "Mark Mitchell receives injunction to get a 5th season and enter the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSUROZjE0OWpYMjlYLUV2RmNrUk54ZHNqQi1VZkJ3c0NwQ2hTUGVIMHZ1c0ZWREdsRGR5M2VfNElzQmpERjRzRmRVenEwTEJRUWVudS1MMlU5S2F4UERTV1VHSnRZc0I5SXl3Y0VEeF8zczhZR1MwZDJKRi1CRVFRRlVlMXNaNVVjS3JHTzBtVHN5ZHRHM3M0bXhfeVBBSmdabnlWSDF4NlUxdDlMcEZrM2VUTzdhd2VqZmJXcG9KeFdESUF0?oc=5",
+      "date": "2026-08-21T07:00:00.000Z",
+      "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
       "id": "701oyh",
       "title": "Positive update on Mark Mitchell, who just entered the transfer portal",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1VKOUNWQkd3elhfaG5qU2lTSTNrU2pOenNBdDhFTzZLNUVIQllEcnlHQURlcHNVNGl3YjNQbU9oLXZGM09DVm1CcElLXzVDUm96M1N3Y1I3T0Q3Zmx5cUxnTVNadmNBd1ZsMmtNWXk3Q2QxZ0NpZ1BFVXhIZFFCcXhFOTkwUXg4WXpUQkNXdzVOX09RUE1uTHlONjMwODNwWW9sVUMtRGxlNERhbUdSRWh1dGxlUQ?oc=5",
@@ -176,14 +192,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUZ4bF9CU0VXcWE4Q2xubVBPMkNrdDlSeUxsaWJWSWRud202YkJmd0JQMnVNVG96blFfNGpBQkNZLW02Zi1weFZFbEdnSFN4MHlRYzhwbXJwYWRacDliUkR2ZUxpd0JMNHRaM0pwZlp4cHAzdVQ1aGtXSndYclh3Q3RZeDk4RDQ4R0FYY3ItSQ?oc=5",
       "date": "2026-08-20T07:00:00.000Z",
       "source": "Yahoo Sports",
-      "body": null
-    },
-    {
-      "id": "1pbak2a",
-      "title": "MSU basketball transfer Jaxon Kohler reportedly meeting with pair of teams",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc3R0TUFTeGQxSUthMHNpRExOaDlUcWxhYlNqbGZoNVd2TDBBelc4eUc5SndHbUJ2b1ZuQnhlMThLX2I0SEFsaTN1QjNLWnFuSlo4VWFuQ3F6Zks5ckFXMHpNN0x0bXVtREhwNEpHQkZoRUFYVGFndnVzMW1FZzdrRVdZNjdRUnViX0pYaUVFRmEyREFtYnVPTXk2Z1FPRVBMNUtHVjREVjZjNHBSeE8tNWJTR245V09OQVdjZ0xLVmRYYmJwREl3OFc1cUlHTF9NNnZreTZFTlN5eDFyMWVMNEMwclo5OWRtWWhoekUyY3RWVXZjLU4w?oc=5",
-      "date": "2026-08-19T07:00:00.000Z",
-      "source": "Spartans Wire",
       "body": null
     },
     {
@@ -235,14 +243,6 @@
       "body": null
     },
     {
-      "id": "vj6tx",
-      "title": "Mark Pope defends Kentucky’s front office approach: 'Our model's better'",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjYtOFduemdqdWNaRElGSjZnRUJoZmRIaksyQUJjYWlqeXlXSUUwNHZZRWRqbHl3c01kYm5uWEJIUEQzXy1OT0QxTndnMlc5RU80TWw2QmQ0RTIwU3Z0S1RYV3E3d25udi0tTXgtUUtva3FkeVFmTU85Wm4ydWM2czZxb3RwSF93dDJIWEtBOUFLS0JrRGlJNHpDYVFOT3NDTWI2TTZFeG13c19qR2huNk8xRVk?oc=5",
-      "date": "2026-08-11T07:00:00.000Z",
-      "source": "On3",
-      "body": null
-    },
-    {
       "id": "1d5sg6s",
       "title": "Mark Mitchell Could Be the PERFECT Piece Mark Pope Adds for Kentucky Basketball",
       "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPbmFldlpRNWI4N1k0ZzBHVEhGMVVraTAtUzVzM3FYcDhoaGcyT1ZyVmc4OUhMM3FfVzRYNWFhbjhhLU1kYlBDR09TZGlfYm5CcHJFMXpzbDJEQjJDcHh3X1JDbE1lT1FtOFNfcTlfSUVQX1g4dkF6YS1Tanpoc3p0ZnBnVkFwYkdZZml3c0tZT0puN3VLQlU5clAyQ3g0RXk2bVd4Q21GWWtxdFBkQ19HOVpTZUJHNUNEU3I3RlNpX0RDc0JKaHQ5OE5oazVaQTB5WkpxOXdzemRHSHIweFRJNEE4a1Ruc1NXS2xJSWVFbUNWX0c3M1puQ2o1N08xQjV0SFFveWxmMXoxNnhfWVpXUHJKTlhiM2lTMnAtRV9kOW1nV0dMMHNYWHFn?oc=5",
@@ -288,6 +288,14 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUEZLdXBBYWVXdG51SnRzOG8wLUdEM1RRdU5md3RYeE9kaTg5X2huNHVTQU82UnU3eF9pWFA2TC1jbmdfTkVEZlpnbmRiZlJmd0dsQ2ZNTHFZSnh6ckxKeVUxQVJOdVVqVmxtbVBscnE4dV9SNGt0X3RJa24waGtGMzQzRWp0VlFjNUYzNkhaRDJjd2tTVG1FX0s1WTVhTVlJVWN5YnBtaXl4b3RqT0VIS3ExRTZiQUR3SEFncmhNTlYyRFI0akg5UzFVU2FYdjQ?oc=5",
       "date": "2026-08-03T07:00:00.000Z",
       "source": "Wildcat Blue Nation",
+      "body": null
+    },
+    {
+      "id": "1ur05pr",
+      "title": "Mark Pope and Kentucky are after a former Michigan State superstar in the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcUYwd3pmLWNId2hPbkc3eEpZanBkVDJsNjRESTRibzZFajdwMmV0cGNMN3o0R0l4bnVNQlpMWlZuUXowYi14b0Q0cFQwWFJXYVo5QWdlcWlfWFBTTEdlbEs2enA5V2JRcTBaZ0NLMDNSMDRVdHZyTDNRWjlGdnU3b004cjhXckRYZ0ZwWkdZaW5faTlwV1QwRmNEd09XdHFoODB3WjFCYUhaVXNBSFBvOUJBbXRYQ3BUN21ZVy1qemtMZER4M1lkcXQxUThpSEdSaDdhSnNrYWs0UQ?oc=5",
+      "date": "2026-08-01T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -363,6 +371,14 @@
       "body": null
     },
     {
+      "id": "1uznza",
+      "title": "One simple statistic makes Mark Pope's current transfer class his best at Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1NlRGFMR2k2cnotQkhsdjR6QU1KV0l6dHVaTVU5d214LWdWSmhaMkE5aHByLURoWVA1RGctR3ZkdnNqZWRkZzY4VVNvMXpYdmRubWZ2RU5Fc2h4Rld4aERRMS1kV1lFLUNwUFVjRVZ1VW1qdkNvNWczem1IRndQcnp4Y1hreExySDNjRHp4OWh1b3hEcEdudFhxNTlPQUctNE96VVJRcnRHVUZicmYzTG1OSDVkZng1Vi1VMFc4Rmx1TDQ?oc=5",
+      "date": "2026-07-10T07:00:00.000Z",
+      "source": "Wildcat Blue Nation",
+      "body": null
+    },
+    {
       "id": "uly6lk",
       "title": "How should Mark Pope use the final available roster spot Kentucky has?",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFJLVng4YV9MLS1XNEF0OXdZMzBMcWp4UFZOSEZkQVFrN0RvM2FaY2hydW5wRTYwQXFFVW8tS2h1eFpKUUh6eVJlWkNaZ3VpSF9BMzZiWnZNal9WcFhYWnBNN01PaXlHbmg5TjFINVAta2MzMzAyZmhWM1ZENXVWRUN1SmtrMlBt?oc=5",
@@ -384,22 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZFJXdE1SWjZpRGVuU2tEVlROVENjYi1LOEltMzdWU291YWlaTHRGWE9HWWh3QnE5dUJLNUVHbGJfX3FXdE15c01FQjRXejJ3VzNIUDZrYUpNUEZXUlZfWjFnU3VDMnhoVlVVdE9peUg0ZXdNdEFEemJENFpHcU15dDBmdGlsQktOeEhHWXI4cnM5NHVLNzJzbkUzaHIwdFdtYXF6c09BanRxZFM3WmxRYmsyU0RQN3BMMXJDS1lfVEVTVEYtdFBRaG9LNFVaei1uaFdtM1hDdDJXLTBTS05PN3UyckxQZXhSVUZoSncyVlp3Rjdwb3JlSjZyWWR4SEs4MkFOenVJS2VCSHg2ZE1r?oc=5",
       "date": "2026-07-02T07:00:00.000Z",
       "source": "The Courier-Journal",
-      "body": null
-    },
-    {
-      "id": "1y45t8t",
-      "title": "Kentucky Wildcats News: Milan Momcilovic tabbed best addition of the transfer portal season",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUG1qS1I4Mm95MXBEMW5QdDZlUGY3enlCbGxSSFU5cy1UdW4xZ2tmSXN6cENfTTlvMHRsbFBTVkdOUTMwRF90X1lnZThrVUxHWXdfVjZwdFFPdzYycXFtb3F3b2JkLTNfaEFmV19vdlU4YWlkck1yRmYxQWlBU19hWlFyQnJjX3NXdTZWNWFIWEdSaG9MZ2ZVekE3Z2hFd3MzY2NZQ0xCTkxWREx0a3o0?oc=5",
-      "date": "2026-06-11T07:00:00.000Z",
-      "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "x43jcl",
-      "title": "Mark Pope’s first recruiting miss believes in brighter future for UK basketball",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1B1VUZSZldlUl9tV2RUWGc4WngydXZuckFWb3VxdnRpQlZ2NUxYd3FmbXJnTVR1TWlxVGZxaU5ITXhldEI0VWZXaUozaUpmSElvclFyX3l6aHJwejl1UHl4TjJSZUFydDhfZGhDam5CMzQyM0NmOWpTbFR2MTFZal8yVV9ERVQ2dEh4RENlc2lTNERraDlTSFdSWdIBmwFBVV95cUxQdjlUSnR6d3NiWjJ0ZlBNZnkxeDBDR1U1M0VxT0E5Z0h5ZHhCVG0xd3d4QXRkbHAwaGNJQi0yU0JBdG55WEdVUDd3Y0JPMDRnTTE2blRrdXBkM1JiZWhQRVIzcXYzUVJ1U0VXZk9WRVBXMndVNHRqN2taQ2o2S0FKOW1HeEh0WVAwaGJlazZLX0VsRkdpNmFMc0pvYw?oc=5",
-      "date": "2026-06-11T07:00:00.000Z",
-      "source": "Lexington Herald Leader",
       "body": null
     }
   ]
