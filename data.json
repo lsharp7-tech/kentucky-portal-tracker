@@ -1,15 +1,7 @@
 {
-  "last_updated": "2026-09-13T11:18:10.481Z",
+  "last_updated": "2026-09-13T15:48:22.566Z",
   "targets": [],
   "news": [
-    {
-      "id": "1nvvmep",
-      "title": "Eye Test vs. Analytics: How Kentucky valued Alex Wilkins in the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXAtUW5zWlB1Tk84cWw4TVR6MXJSUFJYdkxpRGxhYmN5Y201dXdTWGdCdkpaeUxoUEVBRV9lelQ4eTJTbFJ1Uzk4RzQ5cFFrRE5BWXFZY0Q0S0RIaW9rdVJIZmwyWUFuN2ZVdTZRaXVyMkYtTGxrY3g3d2t2RVZPUDdpdmFaT0FiM3B1d0hDY2Y5dHNtZmtjeEFtUFVCdnlNZDBsc3FPanVwSHdjdU1vLWpTT1RtSFRwUTNhSA?oc=5",
-      "date": "2026-09-09T01:59:26.000Z",
-      "source": "On3",
-      "body": null
-    },
     {
       "id": "2dwv6t",
       "title": "Denzel Aberdeen to Florida is OK, but Mark Mitchell can’t play for UK? Here’s why",
@@ -192,6 +184,14 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaUZ4bF9CU0VXcWE4Q2xubVBPMkNrdDlSeUxsaWJWSWRud202YkJmd0JQMnVNVG96blFfNGpBQkNZLW02Zi1weFZFbEdnSFN4MHlRYzhwbXJwYWRacDliUkR2ZUxpd0JMNHRaM0pwZlp4cHAzdVQ1aGtXSndYclh3Q3RZeDk4RDQ4R0FYY3ItSQ?oc=5",
       "date": "2026-08-20T07:00:00.000Z",
       "source": "Yahoo Sports",
+      "body": null
+    },
+    {
+      "id": "1xemzxf",
+      "title": "Jaxon Kohler is entering the NCAA transfer portal and considering Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMFJucG9xMzAyZ0M2VHJzX0Nzdmx3MURvWU4xSzRpRkRKejlnUUlhdnFPMVk5aEpKWnZRZHBSM3daYjV3T0JQdkcwdG1vVFdkWWxhT05jNGNVdkVTU3k1VlNoTjNBUmQ1SW1TWkFxSWpHam45SWs2aEg2aVdjT0Q2VmtVS05zYmJ5VmVsYm5zNzNVZ0xyS0FEUGlvOVM0OFpqZWt0bWtOandOejI5R0w4ZkFwNmNTdw?oc=5",
+      "date": "2026-08-18T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -379,6 +379,14 @@
       "body": null
     },
     {
+      "id": "thb1ll",
+      "title": "Kentucky listed as a team capable of winning the National Championship this season",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMXJaUE54MGNxLU80Z1RaVENFZ1Jad1ptNkktVUFzblYwRzBrVWFXN3FVVVhkTm8xVnlTejVwVXh0X1VuNlFFZHFidF81eko1ZU5Ydk5xWUg4SHhxUjZ6cTBhSkN3OXB4SmloeE41bTN5enktZ1lyNDQ4WVhTQU5PY1ZqWjY2S3NKQ2hlZVdMcHlWUFdlemJfNjhOTVN0cjZ4ZGxFMkliMWNDWlNrREowZWwxblNxcHVsYS1xTTQ0WEZYOUpRZU9TNk9aVlJtaHd6?oc=5",
+      "date": "2026-07-07T07:00:00.000Z",
+      "source": "Sports Illustrated",
+      "body": null
+    },
+    {
       "id": "1k4n4ky",
       "title": "Why Milan Momcilovic chose Kentucky basketball, Mark Pope in portal - The Courier-Journal",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZFJXdE1SWjZpRGVuU2tEVlROVENjYi1LOEltMzdWU291YWlaTHRGWE9HWWh3QnE5dUJLNUVHbGJfX3FXdE15c01FQjRXejJ3VzNIUDZrYUpNUEZXUlZfWjFnU3VDMnhoVlVVdE9peUg0ZXdNdEFEemJENFpHcU15dDBmdGlsQktOeEhHWXI4cnM5NHVLNzJzbkUzaHIwdFdtYXF6c09BanRxZFM3WmxRYmsyU0RQN3BMMXJDS1lfVEVTVEYtdFBRaG9LNFVaei1uaFdtM1hDdDJXLTBTS05PN3UyckxQZXhSVUZoSncyVlp3Rjdwb3JlSjZyWWR4SEs4MkFOenVJS2VCSHg2ZE1r?oc=5",
@@ -392,14 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUG1qS1I4Mm95MXBEMW5QdDZlUGY3enlCbGxSSFU5cy1UdW4xZ2tmSXN6cENfTTlvMHRsbFBTVkdOUTMwRF90X1lnZThrVUxHWXdfVjZwdFFPdzYycXFtb3F3b2JkLTNfaEFmV19vdlU4YWlkck1yRmYxQWlBU19hWlFyQnJjX3NXdTZWNWFIWEdSaG9MZ2ZVekE3Z2hFd3MzY2NZQ0xCTkxWREx0a3o0?oc=5",
       "date": "2026-06-11T07:00:00.000Z",
       "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "x43jcl",
-      "title": "Mark Pope’s first recruiting miss believes in brighter future for UK basketball",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1B1VUZSZldlUl9tV2RUWGc4WngydXZuckFWb3VxdnRpQlZ2NUxYd3FmbXJnTVR1TWlxVGZxaU5ITXhldEI0VWZXaUozaUpmSElvclFyX3l6aHJwejl1UHl4TjJSZUFydDhfZGhDam5CMzQyM0NmOWpTbFR2MTFZal8yVV9ERVQ2dEh4RENlc2lTNERraDlTSFdSWdIBmwFBVV95cUxQdjlUSnR6d3NiWjJ0ZlBNZnkxeDBDR1U1M0VxT0E5Z0h5ZHhCVG0xd3d4QXRkbHAwaGNJQi0yU0JBdG55WEdVUDd3Y0JPMDRnTTE2blRrdXBkM1JiZWhQRVIzcXYzUVJ1U0VXZk9WRVBXMndVNHRqN2taQ2o2S0FKOW1HeEh0WVAwaGJlazZLX0VsRkdpNmFMc0pvYw?oc=5",
-      "date": "2026-06-11T07:00:00.000Z",
-      "source": "Lexington Herald Leader",
       "body": null
     }
   ]
