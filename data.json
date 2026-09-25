@@ -1,15 +1,7 @@
 {
-  "last_updated": "2026-09-24T21:16:48.691Z",
+  "last_updated": "2026-09-25T03:59:45.469Z",
   "targets": [],
   "news": [
-    {
-      "id": "z3fse1",
-      "title": "'Panic time' for Mark Pope after Kentucky's 'massive' college basketball transfer portal window misses",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM1VpRlB3ZGt0UGt2NjkwczZ2VHJxMFBtY2dhcTZkWEdUQV9GSDBrTUQwYjBBbWwwakJjd2RBbmpXSC1CYXlvTTBsdEV2T2h5VktWTnFzN1RTUWhieHhQMWNSamJramowOTVGMUZheVlYbVlpdHN4R2dVYjhpTWw4SFduSHdSV0JNck1sMW5HOHF1NFMxM0lvcUlTYk9mQmJlejZLMlN2V1liSHJhR0JsSjR4OTlIT0pHREljWnl1UmpfeFlpUEQ3VWYwYnJuTnUyNEdwbGlVaw?oc=5",
-      "date": "2026-09-08T14:52:00.000Z",
-      "source": "247Sports",
-      "body": null
-    },
     {
       "id": "2dwv6t",
       "title": "Denzel Aberdeen to Florida is OK, but Mark Mitchell can’t play for UK? Here’s why",
@@ -64,6 +56,14 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRjhIRXJ3QkJhZ2tMN3BTcFFaQ3hydWdpcklVdGpHekE4eEVEQUt6dUZLN2RuNEhSZkFSVFk3TlZyTTFNMkd3RmVManVDMU1YWkFyTDl3djk5cFR4TmxKOUhYWjZxTDNfUGE4QlE1VlJKb0NEbTJoTmtkbm1JQm90aHlUMjY2cVprWEFGVXczR1l5X0dGemxGSHktSFc?oc=5",
       "date": "2026-08-27T07:00:00.000Z",
       "source": "CBS Sports",
+      "body": null
+    },
+    {
+      "id": "111irds",
+      "title": "Mark Mitchell facing transfer scrutiny from SEC, per report",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUlnMmhBMjhpRURNNFlMYlp0dnNhTVI1UVpJWDAwbDIzZElHSlpmbUpMel83NFZwTDgzQkZfdl9WRDI4eGdnUE1nTm9ma1piYi1nWVRReU9OQzhIODI5NVR0em5yNE1LX0hiaGVVR3ZibHJqVElPdFBMdHBfdDExbWV4NThCRkh5NVYySTN0UHJJWjRTd1pwOVN0VHczMVlhb2Jr?oc=5",
+      "date": "2026-08-26T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -155,6 +155,14 @@
       "body": null
     },
     {
+      "id": "1i0opfy",
+      "title": "Mark Mitchell has been granted a TRO: What does this mean for Mark Pope and Kentucky?",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbDZLUm83aS1Pc1FNVW5TRzd3WUtuNnNHWlQtQ3lFbWNaMHd4aU56WlhsaENDV3F6bW10c21RT1N4TXc1Xzh6MGZNbDItT1dFWVh0VThrMW1Ka2pTank3ekRadVNJZ3Y3cEp2UHY2N3diWUd4Vm5yQ3NyZWVwUmFISzFlemhUZw?oc=5",
+      "date": "2026-08-21T07:00:00.000Z",
+      "source": "Yahoo Sports",
+      "body": null
+    },
+    {
       "id": "701oyh",
       "title": "Positive update on Mark Mitchell, who just entered the transfer portal",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1VKOUNWQkd3elhfaG5qU2lTSTNrU2pOenNBdDhFTzZLNUVIQllEcnlHQURlcHNVNGl3YjNQbU9oLXZGM09DVm1CcElLXzVDUm96M1N3Y1I3T0Q3Zmx5cUxnTVNadmNBd1ZsMmtNWXk3Q2QxZ0NpZ1BFVXhIZFFCcXhFOTkwUXg4WXpUQkNXdzVOX09RUE1uTHlONjMwODNwWW9sVUMtRGxlNERhbUdSRWh1dGxlUQ?oc=5",
@@ -176,14 +184,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOSEtHSV9JWEc4azZSZmJZMklUZERLanl5UXV3SDl3ZmJJVTNqeXp1U2d0anhFeVRmVkZNd2NkT1AyVlQ1M0xnWVFVbW1CSGpieHNRNDlKU3FmcGU3aGhjU0xidGdnc2wyV0tnY3JzWmpEeFBOX1U5RWwxOE9mZm9fRVJRNzNFMkZnTGVEV250azJQTGhueHYtbmxSVTlrX0gyRTktaDdTcFFTamtiaDd2NG51cjZ3cHBqb2lvOXM5N1F3cXJYckI1M1VnU2ZpZHVCN3JwYkhwZ2ZCWXFqd2gzNjAyS3FwYldlMjFNcUMwZFhpZTBLNlB1VHctTmdVSThtSmlEeXpra0h5X0hyMFV6clUxUzFjYnlBUkxCMkJmdm9KRV9pNnc?oc=5",
       "date": "2026-08-21T07:00:00.000Z",
       "source": "kcentv.com",
-      "body": null
-    },
-    {
-      "id": "hy7vpr",
-      "title": "Mark Mitchell has been granted a TRO: What does this mean for Mark Pope and Kentucky?",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQTEtMzI3OU9JblZBN181QVNxSnlCUVZHWUNaUkVEWUNST2tHYWc3R1pfeGlyMlZ0MENDUlczY3VJRDBUZDZ6S0dMX1pyR3B0cE4yRlNvdUNkRnFCNnpkM2h0Sm1jZHdoaFl1eWdubG9jVm1xLWpYR0MySXpkNUFyMHpFaDl0SjRwZWhmQm9wbXA2MXNhNC1jYmVjZjVvUjVjTmZpbm5XR2lWRUdyZ19pLWdlVzBibVpGSnQ4NmlxVHEtc0w0c2hHU2poUkw3WnpZUFE?oc=5",
-      "date": "2026-08-21T07:00:00.000Z",
-      "source": "Sports Illustrated",
       "body": null
     },
     {
@@ -267,14 +267,6 @@
       "body": null
     },
     {
-      "id": "1fdfhcm",
-      "title": "Who in the transfer portal would be the best addition for Kentucky Basketball?",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNXp1OWJ5bV9lQjdaRnVNdW9vWU9QZDk3Nkk4YmFEN2dFeEF0NVdibkhhdER2akRvNW5LTlg5T0lScUhPakh6S0FFcm40VXh5MUNCaFBfelRaeURvalFHMjMxLU5fcUw4ajJlWl9SaTdLWjk4RGQ5bnFmdVFQU21KMFpvajNBOEJreWJ6T0d0VERKYklfVFZIMzZid0tyUkNHVDhuemNnakczOEVqT0JQcg?oc=5",
-      "date": "2026-08-04T07:00:00.000Z",
-      "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
       "id": "1q7lpxp",
       "title": "Kentucky Wildcats News: August Transfer Portal Madness",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0VRVmJYYXBZNzV6N1ozSHV5MmtERHlEY1pFQnJTNWs3TVlKTm05cWwyeElvTWtQdHpfSUF4b2Qtak5mQmZTU0ptZC10UTZ2Qlp5RTNTLS10dmNkZzNvSXlxNjZWOGJNYktrTVpZUUszdUVfLTRBSEZybEtvbExXQ0hfcnZ5RWYtN01OUVNaNkhVXzFid0NYTXZ2dkpmWjA?oc=5",
@@ -339,6 +331,14 @@
       "body": null
     },
     {
+      "id": "7bx3n1",
+      "title": "Mark Pope says Kentucky is still seeking to fill final roster spot for 2026-27",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZm1USjRhb2xaX3pNZENrMWxCSzVESnducWJkbUR2VUR0Nm9tWXNzenJBbGtCdmtDZVZIdXNPaXFBRk5HTDZ6RkEwaHk0Q3RjTlJLclVtU3c3anNGMk9PcUozZXd5MUdPMzdjMnhFTE1Nb2ZrYUdLSnRVbm1xYlBGVElOS2M3TWtNbHB5S082QXdGMm9qTC1ib1dSdnJXN1c1Y2NJUy1LaXJpTDlPQlNDeUJBdFVFVVd2NVNkelg4NUVodndhUHplQ1lZX3lqUXRZVEhz?oc=5",
+      "date": "2026-07-24T07:00:00.000Z",
+      "source": "Saturday Down South",
+      "body": null
+    },
+    {
       "id": "yse2hk",
       "title": "Kentucky Wildcats News: More basketball transfer portal options are becoming available",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeFpJdXQxaHUtNGtSckswTmU3Vlpab2RFb3pnbWN3cEsyaEdJMmJJal9Sb1RHa0lpeXNIWmVHa2RNMnlwclRIR2VueUFfamx0RjQ2RmZkWlV1a0NidHFTQWVJcTg3a01BSzFrTDl6NjJMME1xS0FOMUFCWGpyY2ZmaDJPY2VCZG5mZjFSWUllNjI1Smd1ZG5lTTBHSkRldzJ6QjZ3QTJ0MTczYkJXaEE?oc=5",
@@ -371,11 +371,11 @@
       "body": null
     },
     {
-      "id": "bvndei",
-      "title": "Milan Momcilovic: Conferences are more similar now with the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVEw5Wjg5b2d1eWZ1d253Vlo3VWZ6bGdrMUtTVWd4R2ZJU1E2SVVGLUlJVE9vd3VjaENibElsNWFDc3loUGstalp1YTdZYU1hZF84VURxMG1iVFNCM0xJeVBCTG1CVVAweTdLQlNnTFJfVzJDR1ZuWUlqNDJBSkQtbGl2cDdNdGZ4amEtVVVtazBGUHF6YU5MUGJZeERqU0dvVEFMbkU2SDYtSnlUbDN5U3lZRUFyZw?oc=5",
-      "date": "2026-07-06T07:00:00.000Z",
-      "source": "A Sea Of Blue",
+      "id": "thb1ll",
+      "title": "Kentucky listed as a team capable of winning the National Championship this season",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMXJaUE54MGNxLU80Z1RaVENFZ1Jad1ptNkktVUFzblYwRzBrVWFXN3FVVVhkTm8xVnlTejVwVXh0X1VuNlFFZHFidF81eko1ZU5Ydk5xWUg4SHhxUjZ6cTBhSkN3OXB4SmloeE41bTN5enktZ1lyNDQ4WVhTQU5PY1ZqWjY2S3NKQ2hlZVdMcHlWUFdlemJfNjhOTVN0cjZ4ZGxFMkliMWNDWlNrREowZWwxblNxcHVsYS1xTTQ0WEZYOUpRZU9TNk9aVlJtaHd6?oc=5",
+      "date": "2026-07-07T07:00:00.000Z",
+      "source": "Sports Illustrated",
       "body": null
     },
     {
