@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T22:28:09.391Z",
+  "last_updated": "2026-10-07T04:56:06.146Z",
   "targets": [],
   "news": [
     {
@@ -32,6 +32,14 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5NXkwQzAwWnVUVEdhQm9UNG1tTy1BT2JHQjUyQW1QZ3hHeGxTTk02ZXNINHFFdExzbzVIVVVqUXR1eEJ4SEhRR3FucF9lZmtrT1EyeU9IWUNVbF9DRDd3bThfWkUzaEZ2SktOZmZtSm1lVkt0Y2kzYU5tc1VxUQ?oc=5",
       "date": "2026-09-01T07:00:00.000Z",
       "source": "sports.yahoo.com",
+      "body": null
+    },
+    {
+      "id": "111irds",
+      "title": "Mark Mitchell facing transfer scrutiny from SEC, per report",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUlnMmhBMjhpRURNNFlMYlp0dnNhTVI1UVpJWDAwbDIzZElHSlpmbUpMel83NFZwTDgzQkZfdl9WRDI4eGdnUE1nTm9ma1piYi1nWVRReU9OQzhIODI5NVR0em5yNE1LX0hiaGVVR3ZibHJqVElPdFBMdHBfdDExbWV4NThCRkh5NVYySTN0UHJJWjRTd1pwOVN0VHczMVlhb2Jr?oc=5",
+      "date": "2026-08-26T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -120,14 +128,6 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWVZOVmVjN25nRTBRb2hWLWpWVk9xR3NOY3pVM3ltUENRTnFCVWkxZ3hacWFVeElwZkU0Z2E3TE9XYUkyWXk4V09WSXZuQXl3aURzbFZySzdhVmstSFM3Tl94M2x2ZU1rZ0F6Y184WnB1YXZWQ1MtSWVLa3RVYkliM0YzYk91MHh4d2Nial9nSVZFa01LQUE?oc=5",
       "date": "2026-08-22T07:00:00.000Z",
       "source": "Yahoo Sports",
-      "body": null
-    },
-    {
-      "id": "181jcj8",
-      "title": "Mark Mitchell commits to Kentucky basketball after suing for 5th year - The Courier-Journal",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOXhGYTVxTWdxa2dFNnZaOS1QanRIeHRlcEQ2WGQ1cEdKemg2Y2xwM2ppUktTN0tLRnJRblNtemFPQWZQNXVULWVXeXN2bEZZdWJOUnJFb0V5aUhrMFRPT0FTWDdyX0w1TE5saGxUOWNQWXgwSDhxa080TTFPN3VaX2Q3bFpaaGI3OWxJNlktVlBQeXVTekQ0YnJneDcxLXRtMERSekxTMEpVZUlOaVdLNXFYdV9ITmxaemVqdXd4ZnJQZDByWGFzRmdCeW9zek5Cbm1JQjBTZHR3Y1djQm1xa3JSUloxN0tIanFwOF9kM2NQemp5cGNHMnR3bDdOdlB1cV90MS1vc2VQQ3ZfU2gxWGMwTQ?oc=5",
-      "date": "2026-08-22T07:00:00.000Z",
-      "source": "The Courier-Journal",
       "body": null
     },
     {
@@ -275,18 +275,18 @@
       "body": null
     },
     {
-      "id": "1fdfhcm",
-      "title": "Who in the transfer portal would be the best addition for Kentucky Basketball?",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNXp1OWJ5bV9lQjdaRnVNdW9vWU9QZDk3Nkk4YmFEN2dFeEF0NVdibkhhdER2akRvNW5LTlg5T0lScUhPakh6S0FFcm40VXh5MUNCaFBfelRaeURvalFHMjMxLU5fcUw4ajJlWl9SaTdLWjk4RGQ5bnFmdVFQU21KMFpvajNBOEJreWJ6T0d0VERKYklfVFZIMzZid0tyUkNHVDhuemNnakczOEVqT0JQcg?oc=5",
+      "id": "1q7lpxp",
+      "title": "Kentucky Wildcats News: August Transfer Portal Madness",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0VRVmJYYXBZNzV6N1ozSHV5MmtERHlEY1pFQnJTNWs3TVlKTm05cWwyeElvTWtQdHpfSUF4b2Qtak5mQmZTU0ptZC10UTZ2Qlp5RTNTLS10dmNkZzNvSXlxNjZWOGJNYktrTVpZUUszdUVfLTRBSEZybEtvbExXQ0hfcnZ5RWYtN01OUVNaNkhVXzFid0NYTXZ2dkpmWjA?oc=5",
       "date": "2026-08-04T07:00:00.000Z",
       "source": "A Sea Of Blue",
       "body": null
     },
     {
-      "id": "1q7lpxp",
-      "title": "Kentucky Wildcats News: August Transfer Portal Madness",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0VRVmJYYXBZNzV6N1ozSHV5MmtERHlEY1pFQnJTNWs3TVlKTm05cWwyeElvTWtQdHpfSUF4b2Qtak5mQmZTU0ptZC10UTZ2Qlp5RTNTLS10dmNkZzNvSXlxNjZWOGJNYktrTVpZUUszdUVfLTRBSEZybEtvbExXQ0hfcnZ5RWYtN01OUVNaNkhVXzFid0NYTXZ2dkpmWjA?oc=5",
-      "date": "2026-08-04T07:00:00.000Z",
+      "id": "7j4k4r",
+      "title": "All-SEC transfer Mark Mitchell drawing interest from Kentucky Basketball",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYmdDamdZYjVRLUdjYUsxOVFwRUV6eFFZaUZjZmJuR3VHLUFjbXNsQm1jSVlVd2JKa1V6VHVWNG4tMTFqd3hpdHA4NzFaSjNCM09vam5lNG0tWDJ5d1Z3WjZGVUI5bUEtRTBVaWtNRFY4T2o2aVJJZ0tia3ExRF8xam9tUXhRZm5UN3ZZMmJuRWxUbGtzODl2UjNmRmNRR204U1h3eUgtUTNDa2s0TnNocjZxcw?oc=5",
+      "date": "2026-08-03T07:00:00.000Z",
       "source": "A Sea Of Blue",
       "body": null
     },
@@ -347,6 +347,14 @@
       "body": null
     },
     {
+      "id": "1ghu33h",
+      "title": "Travis Perry opens up on leaving Kentucky after dreaming of playing for the Wildcats",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYS12T3NKSk9lVFpQQmV2bzFxTUZNMjh4anZSeFF4alpkWXVPU3h3SDNTN05rMldMRXdsTmFtWU45TEVvOVpISlV1bWVUeGgxSEVSYmhvVGVQWkxieHVfQ1pNVVpGdnJqU2laU1lnN2NRYmx2SThfQUM2cTdRcTM5d2R5NjY2MmhXWGlhak5IZ3NLaWJyeDNsLUh6UTNPSk5jc0E?oc=5",
+      "date": "2026-07-25T07:00:00.000Z",
+      "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
       "id": "yse2hk",
       "title": "Kentucky Wildcats News: More basketball transfer portal options are becoming available",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeFpJdXQxaHUtNGtSckswTmU3Vlpab2RFb3pnbWN3cEsyaEdJMmJJal9Sb1RHa0lpeXNIWmVHa2RNMnlwclRIR2VueUFfamx0RjQ2RmZkWlV1a0NidHFTQWVJcTg3a01BSzFrTDl6NjJMME1xS0FOMUFCWGpyY2ZmaDJPY2VCZG5mZjFSWUllNjI1Smd1ZG5lTTBHSkRldzJ6QjZ3QTJ0MTczYkJXaEE?oc=5",
@@ -391,14 +399,6 @@
       "title": "How should Mark Pope use the final available roster spot Kentucky has?",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFJLVng4YV9MLS1XNEF0OXdZMzBMcWp4UFZOSEZkQVFrN0RvM2FaY2hydW5wRTYwQXFFVW8tS2h1eFpKUUh6eVJlWkNaZ3VpSF9BMzZiWnZNal9WcFhYWnBNN01PaXlHbmg5TjFINVAta2MzMzAyZmhWM1ZENXVWRUN1SmtrMlBt?oc=5",
       "date": "2026-07-08T07:00:00.000Z",
-      "source": "Yahoo Sports",
-      "body": null
-    },
-    {
-      "id": "tk3ses",
-      "title": "“This Has a Massive Impact on Recruiting”: Mark Pope Reacts to NCAA’s New 5-for-5 Eligibility Rule",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ1pmLTY5dWR1cDJ6ek9aaUgyQ0pEY1VSeTZfRFF5QlQ1TVdob1NRMTRFa0JZT25GQzctRUFaSGlBNWsyZW41U2RWUzRGajZMWG05UnhrT2tWMHpQM2dXdjdsckk1T1hiZUdraVl4bGxXUS1KaTZGRkgxa29sckdrNmNtSGpxQk5vV1cxbg?oc=5",
-      "date": "2026-07-05T07:00:00.000Z",
       "source": "Yahoo Sports",
       "body": null
     }
