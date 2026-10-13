@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T13:47:18.157Z",
+  "last_updated": "2026-10-13T22:23:49.662Z",
   "targets": [],
   "news": [
     {
@@ -8,22 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5NXkwQzAwWnVUVEdhQm9UNG1tTy1BT2JHQjUyQW1QZ3hHeGxTTk02ZXNINHFFdExzbzVIVVVqUXR1eEJ4SEhRR3FucF9lZmtrT1EyeU9IWUNVbF9DRDd3bThfWkUzaEZ2SktOZmZtSm1lVkt0Y2kzYU5tc1VxUQ?oc=5",
       "date": "2026-09-01T07:00:00.000Z",
       "source": "Yahoo Sports",
-      "body": null
-    },
-    {
-      "id": "17mldst",
-      "title": "Mark Mitchell Will Stay at Missouri After Committing to Kentucky in CBB Transfer Portal",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHB0akE5RHlrcWNtcFgtLVBrU3p6SG1OOEJEU3dzMjhVa3hlOFl6R3g1emYzOERtYmlWMzZQU1BUb3hxMnBBQi1Ua0NWUVd6YVBHRi1HeF9CczRWaHVnVy1YNk9FTHNWSkhOZGItbjc2dHcwT2ZjRlROU1hmamkxRHJyUHRKZnYyNTJYd2tqSDRycHlTWkNpS1p3SjltRk5CdXdlUVFFWXlCT29wN2R2MEpNejFRME54aUpTVU94bGw?oc=5",
-      "date": "2026-08-31T07:00:00.000Z",
-      "source": "Bleacher Report",
-      "body": null
-    },
-    {
-      "id": "111irds",
-      "title": "Mark Mitchell facing transfer scrutiny from SEC, per report",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUlnMmhBMjhpRURNNFlMYlp0dnNhTVI1UVpJWDAwbDIzZElHSlpmbUpMel83NFZwTDgzQkZfdl9WRDI4eGdnUE1nTm9ma1piYi1nWVRReU9OQzhIODI5NVR0em5yNE1LX0hiaGVVR3ZibHJqVElPdFBMdHBfdDExbWV4NThCRkh5NVYySTN0UHJJWjRTd1pwOVN0VHczMVlhb2Jr?oc=5",
-      "date": "2026-08-26T07:00:00.000Z",
-      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -83,19 +67,27 @@
       "body": null
     },
     {
+      "id": "19afjs0",
+      "title": "Mark Mitchell commits to UK basketball, boosting the Cats’ chances for 2026-27",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdi1fX3Q5TWt4Q24ybkdQalRtMEF5aUJEUFdwU2NmUjQ5M05vejNVRk5rOXVxby1IY0x1WDZNODg3NlVwRUwzVS14YWRsbVhNZGlWTEVhbTl4WmM0bHQzRWlZT2pGVjh6NnJlUGM4ZkpMOXNtUTNEU1JxSUs4UWZWMG1zTlpGNUs2Q3NwanlycERPd2RMMXQxZ0xHY9IBmwFBVV95cUxQRVBlbVpSeTMzbndocUhxQmJ3bHF5emJHcjA3S1NFb0RYeVU1SkdnTVU1RHF3dDYzZUg0VHNBX2c1VGNLa215bWZHTnV2LVRPaGsyYno4XzZyemt2cEI3SlBrWHJoSlRfemMycE1oOUltM1pwajNud28xeDgtRlV2SHpFcEFnSG1vQThiWll4VnFJaEoxc1daR19iWQ?oc=5",
+      "date": "2026-08-22T07:00:00.000Z",
+      "source": "Lexington Herald Leader",
+      "body": null
+    },
+    {
+      "id": "181jcj8",
+      "title": "Mark Mitchell commits to Kentucky basketball after suing for 5th year - The Courier-Journal",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOXhGYTVxTWdxa2dFNnZaOS1QanRIeHRlcEQ2WGQ1cEdKemg2Y2xwM2ppUktTN0tLRnJRblNtemFPQWZQNXVULWVXeXN2bEZZdWJOUnJFb0V5aUhrMFRPT0FTWDdyX0w1TE5saGxUOWNQWXgwSDhxa080TTFPN3VaX2Q3bFpaaGI3OWxJNlktVlBQeXVTekQ0YnJneDcxLXRtMERSekxTMEpVZUlOaVdLNXFYdV9ITmxaemVqdXd4ZnJQZDByWGFzRmdCeW9zek5Cbm1JQjBTZHR3Y1djQm1xa3JSUloxN0tIanFwOF9kM2NQemp5cGNHMnR3bDdOdlB1cV90MS1vc2VQQ3ZfU2gxWGMwTQ?oc=5",
+      "date": "2026-08-22T07:00:00.000Z",
+      "source": "The Courier-Journal",
+      "body": null
+    },
+    {
       "id": "hgzvto",
       "title": "Mark Mitchell gives Kentucky Wildcats the No. 1 college basketball transfer portal class",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORW5KNjhaa0o5b3hlaXNTaGZwRDRVTmZvSWE1ZjYyYVB1M2MyaXBOLWRVc0hlNTc4Qk1QRTE3UF8yNjdmaThUeDJ2ZmJkTG55aXRpSVBJaXl2dzF6NUZOS2ZWWXdVeEc3WGVaanE5TGkwOUhPbU5oYy02WVdza2o3cU9GVUtKRFRaQkVkZDA5ZTlaYTE2VDA2SVBrZWFrSHR6S05hTTE4QWEwTlBESUh2Rw?oc=5",
       "date": "2026-08-22T07:00:00.000Z",
       "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
-      "id": "149cdug",
-      "title": "Mark Mitchell commits to UK basketball, boosting the Cats’ chances for 2026-27",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdi1fX3Q5TWt4Q24ybkdQalRtMEF5aUJEUFdwU2NmUjQ5M05vejNVRk5rOXVxby1IY0x1WDZNODg3NlVwRUwzVS14YWRsbVhNZGlWTEVhbTl4WmM0bHQzRWlZT2pGVjh6NnJlUGM4ZkpMOXNtUTNEU1JxSUs4UWZWMG1zTlpGNUs2Q3NwanlycERPd2RMMXQxZ0xHYw?oc=5",
-      "date": "2026-08-22T07:00:00.000Z",
-      "source": "Lexington Herald Leader",
       "body": null
     },
     {
@@ -163,19 +155,19 @@
       "body": null
     },
     {
-      "id": "1x6dn2r",
-      "title": "Mark Mitchell receives injunction to get a 5th season and enter the transfer portal",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSUROZjE0OWpYMjlYLUV2RmNrUk54ZHNqQi1VZkJ3c0NwQ2hTUGVIMHZ1c0ZWREdsRGR5M2VfNElzQmpERjRzRmRVenEwTEJRUWVudS1MMlU5S2F4UERTV1VHSnRZc0I5SXl3Y0VEeF8zczhZR1MwZDJKRi1CRVFRRlVlMXNaNVVjS3JHTzBtVHN5ZHRHM3M0bXhfeVBBSmdabnlWSDF4NlUxdDlMcEZrM2VUTzdhd2VqZmJXcG9KeFdESUF0?oc=5",
-      "date": "2026-08-21T07:00:00.000Z",
-      "source": "A Sea Of Blue",
-      "body": null
-    },
-    {
       "id": "ts0xma",
       "title": "Adding Mark Mitchell would make Kentucky a legit National Title contender",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc0dlMTJ5dDVUSXhSTGg4N0FURWU0OWcyRXFZN2dsdWFfcUtaNHVua3VpaWRtTXRfLWowREtKZHIzTVdtUUY0S2J0U0d5M3dTYktIeXFVc3oyQlFOQV9YWGt4eUEzWl9OZmRZb1oxNVhqblNFM3BBZzFiREZTM3puQXJnVnpXQmhSNHFtaw?oc=5",
       "date": "2026-08-21T07:00:00.000Z",
       "source": "Yahoo Sports",
+      "body": null
+    },
+    {
+      "id": "1x6dn2r",
+      "title": "Mark Mitchell receives injunction to get a 5th season and enter the transfer portal",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSUROZjE0OWpYMjlYLUV2RmNrUk54ZHNqQi1VZkJ3c0NwQ2hTUGVIMHZ1c0ZWREdsRGR5M2VfNElzQmpERjRzRmRVenEwTEJRUWVudS1MMlU5S2F4UERTV1VHSnRZc0I5SXl3Y0VEeF8zczhZR1MwZDJKRi1CRVFRRlVlMXNaNVVjS3JHTzBtVHN5ZHRHM3M0bXhfeVBBSmdabnlWSDF4NlUxdDlMcEZrM2VUTzdhd2VqZmJXcG9KeFdESUF0?oc=5",
+      "date": "2026-08-21T07:00:00.000Z",
+      "source": "A Sea Of Blue",
       "body": null
     },
     {
@@ -400,6 +392,14 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ3ZERTIzQ0xOcllLX3lSb2ROZzA0LUdNRVpHcmJBcm1aNHZwMjR5VUo5NUdlWnhHUndCSWo0X2M1UzZfYzBNX3hwaXY2VzBMYVNJVVFoZ0dnOGNLR0hHM2ZZS3ZYWnJVYzJ3OXZoU2FzUmJQYTlIN0VldWxuQkRZbHVsUHpnZERWWWfSAYoBQVVfeXFMTkhQenNrX1pxQ1ZnNlNXQXk1LUhnNTdIeURIbTZEb09UTm9pSWVNdEROekJ3QUtzOG9LZDYxcXg1b3V6bUpHb3VIWTZSeFVZTmpTcmhMUjZxa3JjREhKbTIxenRZbzI0QzY0MHNuYTd5NlhnS3RxLTJNTWtrY042XzNsX3JGNm9MTlNR?oc=5",
       "date": "2026-07-14T07:00:00.000Z",
       "source": "Lexington Herald Leader",
+      "body": null
+    },
+    {
+      "id": "1uznza",
+      "title": "One simple statistic makes Mark Pope's current transfer class his best at Kentucky",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1NlRGFMR2k2cnotQkhsdjR6QU1KV0l6dHVaTVU5d214LWdWSmhaMkE5aHByLURoWVA1RGctR3ZkdnNqZWRkZzY4VVNvMXpYdmRubWZ2RU5Fc2h4Rld4aERRMS1kV1lFLUNwUFVjRVZ1VW1qdkNvNWczem1IRndQcnp4Y1hreExySDNjRHp4OWh1b3hEcEdudFhxNTlPQUctNE96VVJRcnRHVUZicmYzTG1OSDVkZng1Vi1VMFc4Rmx1TDQ?oc=5",
+      "date": "2026-07-10T07:00:00.000Z",
+      "source": "Wildcat Blue Nation",
       "body": null
     }
   ]
