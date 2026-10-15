@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T16:31:31.330Z",
+  "last_updated": "2026-10-15T21:03:00.820Z",
   "targets": [],
   "news": [
     {
@@ -27,19 +27,19 @@
       "body": null
     },
     {
-      "id": "7n7jro",
-      "title": "Kentucky basketball news: Wildcats miss out on star Missouri transfer after 180",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTHhPeEozMlVLSHpma1lCZl93U3ptdjVOSlQ1ai0tM1VST2tKd0pJRUpOcHYzQjNpYlVobmJqSDh5dU9qYm9BYmp4Wk9wQnFWRWx2WVlEY1Rsb1FfMlhLeTd1cFRkbHBFS2hBRk5TYzRIZk10emRqUEhoY2YzcEJBZEUzQWpIRllpUDdDeC0yRTc?oc=5",
-      "date": "2026-08-31T07:00:00.000Z",
-      "source": "Yahoo Sports",
-      "body": null
-    },
-    {
       "id": "17mldst",
       "title": "Mark Mitchell Will Stay at Missouri After Committing to Kentucky in CBB Transfer Portal",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHB0akE5RHlrcWNtcFgtLVBrU3p6SG1OOEJEU3dzMjhVa3hlOFl6R3g1emYzOERtYmlWMzZQU1BUb3hxMnBBQi1Ua0NWUVd6YVBHRi1HeF9CczRWaHVnVy1YNk9FTHNWSkhOZGItbjc2dHcwT2ZjRlROU1hmamkxRHJyUHRKZnYyNTJYd2tqSDRycHlTWkNpS1p3SjltRk5CdXdlUVFFWXlCT29wN2R2MEpNejFRME54aUpTVU94bGw?oc=5",
       "date": "2026-08-31T07:00:00.000Z",
       "source": "Bleacher Report",
+      "body": null
+    },
+    {
+      "id": "7n7jro",
+      "title": "Kentucky basketball news: Wildcats miss out on star Missouri transfer after 180",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTHhPeEozMlVLSHpma1lCZl93U3ptdjVOSlQ1ai0tM1VST2tKd0pJRUpOcHYzQjNpYlVobmJqSDh5dU9qYm9BYmp4Wk9wQnFWRWx2WVlEY1Rsb1FfMlhLeTd1cFRkbHBFS2hBRk5TYzRIZk10emRqUEhoY2YzcEJBZEUzQWpIRllpUDdDeC0yRTc?oc=5",
+      "date": "2026-08-31T07:00:00.000Z",
+      "source": "Yahoo Sports",
       "body": null
     },
     {
@@ -95,6 +95,14 @@
       "title": "Kentucky basketball got lucky, can't keep relying on late roster adds - The Courier-Journal",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUm9WU2dfMVJOS3dVYjd6WFNWdHhYM2hIazctQ1ZwN1VnV3JMcExjSlhXbDNueVJJS09FbWpxV0JKblpyUmgyMWZhV1ExSjc3ZlRWcFBWTlN1UHd4VkJfY1EydVBaMXcwRUtDcnB2RWtyX3RCaWw4UC1OSzJiVHFvM2R0LXM5WWhzcUhZbnhQeW5CY2FFM2RSZlJ3NDRYVzRUSV9iWndSN05NTnhsczNqcDkxNUp3b01jeW1HaHRQRV9Nd1o1WE5Hc000dTFLdm90dS1lU0NQNGNnNGpHcndPU0VFVl9GcEV4VFFmT1ZweS0tbEdjM2htZktteXBQVlVOd1AwQlo1eEVPVkRXU2ZRak5IeHFrdw?oc=5",
       "date": "2026-08-23T07:00:00.000Z",
+      "source": "The Courier-Journal",
+      "body": null
+    },
+    {
+      "id": "181jcj8",
+      "title": "Mark Mitchell commits to Kentucky basketball after suing for 5th year - The Courier-Journal",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOXhGYTVxTWdxa2dFNnZaOS1QanRIeHRlcEQ2WGQ1cEdKemg2Y2xwM2ppUktTN0tLRnJRblNtemFPQWZQNXVULWVXeXN2bEZZdWJOUnJFb0V5aUhrMFRPT0FTWDdyX0w1TE5saGxUOWNQWXgwSDhxa080TTFPN3VaX2Q3bFpaaGI3OWxJNlktVlBQeXVTekQ0YnJneDcxLXRtMERSekxTMEpVZUlOaVdLNXFYdV9ITmxaemVqdXd4ZnJQZDByWGFzRmdCeW9zek5Cbm1JQjBTZHR3Y1djQm1xa3JSUloxN0tIanFwOF9kM2NQemp5cGNHMnR3bDdOdlB1cV90MS1vc2VQQ3ZfU2gxWGMwTQ?oc=5",
+      "date": "2026-08-22T07:00:00.000Z",
       "source": "The Courier-Journal",
       "body": null
     },
@@ -392,14 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHF3czBrd0h4c0N4U1RFU255ZU1TOWt6Z29vdTZFMlZ4Y2c3WWp3RDI2OFBQMlljdlctTXhEcExqVzNiRFV1MWRNenlMOGM3SlphcEVqRGVFZ3lFY0YycW1RU3VmOFpOa3ZhZUZRTGV6NDFMaGdLSDNPZ0JPeVZDaDdvd3ItYXVEMnZuQVFYYkZNSTI2WkVid3lYSldKbVo2bG5EdjRGREtkN3FCS0F6NFp3?oc=5",
       "date": "2026-07-24T07:00:00.000Z",
       "source": "On3",
-      "body": null
-    },
-    {
-      "id": "gphro3",
-      "title": "Ranking the top 100 men's basketball transfers for 2026-27",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWh3M3Z4UWhrR0JaSXJmdDBmd0lPN0ZhZ0xrd1pSOHZqYW5fMUVXOTZpaXltQ09hS0Z3azJ3NmVreTh6MldhNjc0ZF9zV29nR3B6RVgzU0h2enpkeDJBM25wa0hSQmVLX1cyaTR5YnRVQlN2Znd6T0t2c2QzS2l1ZEJBYkQ3MFNma3dKMTAwRVI2Nllyal9wQjY4MjdfME1IeEl5Y3BWOGVjZ2NQb25QSnZudnlrMDcwTEFrTkFUcGF2SHZCS00zX1NtM3hLUlhTQ0Zr?oc=5",
-      "date": "2026-07-21T07:00:00.000Z",
-      "source": "ESPN",
       "body": null
     }
   ]
