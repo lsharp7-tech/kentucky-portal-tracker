@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T05:01:32.723Z",
+  "last_updated": "2026-11-08T12:56:01.660Z",
   "targets": [],
   "news": [
     {
@@ -8,6 +8,14 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZEtFZkU1bmdoSTJOaU5SaTJhaGR6SlVJTnIwb0xpbl9rTnRpSThzYWFPbnhNbHU3T0F5c0pIUXh1bmJJY3laQzJvZEppbEEtbmpPUDk0SFFCY1Vrb05oTnQwdmFKMERNcjRtcktVR1NRWUtHNXpTQVR6VXNRWmY2dFNLenVkSDQ3OFE?oc=5",
       "date": "2026-09-04T07:00:00.000Z",
       "source": "Yahoo Sports",
+      "body": null
+    },
+    {
+      "id": "45irnc",
+      "title": "TCU Horned Frogs 2025 College Basketball Transfer Portal Top Prospects",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEZUMVdYSWFPYVc0VVFVY1pPeGppSnlsMWhoYkg1Wk05SWR5YzFIOU5RZnQwZ29GVWhiSFJfS1RyUlZoeTREeGN1WGJNYXJjUlBabEtab3c0Mm9GUFZjXzBqSmdveG5XdmJqTUluNXBJc0dNQzRUY1oyUUhvRkw4Sg?oc=5",
+      "date": "2026-08-28T07:00:00.000Z",
+      "source": "247Sports",
       "body": null
     },
     {
@@ -83,14 +91,6 @@
       "body": null
     },
     {
-      "id": "qgv0mz",
-      "title": "Men's transfer portal superlatives: Louisville, Duke, St. John's headline winners",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPak8zcS1lZ3NhVEhWb1I0Z1J3ZGNocjJaRnhONWJUSUFraC0yLVVsX2tsMjB4cUtTZnBNLXRjTlByeVljMHJaakluYzJ3SzhFUXlLSklDcy1VSE0zdzdIZ0ptQ0ZPMF9hWjQwOS00RFJhWFdRNkdyaHdEVHVxNEVFSXFyZVBqOE9VS3l3d3RGeklka3RaSndtb2JBdEk4bjhYd2dFNHRzbFB6aVhmNktnUDRBUDJxenpBS0toX0ZWakZvYVVLOHNFcTNMcEg1dmlvU2JuUVZaZHg0Wm1V?oc=5",
-      "date": "2026-06-10T07:00:00.000Z",
-      "source": "ESPN",
-      "body": null
-    },
-    {
       "id": "1wji1tf",
       "title": "Men's college basketball transfer class rankings for 2026-27",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRWoyUExzX2xpbW41bE9TTmU0Rl9pcEI5WkFGUzFuVDBsaXhwSFBuRjU5Ri14eVFoR1FEQWJEekRpdkRzNGtGNldSblctc2ZJSzN1UlM4QkFOUFlZdWQyZ0wyTTVkRDdmNC1wNkdEMFlSYWFkT2lHRk1aTVcyR1prN3BaeVFaeXNEaWNqekUyZ05RTThYYlFmX3Q2Q3M2X2YtNW4xWFBveDlBaWxTMXVnVk9FSmU4MjhTOTlSWDg2c3U2ZUtSZE9IN1pQUWFzd2lTYkpQUUpiRzktb2tjVzBuVw?oc=5",
@@ -144,6 +144,14 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUkNtQWFoX2VWTm5QdlhRcFdSazZEdW00Mno3bkd1ODIwS2tpNEh5YlQ2emFBVmRLdzhMRnkwd2lTMXVIeExoTnBTTDduUXZoRHFwaWZUd012Q1JMYnZnQXR6N2VPRWdNMk5kUUlnZmR6Ukp1RGRwOHdUQVpDa0pWb0REZDN3ZE1CLXJfdmFmQkkxdzZtQkY4MVREa9IBmwFBVV95cUxOT29fUkRqM1Qwb1ZlZW9oNVlLUklmUkloMXZlUHkzSGFLdk9ZTFRHQlMtUmJaMmxYMHQtSFRVeHdHNnk4SS1iYWFkX0xYT0prb2QxX2M1X2VkNFUzTmY0Z3ZxcWlhbmc2d3VzTjNWVUt5YWtubTZRNjN6VHRiV3ZlUTRKa1pZdFpVRnNfVDExcXJjUmZDWXB0WUQ1UQ?oc=5",
       "date": "2026-05-29T07:00:00.000Z",
       "source": "Lexington Herald Leader",
+      "body": null
+    },
+    {
+      "id": "r3ao4c",
+      "title": "TCU Horned Frogs 2026 College Basketball Transfer Portal Latest Activity",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83NzBydWtEeUczMmRDOUlxdmYwbDBpTThsMzJrN2c5U0o2SzNBeVh6RHRvOG9EUElrMkQ1cEY0MEVUWVREYlpEZDJxT3U5R0JvUC1lSDZvN1ZnMlVoS3VqSmNiaU13UXpZUTloM3llZmRQQ3Jmb0VLYlFUaXE?oc=5",
+      "date": "2026-05-22T07:00:00.000Z",
+      "source": "247Sports",
       "body": null
     },
     {
@@ -307,6 +315,14 @@
       "body": null
     },
     {
+      "id": "1t7z5wn",
+      "title": "A pair of former Wildcats hopped in the portal ahead of the deadline",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdDZMNjdZUk03TFhJWXhZeWdpOXR6R3R6NDhoODJiQ1JqTWVHRWR1Z3QzSS1Td2VEZ3VRaVlMVzZjS2FLQXhrVTdnN2FaSU4zZjlWcDBkdUJMajF4YXN6LTNFQXpCanBkZzBhT1Qtb19XNnZFTl9SdTFyVzEzN2pDaWNVREYxeHR0bVRSWTRmNEFyWjNCRi1lcDIzMFhOMUJ3?oc=5",
+      "date": "2026-04-21T07:00:00.000Z",
+      "source": "On3",
+      "body": null
+    },
+    {
       "id": "184usrg",
       "title": "'Panic time' for Mark Pope after Kentucky's 'massive' college basketball transfer portal window misses",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaWIyUERqQzBBQzY3SVh2eHJJTWRVcmwwaEtmNnc3UWJSZk42Y2JXVVh3TEkxZGdCNXk1akh1YXpDYllHbk5lakZrVjJ5RXYyS1BtNmM5UHhocHpkTnlNV1drb0Ftd0dlUXpYcHZyY2w5SnV1VGR0LWV4SG5JTjFzLVBUY3Y5Q2Zkb2JrWVZSVnI1V3hHcU1fNTBQMVoza2djNU1yZmRTMDNHcHd3NXAwVjVSZ19MSEk?oc=5",
@@ -331,19 +347,19 @@
       "body": null
     },
     {
-      "id": "19dgkld",
-      "title": "Kentucky and the Transfer Portal: Immediacy followed by idiocy",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdmlZam1hV0E1c0xldGlSNl9lUkY3OTd1d2l2dTdjLTBmcDZWYjd1aFp5WExDTXdiU1IzUmtrWndqeks4Nk4xcGJfNnU3MzZlNnBsLWtVQTZjVm16TEtQNUx2YVpPbENLUi1SMWV3QjFnbXhsWS1QbFJSc1dqLXdNdGtoMzlLSmZPcXFpNmVOQQ?oc=5",
-      "date": "2026-04-20T07:00:00.000Z",
-      "source": "247Sports",
-      "body": null
-    },
-    {
       "id": "1xkvslj",
       "title": "10 best available transfers that Kentucky Basketball has recruited",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjk5OW9ScldfZG82eDdpRktOZmYwemx4c1hadm9WRS02QlZPdzNETlZxdmM5dHZMY2RrZVFqbXBoa3ZZYTZESUd0M0E0UFFrbmZlbGFNOHhGaFNGNnAwdnQ3S2FqeENKZG45VWR6QjNLNEt2bVhDOHZOdVl2QjZBWUhJX0FQRHpDOUFEc2F3Nk5MVGFaZVBhbDJvRGJsU3RKc2FIR0FMMnc?oc=5",
       "date": "2026-04-20T07:00:00.000Z",
       "source": "A Sea Of Blue",
+      "body": null
+    },
+    {
+      "id": "19dgkld",
+      "title": "Kentucky and the Transfer Portal: Immediacy followed by idiocy",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdmlZam1hV0E1c0xldGlSNl9lUkY3OTd1d2l2dTdjLTBmcDZWYjd1aFp5WExDTXdiU1IzUmtrWndqeks4Nk4xcGJfNnU3MzZlNnBsLWtVQTZjVm16TEtQNUx2YVpPbENLUi1SMWV3QjFnbXhsWS1QbFJSc1dqLXdNdGtoMzlLSmZPcXFpNmVOQQ?oc=5",
+      "date": "2026-04-20T07:00:00.000Z",
+      "source": "247Sports",
       "body": null
     },
     {
@@ -384,22 +400,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVnJnalFteDZ1dWJtbWNiRGg3MDEyejVqUno2b0tRVmlKcHYxWC1qaUtiNlVPMllPSEFMRFdZM3cyR25BUzV1ZlhzMU5hWE9XcUdhUFVjT1ptMEVUcUZDSW94Sk5wazRRUXZRRzVtN1ZfODduMnM4YnNkU21wNHJLWlpaVEN0Q0Z6Ty0wVWItUGY1T2ZEaWhiUWZOTU90WkVteWVVTk4zSUFtYlVGUXVDQ0hn?oc=5",
       "date": "2026-04-17T07:00:00.000Z",
       "source": "Sports Illustrated",
-      "body": null
-    },
-    {
-      "id": "13z62pe",
-      "title": "KSR Happy Hour: Kentucky Basketball Transfer Portal News, Spring Game Preview",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa29rLW1XeDRqeERPYmhJRU9tS21JMHE0NnpNcGJhVTFKVEFzbGNmTklMbjhpTnk4a3lMX0psRzJ4a0pSRU9hajJJczNLZjVKWEhXeDAzdk9qTFNtVGpJdWw5SDQ0OUJTRmhwYWtEeFpEb2pRS1pHVmxFLW9oSjZOdDR4Y0ZKMFU0VmlxNDE2c3d3TzZqcEg1SWFOQ19wWW5OZWloTFFtUXdXTkplZWZ1ZmNMRzRvb2txRUEtM2wzelFMLXB5dkM5OGNUOA?oc=5",
-      "date": "2026-04-16T07:00:00.000Z",
-      "source": "On3",
-      "body": null
-    },
-    {
-      "id": "792619",
-      "title": "Zoom Diallo commits to Kentucky basketball via NCAA transfer portal - The Courier-Journal",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNanh2V0ZSbDd0Nm0ya3o1QmZFSFpLRUs1eVRoZW5vUjhtMFJjbFRiZmRTeWljdU4tbUJlWU41Z2xiZFpxUERNalRHd3ZsMmtWZncxWVhhMk9OSl9NSGtKWnN6U1p4SElPMFQ5eWZuWWRyVWJlNXFlYmtPT0UySTlQQ1BlSjdoWnVBdW5sZjdVNXhTNDFuTTNBb3JjWHN0WG5IZTlqSGFIOGdjRVlFNFFNc1lVNDRTRWdPR1VsWkRzUURxLXJlZ1hRbVJ0eF8xWGtDcmFfZkh2U1FFaVdIVTBINWsyR05sQlhyZ2E4anVQbFFybXc0S1JEQ2pZXzZBU1FFQlRoekI4VFRxQQ?oc=5",
-      "date": "2026-04-15T07:00:00.000Z",
-      "source": "The Courier-Journal",
       "body": null
     }
   ]
